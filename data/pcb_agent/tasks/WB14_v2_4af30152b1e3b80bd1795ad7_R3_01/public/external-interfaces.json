@@ -1,0 +1,32 @@
+{
+  "ports": [
+    {
+      "contact": "J1.1",
+      "role": "positive5V input"
+    },
+    {
+      "contact": "J1.2",
+      "role": "return"
+    },
+    {
+      "contact": "J2.1",
+      "role": "switchedpositivepumpoutput"
+    },
+    {
+      "contact": "J2.2",
+      "role": "return"
+    },
+    {
+      "contact": "J3.1",
+      "role": "sensorcontrol,LOWturnsON,HIGHturnsOFF"
+    },
+    {
+      "contact": "J3.2",
+      "role": "return"
+    },
+    {
+      "contact": "J3.3",
+      "role": "sensor5Vpoweroutput"
+    }
+  ]
+}

@@ -1,0 +1,2968 @@
+{
+  "schema": "answer_free_posttrain_eval_inputs/v2",
+  "count": 30,
+  "counts_by_layer": {
+    "D1": 8,
+    "D2": 5,
+    "D3": 2,
+    "R1": 8,
+    "R2": 3,
+    "R3": 4
+  },
+  "selection": [
+    "NEW63_988294745439ce6297090c86_D1",
+    "NEW63_d21142906fde447fd3efd5a2_D1",
+    "NEW63_21360bf15113d6010b58bb6f_D1",
+    "NEW63_eee42541f51aca755397f69d_D1",
+    "Q001",
+    "Q039",
+    "Q045",
+    "WB14_v2_c032ed2dc3b298d20b0f682e_D1_01",
+    "NEW63_e26710a6c43be561a8366ac9_D2",
+    "Q076",
+    "Q118",
+    "WB14_v2_4af30152b1e3b80bd1795ad7_D2_01",
+    "WB14_v2_d3d5f65b5d565be024ec49f7_D2_01",
+    "NEW63_665e94bb3f713fa72445722f_D3",
+    "NEW63_4b4901470b862c8cb4ba1110_D3",
+    "NEW63_b80d918f7200d4165ce71739_R1",
+    "NEW63_3b3b0595cb8ec682e670aca9_R1",
+    "NEW63_c979ab76fe07cd0933519624_R1",
+    "NEW63_d4e6baf431cdeda3cbc21da1_R1",
+    "WB14_v2_3b3b0595cb8ec682e670aca9_R1_01",
+    "WB14_v2_3e9563db2a7ff0721e10362f_R1_01",
+    "NEW63_d354554588a6a3f523b69ef1_R1",
+    "NEW63_66ca5bf76c44bc656cdbbc46_R1",
+    "Q393",
+    "Q412",
+    "WB14_v2_75813229939cdb811343aa9d_R2_01",
+    "WB14_v2_1787c87680c8bbceca37562f_R3_01",
+    "WB14_v2_4af30152b1e3b80bd1795ad7_R3_01",
+    "WB14_v2_3b3b0595cb8ec682e670aca9_R3_01",
+    "WB14_v2_cccda10e95995995ddbd962a_R3_01"
+  ],
+  "rows": [
+    {
+      "question": "NEW63_988294745439ce6297090c86_D1",
+      "layer": "D1",
+      "prompt_sha256": "41f9d430662502b3b4307b03ba3b1b6110b4227df175294927c01340406456b0",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "f13e210fa68d27c2a921bba1b67a5186f483dc3554baf264f4a6bc163cc03f85",
+          "bytes": 677
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "590f118056845814c706379a5ce7bbe6f76dd7d56fced0f772d58619d2d3ff83",
+          "bytes": 1074
+        },
+        {
+          "path": "initial/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "initial/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "initial/external-interfaces.json",
+          "sha256": "590f118056845814c706379a5ce7bbe6f76dd7d56fced0f772d58619d2d3ff83",
+          "bytes": 1074
+        },
+        {
+          "path": "initial/input-contract.json",
+          "sha256": "9926eb35c24f759c3d3ee9d020d5fd5bd82cc9c8541b1b596d116371bffe34a6",
+          "bytes": 336
+        },
+        {
+          "path": "initial/prompt.txt",
+          "sha256": "41f9d430662502b3b4307b03ba3b1b6110b4227df175294927c01340406456b0",
+          "bytes": 1343
+        },
+        {
+          "path": "initial/public-requirements.json",
+          "sha256": "800d1829fd1761fd6c1551f76dd5c4e6db8cb75f2d532dd1c7d12f127b295fa1",
+          "bytes": 5870
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "9926eb35c24f759c3d3ee9d020d5fd5bd82cc9c8541b1b596d116371bffe34a6",
+          "bytes": 336
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "c5dbee4f7a5bc34a4c84e02df5af732c1087bae045b3893d140183c2c1675fd4",
+          "bytes": 1352
+        },
+        {
+          "path": "input-manifest.json",
+          "sha256": "0bf0d452b0fd449f3a59e59ac06e781b02ea6f2bc115e97f1f06494734578dcb",
+          "bytes": 2177
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "41f9d430662502b3b4307b03ba3b1b6110b4227df175294927c01340406456b0",
+          "bytes": 1343
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "800d1829fd1761fd6c1551f76dd5c4e6db8cb75f2d532dd1c7d12f127b295fa1",
+          "bytes": 5870
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "26f82fc378e1b10b475cfed6f969315581b5d30f97cb0cf2843e3e7e4cb2e0e2",
+          "bytes": 1673
+        }
+      ]
+    },
+    {
+      "question": "NEW63_d21142906fde447fd3efd5a2_D1",
+      "layer": "D1",
+      "prompt_sha256": "3bb512b9a049a799c40ec5770e490b81cfdf5482d609a985065c720bd75e65e7",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "10949989e1bae9a38ef05b86a1f99fdf4ee384bbafb53d2c7afa6063821bd21a",
+          "bytes": 677
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "a07a15957fcb196d54b3899b0f333e9b62fdc8c1d35f4d19f5d57a181c873f83",
+          "bytes": 143
+        },
+        {
+          "path": "initial/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "initial/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "initial/external-interfaces.json",
+          "sha256": "a07a15957fcb196d54b3899b0f333e9b62fdc8c1d35f4d19f5d57a181c873f83",
+          "bytes": 143
+        },
+        {
+          "path": "initial/input-contract.json",
+          "sha256": "d9ab77bde46486242ec79006a1a9464995fc59f1c800e24bb6e0231778dbc642",
+          "bytes": 336
+        },
+        {
+          "path": "initial/prompt.txt",
+          "sha256": "3bb512b9a049a799c40ec5770e490b81cfdf5482d609a985065c720bd75e65e7",
+          "bytes": 1336
+        },
+        {
+          "path": "initial/public-requirements.json",
+          "sha256": "d8ae3bcd844e75040ba02dafc202bf60165870b4e4bce68e5b14b509b9a2ea11",
+          "bytes": 2754
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "d9ab77bde46486242ec79006a1a9464995fc59f1c800e24bb6e0231778dbc642",
+          "bytes": 336
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "eaa5fd2f15ea7d05b3d3664f2d68c11b99ba116dbe7f5685dcdd45be241b3314",
+          "bytes": 1351
+        },
+        {
+          "path": "input-manifest.json",
+          "sha256": "52ea8989ff4e19ecafdf53c8513d54afc059f3d23e6f4c1fa05bbe0354ca39f3",
+          "bytes": 2176
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "3bb512b9a049a799c40ec5770e490b81cfdf5482d609a985065c720bd75e65e7",
+          "bytes": 1336
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "d8ae3bcd844e75040ba02dafc202bf60165870b4e4bce68e5b14b509b9a2ea11",
+          "bytes": 2754
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "3554a3ad10783ca5610b87c2414e34ad8d14858bb188ab1edfd09bee60dc12ee",
+          "bytes": 1666
+        }
+      ]
+    },
+    {
+      "question": "NEW63_21360bf15113d6010b58bb6f_D1",
+      "layer": "D1",
+      "prompt_sha256": "db1203d666912fc06e9dfb7447f3cb664bca28596b39b720031d5cd3582e5889",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "1713e56a86b2f84e323c639d015c1398264a306338a41ee3aadda4c8e27cdaab",
+          "bytes": 677
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "23f9235fda0a9fe5c7d6fd704cc6a4581ba96f9c7b2dc2643c3cde04b1c9ece7",
+          "bytes": 1038
+        },
+        {
+          "path": "initial/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "initial/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "initial/external-interfaces.json",
+          "sha256": "23f9235fda0a9fe5c7d6fd704cc6a4581ba96f9c7b2dc2643c3cde04b1c9ece7",
+          "bytes": 1038
+        },
+        {
+          "path": "initial/input-contract.json",
+          "sha256": "ac71a8a5bbe6c6b3ac609c9bb56a652d0fdf93a2faea7e98f7188d587085d6ae",
+          "bytes": 273
+        },
+        {
+          "path": "initial/prompt.txt",
+          "sha256": "db1203d666912fc06e9dfb7447f3cb664bca28596b39b720031d5cd3582e5889",
+          "bytes": 1281
+        },
+        {
+          "path": "initial/public-requirements.json",
+          "sha256": "ce2dd6f8e08de900757aeb00fc207add2889c51a019957e10a1b77682f14128e",
+          "bytes": 3851
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "ac71a8a5bbe6c6b3ac609c9bb56a652d0fdf93a2faea7e98f7188d587085d6ae",
+          "bytes": 273
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "17a231744de0049123b398f2cd99e82238112605230128b204f5054618106aaf",
+          "bytes": 1352
+        },
+        {
+          "path": "input-manifest.json",
+          "sha256": "310f8a6b7af01b79b276c0e9b07146915224a025d8b16465f4bf14d572de7ea1",
+          "bytes": 2133
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "db1203d666912fc06e9dfb7447f3cb664bca28596b39b720031d5cd3582e5889",
+          "bytes": 1281
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "ce2dd6f8e08de900757aeb00fc207add2889c51a019957e10a1b77682f14128e",
+          "bytes": 3851
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "654a0cf8d3bf5504a33a6ceed1bfbf098b6c93b4d7fb68db32f4e1454f62e609",
+          "bytes": 1611
+        }
+      ]
+    },
+    {
+      "question": "NEW63_eee42541f51aca755397f69d_D1",
+      "layer": "D1",
+      "prompt_sha256": "e98fa6dcf4bbde58259a6f0e747ef8928d8e069e74c97a07e99d81f806887cb2",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "c328e742edd610dd214abea7b8ad1c0a7f1ef615c7f0151e09e9b50047fc6462",
+          "bytes": 677
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "2c05359427a634559586cd8c2c597ce0de772fdf7351d3bcb6d06c5262b36e15",
+          "bytes": 178
+        },
+        {
+          "path": "initial/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "initial/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "initial/external-interfaces.json",
+          "sha256": "2c05359427a634559586cd8c2c597ce0de772fdf7351d3bcb6d06c5262b36e15",
+          "bytes": 178
+        },
+        {
+          "path": "initial/input-contract.json",
+          "sha256": "fe45b91718309dd70ab0962bb207862153bfdd5701ade113249002263cb5adb4",
+          "bytes": 336
+        },
+        {
+          "path": "initial/input-layout.json",
+          "sha256": "fe45b91718309dd70ab0962bb207862153bfdd5701ade113249002263cb5adb4",
+          "bytes": 336
+        },
+        {
+          "path": "initial/prompt.txt",
+          "sha256": "e98fa6dcf4bbde58259a6f0e747ef8928d8e069e74c97a07e99d81f806887cb2",
+          "bytes": 1337
+        },
+        {
+          "path": "initial/public-requirements.json",
+          "sha256": "faeeddb526462e6f43a894d191d5243a1d7ace5e21e70df4cd1d9db04ab362b6",
+          "bytes": 7137
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "fe45b91718309dd70ab0962bb207862153bfdd5701ade113249002263cb5adb4",
+          "bytes": 336
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "fe45b91718309dd70ab0962bb207862153bfdd5701ade113249002263cb5adb4",
+          "bytes": 336
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "e98fa6dcf4bbde58259a6f0e747ef8928d8e069e74c97a07e99d81f806887cb2",
+          "bytes": 1337
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "faeeddb526462e6f43a894d191d5243a1d7ace5e21e70df4cd1d9db04ab362b6",
+          "bytes": 7137
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "bdf5bd2042dfc855c58ba26fbbe423fa7159798be561c369a2445f8055234884",
+          "bytes": 1667
+        },
+        {
+          "path": "runtime-input-layout.json",
+          "sha256": "ff92853016e3be202cebc3308de9922e6a8b3d94953f563b12f22b085314fd74",
+          "bytes": 1406
+        }
+      ]
+    },
+    {
+      "question": "Q001",
+      "layer": "D1",
+      "prompt_sha256": "0d93447d9bffb69b680d8606927d173b002d8e71b9ba7df83dddfa259c1fe8fa",
+      "public_files": [
+        {
+          "path": "acceptance.txt",
+          "sha256": "1aec0028858dd8ed5f2c2b04b993bc8d0af67559f937765220446a1e27b1b953",
+          "bytes": 286
+        },
+        {
+          "path": "assessment-requirements.json",
+          "sha256": "a448910348df1518101d52f9c067a84ea606f946cd79a3ba6287ccc3e618faf6",
+          "bytes": 5445
+        },
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "6d4653ecf3ac4f72130ce022eccad544648ed7c968ce6ff74da8abb2cdcc9edf",
+          "bytes": 654
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "224940d01eee2b68484d4abd26f0ba3b8904579c50af6dfcb9d85abee1049ccb",
+          "bytes": 439
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "931f63816aaca27ffb017e299adffd29b6477fd889e9a1b4f9e2f3d776d7ecca",
+          "bytes": 693
+        },
+        {
+          "path": "project/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "project/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "0d93447d9bffb69b680d8606927d173b002d8e71b9ba7df83dddfa259c1fe8fa",
+          "bytes": 2686
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "749016cd293df7e0a9bfb743c59dee6c4310a554505d72dd9878ce4e6ed9e61f",
+          "bytes": 3021
+        }
+      ]
+    },
+    {
+      "question": "Q039",
+      "layer": "D1",
+      "prompt_sha256": "7e4ddea9824b9f8c8e8ecc6c6d8983ef8a473487573957d8835b2f38b6d578f2",
+      "public_files": [
+        {
+          "path": "acceptance.txt",
+          "sha256": "bea00bfe436b72d3d81792d3e3bca9cba76d4b6380780689459019c752201433",
+          "bytes": 286
+        },
+        {
+          "path": "assessment-requirements.json",
+          "sha256": "b2ca8e2eb9e7c1445d3a29f014d5e557d2e608842cf4c9870e867de021971539",
+          "bytes": 4852
+        },
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "34482c7bbd4e5456e66fd5db489840e693fc5f6d5566c81befe9df2a20f0ce3e",
+          "bytes": 654
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "b99cde521d4892bbc484435845f4657bd9041b9b37535457f1b1adfd546c8c87",
+          "bytes": 439
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "931f63816aaca27ffb017e299adffd29b6477fd889e9a1b4f9e2f3d776d7ecca",
+          "bytes": 693
+        },
+        {
+          "path": "project/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "project/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "7e4ddea9824b9f8c8e8ecc6c6d8983ef8a473487573957d8835b2f38b6d578f2",
+          "bytes": 2321
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "248a4a56f29b4defcb451341c700d5ab7459b6f8b4a1eb1c910502839721470b",
+          "bytes": 2654
+        }
+      ]
+    },
+    {
+      "question": "Q045",
+      "layer": "D1",
+      "prompt_sha256": "970138831d58639bf52b737274c49eb5267a0923fe7583cfe7e7d9f8deda205d",
+      "public_files": [
+        {
+          "path": "acceptance.txt",
+          "sha256": "15105c64c13f19679d072632293f390a2b936da2d0fa63d20520459c31bfc271",
+          "bytes": 286
+        },
+        {
+          "path": "assessment-requirements.json",
+          "sha256": "349d323c8a8fa92207bc43b57dc6dfb5e3a5b459805657a8c776665d96e95289",
+          "bytes": 5100
+        },
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "4c9dc02a9e075638fb84fca48051a007c45896928e4be5deddfba1b50f3da772",
+          "bytes": 654
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "6405d79c8078b6c1c2a5c51b4ae6b2d9bb6d601e2019a7c8efdcc44b22ea78a1",
+          "bytes": 439
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "931f63816aaca27ffb017e299adffd29b6477fd889e9a1b4f9e2f3d776d7ecca",
+          "bytes": 693
+        },
+        {
+          "path": "project/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "project/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "970138831d58639bf52b737274c49eb5267a0923fe7583cfe7e7d9f8deda205d",
+          "bytes": 2455
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "7ed37bf4c34595e694f10159bb7316c2b344559801f7fb7d7dca7a7d43cd1120",
+          "bytes": 2789
+        }
+      ]
+    },
+    {
+      "question": "WB14_v2_c032ed2dc3b298d20b0f682e_D1_01",
+      "layer": "D1",
+      "prompt_sha256": "1cd600880e895cb3d73f7669254509f3dd0af731bbdf438e6bd99cb1cd2ff7c6",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "6bb5adeca8cd9c38a91a8b56d7e254e684994790276b0a30bc4ed95504737a05",
+          "bytes": 697
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "1010811613cedc0d840a9b53e8ede473dc3e0acb35eee2802b426278f195bae7",
+          "bytes": 1719
+        },
+        {
+          "path": "initial/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "initial/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "16eb953d67ab55177f444da8efca045c07fa13bcc504c0d6f77548ead09fc54d",
+          "bytes": 614
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "1cd600880e895cb3d73f7669254509f3dd0af731bbdf438e6bd99cb1cd2ff7c6",
+          "bytes": 2166
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "64a92f8a9075c9ec26351944c40f7a9380f3f87218893600e9fc773482bb9036",
+          "bytes": 2367
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "c12a604cfaf6bf7924102288d55e76180cb37649e89b9fcae0114fc76f0ee155",
+          "bytes": 2508
+        }
+      ]
+    },
+    {
+      "question": "NEW63_e26710a6c43be561a8366ac9_D2",
+      "layer": "D2",
+      "prompt_sha256": "added992c8e3a233aef92b6d6f2717712542f3e432ee397e9fc63108fe05d452",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "f9b63b0647929d1baa37455d3a0216c220d70437a39dec2a000f7e1b95b4652b",
+          "bytes": 677
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "434467379ecc609fb68612890560d783c2d05d33d19d579cae6249a02027ab1a",
+          "bytes": 9234
+        },
+        {
+          "path": "initial/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "initial/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "initial/external-interfaces.json",
+          "sha256": "434467379ecc609fb68612890560d783c2d05d33d19d579cae6249a02027ab1a",
+          "bytes": 9234
+        },
+        {
+          "path": "initial/input-contract.json",
+          "sha256": "ce27a5f4a2c9f202414d4a927f7fef04bae720b0446e4806f5e162ebbe880556",
+          "bytes": 336
+        },
+        {
+          "path": "initial/input-layout.json",
+          "sha256": "ce27a5f4a2c9f202414d4a927f7fef04bae720b0446e4806f5e162ebbe880556",
+          "bytes": 336
+        },
+        {
+          "path": "initial/prompt.txt",
+          "sha256": "added992c8e3a233aef92b6d6f2717712542f3e432ee397e9fc63108fe05d452",
+          "bytes": 1361
+        },
+        {
+          "path": "initial/public-requirements.json",
+          "sha256": "948942b79cd87f86d08fa70f37cbde6adc62cc92a8b1c4358c87aa9fc8c049be",
+          "bytes": 12448
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "ce27a5f4a2c9f202414d4a927f7fef04bae720b0446e4806f5e162ebbe880556",
+          "bytes": 336
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "ce27a5f4a2c9f202414d4a927f7fef04bae720b0446e4806f5e162ebbe880556",
+          "bytes": 336
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "added992c8e3a233aef92b6d6f2717712542f3e432ee397e9fc63108fe05d452",
+          "bytes": 1361
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "948942b79cd87f86d08fa70f37cbde6adc62cc92a8b1c4358c87aa9fc8c049be",
+          "bytes": 12448
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "0b913e0a79f2f6444ce1357a4624d1a1558d58c54a138a509f3d2b6a155a2dae",
+          "bytes": 1691
+        },
+        {
+          "path": "runtime-input-layout.json",
+          "sha256": "72b31a9f4f30c223b041a119ff07f9a261bef0542b4885a3e7cc2384258f3896",
+          "bytes": 1408
+        }
+      ]
+    },
+    {
+      "question": "Q076",
+      "layer": "D2",
+      "prompt_sha256": "73f4addecf38e827ee06fc511f322d407c65a746a6dde6817eb7f226484625f6",
+      "public_files": [
+        {
+          "path": "acceptance.txt",
+          "sha256": "f57dc1d4098c65c2f26a4b497a67816e8e3a7a2d5e8064d8e575d145a176dcf7",
+          "bytes": 286
+        },
+        {
+          "path": "assessment-requirements.json",
+          "sha256": "d18d76eff536adada1d5d00ef0c5a0efb68b9fe5961faeedb56f8beb982363a2",
+          "bytes": 5939
+        },
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "2624f26b1d666008c2279d010e4b9975748f112fb3a2efd18371e66aebb785f6",
+          "bytes": 654
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "d0a7d71f74eec0040ebcc2c76eea651966dc0268d156c89721e21b2c32d2d137",
+          "bytes": 439
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "931f63816aaca27ffb017e299adffd29b6477fd889e9a1b4f9e2f3d776d7ecca",
+          "bytes": 693
+        },
+        {
+          "path": "project/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "project/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "73f4addecf38e827ee06fc511f322d407c65a746a6dde6817eb7f226484625f6",
+          "bytes": 2961
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "741226a914183ef4af0081d27d5fdc8cfaaec3a2b15fd16c73ce266b7312593b",
+          "bytes": 3298
+        }
+      ]
+    },
+    {
+      "question": "Q118",
+      "layer": "D2",
+      "prompt_sha256": "c2034ee5278430a8ca1490bd33d9aa40ffc7361d07447af094008d6afa1100f3",
+      "public_files": [
+        {
+          "path": "acceptance.txt",
+          "sha256": "ffa73d65255c133dd58b4d8da7600f58768ae86ba9d525e67d9f28499187de22",
+          "bytes": 286
+        },
+        {
+          "path": "assessment-requirements.json",
+          "sha256": "04cdf45aa970ccd5aadcb832600f5ecd782ebb8ec938306a7de4dcb50d18dff4",
+          "bytes": 5346
+        },
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "d7382363060b7b7a0cbc7d48d742faaa990705ea656d3662bdf7b198596b1837",
+          "bytes": 654
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "bdddd759f4d80b75e6e2de614895ebfc0ee61a20a8dacb82bb30888eba34f004",
+          "bytes": 439
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "931f63816aaca27ffb017e299adffd29b6477fd889e9a1b4f9e2f3d776d7ecca",
+          "bytes": 693
+        },
+        {
+          "path": "project/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "project/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "c2034ee5278430a8ca1490bd33d9aa40ffc7361d07447af094008d6afa1100f3",
+          "bytes": 2596
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "32c693a4c8f171f1c1c55979b94019e764bcbb4221d9b59f18dc0a7322e3cc33",
+          "bytes": 2931
+        }
+      ]
+    },
+    {
+      "question": "WB14_v2_4af30152b1e3b80bd1795ad7_D2_01",
+      "layer": "D2",
+      "prompt_sha256": "0da3d22dce08bbdaef9fdfa8e45959e7242337e8f4faffca3f43ee17efe51800",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "dc12224ca248d6f3675c68a654a0bf23fdf6d1b2f462bf1326cb4fa9b6e01c33",
+          "bytes": 697
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "26b59d848a185e4b983220187b07fa2586aa3837f2095f955833e14ac9843d43",
+          "bytes": 521
+        },
+        {
+          "path": "initial/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "initial/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "16eb953d67ab55177f444da8efca045c07fa13bcc504c0d6f77548ead09fc54d",
+          "bytes": 614
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "0da3d22dce08bbdaef9fdfa8e45959e7242337e8f4faffca3f43ee17efe51800",
+          "bytes": 2341
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "1b6a8f4aac7c32b04ad956acf5be2d30f580a1d239d4cdbe9a765d5afd351dff",
+          "bytes": 2545
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "2ead7343f5463d7008f5faa4135824818eb81ea0450e1e9ad197738bd26d25c5",
+          "bytes": 2685
+        }
+      ]
+    },
+    {
+      "question": "WB14_v2_d3d5f65b5d565be024ec49f7_D2_01",
+      "layer": "D2",
+      "prompt_sha256": "155ba236ca01b3d8594b5d30978494d97acb1422720072f9eed2851f69d3e7f1",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "3111ed5cc08f11f77ce86b59bf62ad9dab8e2453a65b8ed4036c97fcab24f5f7",
+          "bytes": 697
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "169aa89bc928e88c920c09e24eb293a4b8be369a5359371aaff6902af6c3d9ff",
+          "bytes": 2366
+        },
+        {
+          "path": "initial/board.kicad_pro",
+          "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+          "bytes": 124
+        },
+        {
+          "path": "initial/board.kicad_sch",
+          "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+          "bytes": 154
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "16eb953d67ab55177f444da8efca045c07fa13bcc504c0d6f77548ead09fc54d",
+          "bytes": 614
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "155ba236ca01b3d8594b5d30978494d97acb1422720072f9eed2851f69d3e7f1",
+          "bytes": 2367
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "f4586337353f3e50989376ab1c9abb86045af4a8ceedf2d1ce4667c7d8aee270",
+          "bytes": 2575
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "69b38e620e40b8341e4c2e583f3b19db33959030bf5677d47624120d78cf09d6",
+          "bytes": 2711
+        }
+      ]
+    },
+    {
+      "question": "NEW63_665e94bb3f713fa72445722f_D3",
+      "layer": "D3",
+      "prompt_sha256": "32e09168650fa0d80dac396d0cd19524e8054024398586da76ad3b35c344fdcc",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "913c0066cadff15b7dda8176deb5b0ab8af507b7c72a55df6445bfaa74f375a1",
+          "bytes": 703
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "3091c3be97b0c646186172ac6e02e410c82c6be83cfa3e0407ea9d2cd20376c8",
+          "bytes": 614
+        },
+        {
+          "path": "initial/kicad/external-interfaces.json",
+          "sha256": "3091c3be97b0c646186172ac6e02e410c82c6be83cfa3e0407ea9d2cd20376c8",
+          "bytes": 614
+        },
+        {
+          "path": "initial/kicad/input-contract.json",
+          "sha256": "9bdd580b9ae2edf524560102a26f970cca0e6d02985e81bb2ce15099f543e2e1",
+          "bytes": 407
+        },
+        {
+          "path": "initial/kicad/prompt.txt",
+          "sha256": "32e09168650fa0d80dac396d0cd19524e8054024398586da76ad3b35c344fdcc",
+          "bytes": 1415
+        },
+        {
+          "path": "initial/kicad/public-requirements.json",
+          "sha256": "40e92d6a19c72620a774d8e9dfa84f25a95182a23b749e849c8f3b0fc191c6f1",
+          "bytes": 5376
+        },
+        {
+          "path": "initial/kicad/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "72de738cff6de4e8b182051dc62222776eaaa8f1989e07b4d71bf438a4063bff",
+          "bytes": 5604
+        },
+        {
+          "path": "initial/kicad/repair-owned-symbols/39bf205ed033228fefade2789181da5c5cf74d5ffb536d7e57c789d95806562d.kicad_sym",
+          "sha256": "e7fcef9afbddcad8416f3fa33b127ccc1d26ef70f9d5d4da1dbb963411645010",
+          "bytes": 1630
+        },
+        {
+          "path": "initial/kicad/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym",
+          "sha256": "fb7609c541aa050bbdb22612ef9a8e6d85bc95bd4d282e14e7c2e85e15968101",
+          "bytes": 10550
+        },
+        {
+          "path": "initial/kicad/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym",
+          "sha256": "e983b0d2c450bc8c517b5bd83873bbe060f9e11e71dbb07951765a1b54f39a8e",
+          "bytes": 1915
+        },
+        {
+          "path": "initial/kicad/ruler_dino.kicad_pcb",
+          "sha256": "937a9c4e906ff21a9585877f306e15f721d57177cb811c16766906bf54ae991d",
+          "bytes": 50215
+        },
+        {
+          "path": "initial/kicad/ruler_dino.kicad_pro",
+          "sha256": "826a0964da27f7738b4c09dfcd931e7e8c4dd4e4d52f97dbd5505399205b37b5",
+          "bytes": 9777
+        },
+        {
+          "path": "initial/kicad/ruler_dino.kicad_sch",
+          "sha256": "f5e7dd6e95391fbfef8d4625fb4acc272e5990af94f53afb6daf6532245bb07d",
+          "bytes": 62718
+        },
+        {
+          "path": "initial/kicad/sym-lib-table",
+          "sha256": "10ccf0e9899d900ad8c2be85dea1483c17fef4e4e52ac0370d9367f5e18c85ea",
+          "bytes": 1031
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "9bdd580b9ae2edf524560102a26f970cca0e6d02985e81bb2ce15099f543e2e1",
+          "bytes": 407
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "32e09168650fa0d80dac396d0cd19524e8054024398586da76ad3b35c344fdcc",
+          "bytes": 1415
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "40e92d6a19c72620a774d8e9dfa84f25a95182a23b749e849c8f3b0fc191c6f1",
+          "bytes": 5376
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "aa389172073bf64f5644ad803e5a40bd970b04bada5c67d22db4ce511315e43a",
+          "bytes": 1750
+        },
+        {
+          "path": "runtime-input-layout.json",
+          "sha256": "399f15ca19391184e7bf10291e35f729a77da6390baf5e8460d85b3012820fa9",
+          "bytes": 2552
+        }
+      ]
+    },
+    {
+      "question": "NEW63_4b4901470b862c8cb4ba1110_D3",
+      "layer": "D3",
+      "prompt_sha256": "df46ecba87fa402d77c9b01785f7b7e67d0227c0c0e8d7d013f769ebaf74e840",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "59d8bc422c2f23fc4c4d5652a69725a17be59d30e5cfb950d362400b8da30f15",
+          "bytes": 703
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "a929b2b0ad6882080dab4c04752b5f1eb75c32fbb43f254c8bf616d6f18369ee",
+          "bytes": 431
+        },
+        {
+          "path": "initial/source/MCLB.kicad_pcb",
+          "sha256": "fa0fc5c223ba6d76336a646af13e818b78dedc1c067d6e9d62c87ee6d90cc6df",
+          "bytes": 4027
+        },
+        {
+          "path": "initial/source/MCLB.kicad_pro",
+          "sha256": "8d4436fbbac4839ff5ad732e82537c9a1270055be5937eb4c48ca51cb7507256",
+          "bytes": 17142
+        },
+        {
+          "path": "initial/source/MCLB.kicad_sch",
+          "sha256": "f896881b76bed1519be937e005e665603b3559bf91c8c93cd7aa71724243910e",
+          "bytes": 68830
+        },
+        {
+          "path": "initial/source/external-interfaces.json",
+          "sha256": "a929b2b0ad6882080dab4c04752b5f1eb75c32fbb43f254c8bf616d6f18369ee",
+          "bytes": 431
+        },
+        {
+          "path": "initial/source/input-contract.json",
+          "sha256": "5094d716d5dcbc60a16ab8359e91a1601babfc74c5e4ca17329dffc6c7f8f667",
+          "bytes": 296
+        },
+        {
+          "path": "initial/source/prompt.txt",
+          "sha256": "df46ecba87fa402d77c9b01785f7b7e67d0227c0c0e8d7d013f769ebaf74e840",
+          "bytes": 1364
+        },
+        {
+          "path": "initial/source/public-requirements.json",
+          "sha256": "5d9fd0f3cfdb3182af95024612d43853816dbf227080a819813ed354072d899c",
+          "bytes": 31454
+        },
+        {
+          "path": "initial/source/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "bc29940d2fe2de473d5b4138767f2e815024715809076f1a9903cf73e2730449",
+          "bytes": 3641
+        },
+        {
+          "path": "initial/source/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym",
+          "sha256": "f35c0c8cceed13dc91b841925f9458f403657491165f527ad7e01c1a45c25ec4",
+          "bytes": 12300
+        },
+        {
+          "path": "initial/source/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym",
+          "sha256": "62c75ea907603480bbdf41c80724f2a2b536e8018bb855c79bd25cd5c7ec6545",
+          "bytes": 5272
+        },
+        {
+          "path": "initial/source/repair-owned-symbols/93dc90ab0adda2cb2d7efcfe2f8b31d67d8990ad1d14940c2021512f74b41a33.kicad_sym",
+          "sha256": "2f94ffc50435cf5e762af91675218f3f2d28184be58fbe2734b50494b8fa5baf",
+          "bytes": 3930
+        },
+        {
+          "path": "initial/source/repair-owned-symbols/erc-supply-annotation.kicad_sym",
+          "sha256": "bf8de39d0dd81ded966e66fd45f0cbbd571ca17ae68d0b2172b09d5234d9ea37",
+          "bytes": 1834
+        },
+        {
+          "path": "initial/source/repair-owned-symbols/ff20e74776df948228801699b2c2fd0c89267c79795adce3b20f47b317943359.kicad_sym",
+          "sha256": "29acb069b2d07514aebdf61287f61ed9d8c89ff08589fd6ef2b2674499cf0719",
+          "bytes": 6230
+        },
+        {
+          "path": "initial/source/sym-lib-table",
+          "sha256": "9af15c05017c9586ba44c59085ef0287c22fd9b42f6808984428ac433f8b38ba",
+          "bytes": 1505
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "5094d716d5dcbc60a16ab8359e91a1601babfc74c5e4ca17329dffc6c7f8f667",
+          "bytes": 296
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "df46ecba87fa402d77c9b01785f7b7e67d0227c0c0e8d7d013f769ebaf74e840",
+          "bytes": 1364
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "5d9fd0f3cfdb3182af95024612d43853816dbf227080a819813ed354072d899c",
+          "bytes": 31454
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "3b7399660c447088f4b44a179a6b1a57349747b764d422caec4a47911fb16d7a",
+          "bytes": 1693
+        },
+        {
+          "path": "runtime-input-layout.json",
+          "sha256": "a931b0021f87e6b909cf26353d0234810dd88e563eda45777ed5076f46ad9845",
+          "bytes": 2962
+        }
+      ]
+    },
+    {
+      "question": "NEW63_b80d918f7200d4165ce71739_R1",
+      "layer": "R1",
+      "prompt_sha256": "bca33d30b13154c18e98f99b1c7759394828647a6151c75d3ebd97786f3458fc",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "ee4a6ff5d1ed7366b3e2a9ce74f1d1d1cbcb3a09fdd4680c99910714071ac4fc",
+          "bytes": 677
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "77014c1447509c5f55e02781e02082d9b251dbb4130fc1cbf90b003b3583bd92",
+          "bytes": 360
+        },
+        {
+          "path": "initial/Hardware/external-interfaces.json",
+          "sha256": "77014c1447509c5f55e02781e02082d9b251dbb4130fc1cbf90b003b3583bd92",
+          "bytes": 360
+        },
+        {
+          "path": "initial/Hardware/input-contract.json",
+          "sha256": "41fc72feac101e49d001065120d25dcd4fabd993f6d2b8ead225dcfb2371b8bf",
+          "bytes": 361
+        },
+        {
+          "path": "initial/Hardware/prj2.kicad_pro",
+          "sha256": "1d95cd35570258dfae9986ce0c15f726d7edc0a610634d5dd1ff0a6f9e8010f4",
+          "bytes": 14971
+        },
+        {
+          "path": "initial/Hardware/prj2.kicad_sch",
+          "sha256": "8ada140b996e8b16fa9f454a16dcc3a55e0c0b763b53e12f25997824b82034c7",
+          "bytes": 53612
+        },
+        {
+          "path": "initial/Hardware/prompt.txt",
+          "sha256": "bca33d30b13154c18e98f99b1c7759394828647a6151c75d3ebd97786f3458fc",
+          "bytes": 1391
+        },
+        {
+          "path": "initial/Hardware/public-requirements.json",
+          "sha256": "428aa71c6fc9bbc00c0756277c34f7774c7e8937a73fdf1a111ff99877bdac8a",
+          "bytes": 5388
+        },
+        {
+          "path": "initial/Hardware/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "4a76c8adcdf1ef0a3bc73f9e6d8068a0e63ba7fbd80a373482777d667d181894",
+          "bytes": 3348
+        },
+        {
+          "path": "initial/Hardware/repair-owned-symbols/6002a6dabd0b5b57dd781e7c05fa7678f02fee1f90655741b8c4951c5d1822c4.kicad_sym",
+          "sha256": "e9b92dc8068e7ca36c84c1964c8d85db9d530afc08549749156ec63c90fb8d0a",
+          "bytes": 6433
+        },
+        {
+          "path": "initial/Hardware/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym",
+          "sha256": "96c08c52593304bd18c4b8e386ebff9264b46e7c017f76042d441e471c5dd479",
+          "bytes": 7094
+        },
+        {
+          "path": "initial/Hardware/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym",
+          "sha256": "62c75ea907603480bbdf41c80724f2a2b536e8018bb855c79bd25cd5c7ec6545",
+          "bytes": 5272
+        },
+        {
+          "path": "initial/Hardware/sym-lib-table",
+          "sha256": "87aa9e8049a70cf0fb8f7c03d5caed0eeee357c14af9ea1f72cf44e53ee257ff",
+          "bytes": 1033
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "41fc72feac101e49d001065120d25dcd4fabd993f6d2b8ead225dcfb2371b8bf",
+          "bytes": 361
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "76eda53a541c5541f481c66355cf8b518657c4e4a6722a8ff03281cad120b99c",
+          "bytes": 2507
+        },
+        {
+          "path": "input-manifest.json",
+          "sha256": "8aa1004431bf2288d3f7425553b8a675905842635234ed5ef016ec17905fb69f",
+          "bytes": 4280
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "bca33d30b13154c18e98f99b1c7759394828647a6151c75d3ebd97786f3458fc",
+          "bytes": 1391
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "428aa71c6fc9bbc00c0756277c34f7774c7e8937a73fdf1a111ff99877bdac8a",
+          "bytes": 5388
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "e50090401d72b53a1009237f2a4f05a99a117588bf990f5c3dd1b2e3072dfa66",
+          "bytes": 1720
+        }
+      ]
+    },
+    {
+      "question": "NEW63_3b3b0595cb8ec682e670aca9_R1",
+      "layer": "R1",
+      "prompt_sha256": "5ead173171efc24e8ea2868ddb08421f0a480663cb25794a948190b51edd9129",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "7039f84f036594cc9ace3842b984e277c5342a61fa39b0a18a97e3bbe32375ba",
+          "bytes": 677
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "718cf6dc1e1ec6ce03d1831d5b51f4d9260a4197ed9043d16c862f904155323b",
+          "bytes": 4990
+        },
+        {
+          "path": "initial/SAMD-UPDI-breakaway.kicad_pro",
+          "sha256": "703a63cc18b7dc7a88ffbcf154c1af2b4c7a15f608bdf2f72ba156b99e6013e2",
+          "bytes": 9279
+        },
+        {
+          "path": "initial/SAMD-UPDI-breakaway.kicad_sch",
+          "sha256": "47bfeb25094e3d57217976908c9c01a396f26111348204fb4d69be87878f36cc",
+          "bytes": 58311
+        },
+        {
+          "path": "initial/external-interfaces.json",
+          "sha256": "718cf6dc1e1ec6ce03d1831d5b51f4d9260a4197ed9043d16c862f904155323b",
+          "bytes": 4990
+        },
+        {
+          "path": "initial/input-contract.json",
+          "sha256": "a0240b81167ca25e38f6d29a9026dd4ea0cc4c8adf882edd9e6515ac63280414",
+          "bytes": 297
+        },
+        {
+          "path": "initial/prompt.txt",
+          "sha256": "5ead173171efc24e8ea2868ddb08421f0a480663cb25794a948190b51edd9129",
+          "bytes": 1357
+        },
+        {
+          "path": "initial/public-requirements.json",
+          "sha256": "7d380c547e0ce206072d1dc17c5e99eadb0b747bd3289eefa0caeb5929c7d112",
+          "bytes": 32016
+        },
+        {
+          "path": "initial/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "91bd709a3333dbdcef5c8dd20cc7933674e295b8d6c8f9af45394622472326ae",
+          "bytes": 4626
+        },
+        {
+          "path": "initial/repair-owned-symbols/c2242e2c12190babaf9f9488fb7bb1bb37182a94cda68699af53ed35160d3933.kicad_sym",
+          "sha256": "abc3bb591efb010502f5d62fd63e7849e1651ed2c3d936bee57f4de33905eafb",
+          "bytes": 14394
+        },
+        {
+          "path": "initial/repair-owned-symbols/d96eaafce539988edee33f10d82d66f37335e7d31394243b3a7f29af5ac82fcb.kicad_sym",
+          "sha256": "7a64026cd613b5d031831f4ca967b2c9a982b15d19279af10a80989078d9e0f8",
+          "bytes": 1911
+        },
+        {
+          "path": "initial/repair-owned-symbols/ed2891817314563f01329d59e48b1b7f3bfc3efc568945b217591fd074148c48.kicad_sym",
+          "sha256": "36782326d61a853372447a4a052d1a92b54722bc14dd982c1c5ba4984d488202",
+          "bytes": 1704
+        },
+        {
+          "path": "initial/repair-owned-symbols/usb-zeroohm-supply-annotation.kicad_sym",
+          "sha256": "33ba8fd2ce7a9bb991e9670e620feeec6d0d1ab4b8a9dc2618664eb01f221c25",
+          "bytes": 1838
+        },
+        {
+          "path": "initial/sym-lib-table",
+          "sha256": "57e7369d5e8d01ffcf56e7f1f0b404bbce7f52e801502c061c04030008732688",
+          "bytes": 1259
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "a0240b81167ca25e38f6d29a9026dd4ea0cc4c8adf882edd9e6515ac63280414",
+          "bytes": 297
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "8f7737e4b2d8142be62baf5f130005d98f265e429850a66b8f53b0c9f4e27e32",
+          "bytes": 2626
+        },
+        {
+          "path": "input-manifest.json",
+          "sha256": "369752163fcfe10a832260a672da13d9830664c4c6da096f648b2fb879c02d3b",
+          "bytes": 4464
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "5ead173171efc24e8ea2868ddb08421f0a480663cb25794a948190b51edd9129",
+          "bytes": 1357
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "7d380c547e0ce206072d1dc17c5e99eadb0b747bd3289eefa0caeb5929c7d112",
+          "bytes": 32016
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "1d8f9cbc2a004efc791cd3ba11b8178a85133769cb1f48e11fb6fd20b48a4c1a",
+          "bytes": 1701
+        }
+      ]
+    },
+    {
+      "question": "NEW63_c979ab76fe07cd0933519624_R1",
+      "layer": "R1",
+      "prompt_sha256": "c8d8e926719a103df6057f9146a2b35fab16268199b5b8e60a664d56074826a7",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "d734eacd5b442d7f4435b6847c7052e3cecc81f8a56b116582e7f605aa023594",
+          "bytes": 677
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "33a56e9a50e5e6e1cb22fce569c713513d71ca2683a61efa11efc32ae133c723",
+          "bytes": 648
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.lib",
+          "sha256": "e55c217692580ec79ab3183f675db8bd00a9cf840bcd9cb7255c6bf36fda0cd4",
+          "bytes": 47219
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy1.0++.kicad_mod",
+          "sha256": "be97fa66376c93311cadfd3b12ab2b46d4d961309915d271556d724a4a7d426a",
+          "bytes": 7895
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy1.0.kicad_mod",
+          "sha256": "31036a800833c30addce34c64a37e1f23e1de0b8e07b7cf9c661f311a7a4eeb9",
+          "bytes": 5603
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy2.0++.kicad_mod",
+          "sha256": "759945fd1fc366c07da9ccab8ddc9983ded0fc0cb99e847b3ebd5c133fc4fa26",
+          "bytes": 7988
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy2.0.kicad_mod",
+          "sha256": "9849c1951a5cb1b17736c08cffd28fd6291bdf93c0958cd6e6ecf6dfd3ab8459",
+          "bytes": 6036
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy30_31_32_All_Pins.kicad_mod",
+          "sha256": "b1c260cc7abcf4c96ded5c94e9738d56a8e90e5d152786360e9bafa6ecf84ec7",
+          "bytes": 6846
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy30_31_32_LC.kicad_mod",
+          "sha256": "0b40a95e1cce290d6dcd85b7678000cbb3b324c1120d0eed1cda3b0a58bb2921",
+          "bytes": 7376
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy35_36.kicad_mod",
+          "sha256": "d1cc43813a8598e78ef31142af70426c1950b429ab8fbe2c0aa0d2a63f17fe43",
+          "bytes": 10548
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy35_36_All_Pins.kicad_mod",
+          "sha256": "15750efe4c46a5cd51b53f2b8ee7378b41f1f4d3f335247fc86e11771e6c8a20",
+          "bytes": 12930
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy40.kicad_mod",
+          "sha256": "1209b97b633a8407b85878d98d0bdcb87160bda7901d87e3fb9d08f2466e1925",
+          "bytes": 7377
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy40_SMT.kicad_mod",
+          "sha256": "b45d4f8858aa1b3fd527073c0685399c29822ad297ded6740f302ea86c7515c6",
+          "bytes": 9734
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy41.kicad_mod",
+          "sha256": "144e4229bfd36a5705be5dd516129218b62069b6fbca4e1c9f69952b187a22eb",
+          "bytes": 11168
+        },
+        {
+          "path": "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy_LC.kicad_mod",
+          "sha256": "2cfdd8e5f8c183f1477e65f97f9a6059f292422a8ef77c8e441bc31c5eab2c30",
+          "bytes": 7059
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/external-interfaces.json",
+          "sha256": "33a56e9a50e5e6e1cb22fce569c713513d71ca2683a61efa11efc32ae133c723",
+          "bytes": 648
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/fp-lib-table",
+          "sha256": "97750f52a4370ed820ee544b824faeb8845fb2e6ce4b6cd011f38e973cb01afd",
+          "bytes": 279
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/input-contract.json",
+          "sha256": "51d35acb2e3f82fdeb6c150c2608b22e4dcb6e00eaedf1856748d206f18573ec",
+          "bytes": 544
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/lib.pretty/Teensy41.kicad_mod",
+          "sha256": "3bdedb8309fcceb4a1f52625c1feb9df658632d1db6d920095fa95488aef114a",
+          "bytes": 18792
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/lib.pretty/mTrain.kicad_mod",
+          "sha256": "defd0ecc0369768b3d4c87e670fb5d1522b8297e0c09b51465c6e10bdb13ffb4",
+          "bytes": 6830
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/prompt.txt",
+          "sha256": "c8d8e926719a103df6057f9146a2b35fab16268199b5b8e60a664d56074826a7",
+          "bytes": 1472
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/public-requirements.json",
+          "sha256": "3f0da816191c33c01a8e8c6aa59b304f657df3d797afd8a2d543803cad94cd04",
+          "bytes": 2842
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "59ed28aa44326acfd0e6d4206a6c8a14ba5618e6311d9dbe4c6c111f543392ca",
+          "bytes": 5751
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym",
+          "sha256": "5c6937b472884940ea5924d06cee0ed5413d296dcc054e4fb570dc826c1f6b33",
+          "bytes": 2878
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/76b5a357391276b282a516f54f48ef3c207f46d8192dc58c208d5183d38415f8.kicad_sym",
+          "sha256": "2ded965880ee20624a291a1c110c7d00177347036209bc69140ae9fbcfe72b84",
+          "bytes": 24820
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym",
+          "sha256": "1cf0b7b6a32c5cc0b28c006db2e0f93adb67ababcc33f68106a3de5987f0aed7",
+          "bytes": 3964
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/c214f705739b430b97e1c51fe5e329175867917d0a5435c19daac335875d6d17.kicad_sym",
+          "sha256": "7219bf2ab5b31cb4b0a08bed5418e714be59dc31894948232ff63e9dad29ce83",
+          "bytes": 5006
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/teensy-module-usb-conditional-supply.kicad_sym",
+          "sha256": "15d80f6ee3a4d1c06d88263abdd311803976cfb471a77d327ce772e4eb9d53c6",
+          "bytes": 1847
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/teensy41-original-3V3-outputs.kicad_sym",
+          "sha256": "d8e6e327e5b50c9927d6038d624df9a858238d3d646bd312df3dfb2b46624a90",
+          "bytes": 15013
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/sym-lib-table",
+          "sha256": "858ddc36db1d26bca3c7b0c6ebefdc3f437689393516c041b773bbbea47e6141",
+          "bytes": 1894
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/teensy-adapter-v3.0.kicad_pro",
+          "sha256": "923f4dba1c7323efc70c4a261fded16f8369e29e5dacae1ba56f68cf035b1284",
+          "bytes": 15038
+        },
+        {
+          "path": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/teensy-adapter-v3.0.kicad_sch",
+          "sha256": "6108625e70fdc908c2d848f8b149bad2155109a114d2aa3696720ef26a5c6cf7",
+          "bytes": 129006
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "51d35acb2e3f82fdeb6c150c2608b22e4dcb6e00eaedf1856748d206f18573ec",
+          "bytes": 544
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "7166aaf365a58d094e1fb4b40587b1811f54db40907a6731482766a498311b3e",
+          "bytes": 7282
+        },
+        {
+          "path": "input-manifest.json",
+          "sha256": "f0b7923fbcbcb8c85791604479e9f7d080d880b12a142f2aac22c741292cc5a9",
+          "bytes": 12861
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "c8d8e926719a103df6057f9146a2b35fab16268199b5b8e60a664d56074826a7",
+          "bytes": 1472
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "3f0da816191c33c01a8e8c6aa59b304f657df3d797afd8a2d543803cad94cd04",
+          "bytes": 2842
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "d1cd72b1b2ca190012c97af930457552f1517f416fdf45b09f5e5765ceb7af2e",
+          "bytes": 1816
+        }
+      ]
+    },
+    {
+      "question": "NEW63_d4e6baf431cdeda3cbc21da1_R1",
+      "layer": "R1",
+      "prompt_sha256": "d108aa81114a754d02ca5428d34c5719c956a599cd022d29c70f25971f22beaa",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "d6a3b8e16c7294c6f814a08a862f7c2522feae4f98669c129464171463a7fae4",
+          "bytes": 677
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "9c293591bcc1c31f4397782c20e8edf8532d70532771cf810b6f96b8e0039911",
+          "bytes": 2936
+        },
+        {
+          "path": "initial/ATMega328_breakout.kicad_pro",
+          "sha256": "9fd7992e025f25d80d7ae9dc00e14d4733f4ec2dadba766765ffd14869eea641",
+          "bytes": 9460
+        },
+        {
+          "path": "initial/ATMega328_breakout.kicad_sch",
+          "sha256": "81e9d74e747faf867b1128f9730ed11cff109b61948a4b81e7a45cdce4b9aa32",
+          "bytes": 52764
+        },
+        {
+          "path": "initial/external-interfaces.json",
+          "sha256": "9c293591bcc1c31f4397782c20e8edf8532d70532771cf810b6f96b8e0039911",
+          "bytes": 2936
+        },
+        {
+          "path": "initial/input-contract.json",
+          "sha256": "63a39f337661dada453ea293ebdc776dc12f786d040535ccf04347304d34f052",
+          "bytes": 362
+        },
+        {
+          "path": "initial/prompt.txt",
+          "sha256": "d108aa81114a754d02ca5428d34c5719c956a599cd022d29c70f25971f22beaa",
+          "bytes": 1410
+        },
+        {
+          "path": "initial/public-requirements.json",
+          "sha256": "66d4cabce3878cafa38386d36f6500ec3e3eac1285178a394d88ae93fe12cffa",
+          "bytes": 9836
+        },
+        {
+          "path": "initial/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "6d05a367fdcc60f3a47abb40fcb269474d959b51451bd1248177e371602500a2",
+          "bytes": 5544
+        },
+        {
+          "path": "initial/repair-owned-symbols/db45241fb78a38941f4ad7c0731ef5919aabc818f00e875747ddb656350534d0.kicad_sym",
+          "sha256": "96248b197624dee69440eb33b379d6a4cb554426a4a3ff40288785e6dcf4fe49",
+          "bytes": 15396
+        },
+        {
+          "path": "initial/sym-lib-table",
+          "sha256": "1e4c7f3ee09fbf54cfe0b64431cb9d3a5756e7fce34e3a77ccbc7910f254d0de",
+          "bytes": 534
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "63a39f337661dada453ea293ebdc776dc12f786d040535ccf04347304d34f052",
+          "bytes": 362
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "189ef8a46af63af3fe8bf0333ba99d02c1bb1c03f5362ba210e6673a45bc9124",
+          "bytes": 1984
+        },
+        {
+          "path": "input-manifest.json",
+          "sha256": "eb7ffcbf8a3d7c2b74ef7aec7bcf27af8fd9863b37814a9d246cdaa48dccc9e6",
+          "bytes": 3356
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "d108aa81114a754d02ca5428d34c5719c956a599cd022d29c70f25971f22beaa",
+          "bytes": 1410
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "66d4cabce3878cafa38386d36f6500ec3e3eac1285178a394d88ae93fe12cffa",
+          "bytes": 9836
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "de6920be96922135f420dfa31a5efc1c71892c2e78f6560fee7015545405fa4b",
+          "bytes": 1753
+        }
+      ]
+    },
+    {
+      "question": "WB14_v2_3b3b0595cb8ec682e670aca9_R1_01",
+      "layer": "R1",
+      "prompt_sha256": "aa4eda9d9b5e10dfaaf1a4db8e6dcfca1afdae9c7f5d8a23cab6b474d66cb146",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "91306fed3afad5aaed0c853678b734df47e751d7f4cf491e289041a245802768",
+          "bytes": 697
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "a0ca11878ead484c65333283cd9ef8b8518759a9a4fa88c6b58432c263ab9732",
+          "bytes": 1871
+        },
+        {
+          "path": "initial/SAMD-UPDI-breakaway.kicad_pro",
+          "sha256": "703a63cc18b7dc7a88ffbcf154c1af2b4c7a15f608bdf2f72ba156b99e6013e2",
+          "bytes": 9279
+        },
+        {
+          "path": "initial/SAMD-UPDI-breakaway.kicad_sch",
+          "sha256": "2e8178e9036e4cfe14848ec5a977c5ae025be1fe03ec44210565fbf9a66f48e4",
+          "bytes": 58245
+        },
+        {
+          "path": "initial/external-interfaces.json",
+          "sha256": "a0ca11878ead484c65333283cd9ef8b8518759a9a4fa88c6b58432c263ab9732",
+          "bytes": 1871
+        },
+        {
+          "path": "initial/prompt.txt",
+          "sha256": "aa4eda9d9b5e10dfaaf1a4db8e6dcfca1afdae9c7f5d8a23cab6b474d66cb146",
+          "bytes": 2464
+        },
+        {
+          "path": "initial/public-requirements.json",
+          "sha256": "445254280440b9113e2f4ee48e392b07d829127b064d5e60e8bb395fc23fb012",
+          "bytes": 2616
+        },
+        {
+          "path": "initial/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "91bd709a3333dbdcef5c8dd20cc7933674e295b8d6c8f9af45394622472326ae",
+          "bytes": 4626
+        },
+        {
+          "path": "initial/repair-owned-symbols/c2242e2c12190babaf9f9488fb7bb1bb37182a94cda68699af53ed35160d3933.kicad_sym",
+          "sha256": "abc3bb591efb010502f5d62fd63e7849e1651ed2c3d936bee57f4de33905eafb",
+          "bytes": 14394
+        },
+        {
+          "path": "initial/repair-owned-symbols/d96eaafce539988edee33f10d82d66f37335e7d31394243b3a7f29af5ac82fcb.kicad_sym",
+          "sha256": "7a64026cd613b5d031831f4ca967b2c9a982b15d19279af10a80989078d9e0f8",
+          "bytes": 1911
+        },
+        {
+          "path": "initial/repair-owned-symbols/ed2891817314563f01329d59e48b1b7f3bfc3efc568945b217591fd074148c48.kicad_sym",
+          "sha256": "36782326d61a853372447a4a052d1a92b54722bc14dd982c1c5ba4984d488202",
+          "bytes": 1704
+        },
+        {
+          "path": "initial/repair-owned-symbols/usb-zeroohm-supply-annotation.kicad_sym",
+          "sha256": "33ba8fd2ce7a9bb991e9670e620feeec6d0d1ab4b8a9dc2618664eb01f221c25",
+          "bytes": 1838
+        },
+        {
+          "path": "initial/sym-lib-table",
+          "sha256": "57e7369d5e8d01ffcf56e7f1f0b404bbce7f52e801502c061c04030008732688",
+          "bytes": 1259
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "aa4eda9d9b5e10dfaaf1a4db8e6dcfca1afdae9c7f5d8a23cab6b474d66cb146",
+          "bytes": 2464
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "445254280440b9113e2f4ee48e392b07d829127b064d5e60e8bb395fc23fb012",
+          "bytes": 2616
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "6c0e70a67c1fe7d8237da6eb3b5112904527d3f445aae0de13209516051947ec",
+          "bytes": 2815
+        },
+        {
+          "path": "runtime-input-layout.json",
+          "sha256": "2f4802c9b03605a8cda3ec81972fa91fec8011dfd4f3570f0d6d41d9e05e8c81",
+          "bytes": 2388
+        }
+      ]
+    },
+    {
+      "question": "WB14_v2_3e9563db2a7ff0721e10362f_R1_01",
+      "layer": "R1",
+      "prompt_sha256": "988986102840206b2c49ab3b7cdf23c575d0ecbfc88672c11abd8b596e0c4150",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "ef4a724aabc691d9d8af7491cf7ed7385d9611d8edfa42644b54ab8a790dc3a4",
+          "bytes": 697
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "8225712874f7a7b503992ee666211ea09faf6a7f4b90ea983cec38ba77f2c982",
+          "bytes": 5444
+        },
+        {
+          "path": "initial/LoRA_based/LoRA_based.kicad_pro",
+          "sha256": "c58c7b9f42fe08cb05a36c049c5fa9e66f394caec5d96fc2712302a172056d06",
+          "bytes": 11038
+        },
+        {
+          "path": "initial/LoRA_based/LoRA_based.kicad_sch",
+          "sha256": "6cd3ddd192169af03c6e10092a67319974d131f8c40998790ff4d2cc251d63cb",
+          "bytes": 91551
+        },
+        {
+          "path": "initial/LoRA_based/external-interfaces.json",
+          "sha256": "8225712874f7a7b503992ee666211ea09faf6a7f4b90ea983cec38ba77f2c982",
+          "bytes": 5444
+        },
+        {
+          "path": "initial/LoRA_based/prompt.txt",
+          "sha256": "988986102840206b2c49ab3b7cdf23c575d0ecbfc88672c11abd8b596e0c4150",
+          "bytes": 2279
+        },
+        {
+          "path": "initial/LoRA_based/public-requirements.json",
+          "sha256": "02c5855adffb255230ef51afc6a403f932b541d822993df2a67f4a45d95a90af",
+          "bytes": 2431
+        },
+        {
+          "path": "initial/LoRA_based/repair-owned-symbols/39921a740bf2b67802a2042e1f87e9dec566131c2458aba5683e2827ced0d2c3.kicad_sym",
+          "sha256": "650beb4ee58eda52928926b1eb0ad8b11dedaacc9ad1334bb4d3a920c38c9814",
+          "bytes": 2474
+        },
+        {
+          "path": "initial/LoRA_based/repair-owned-symbols/39bf205ed033228fefade2789181da5c5cf74d5ffb536d7e57c789d95806562d.kicad_sym",
+          "sha256": "e1c7d12a717aee88c0ac30673c5974801fdc9d1dab154a654fbd619669df1a59",
+          "bytes": 1631
+        },
+        {
+          "path": "initial/LoRA_based/repair-owned-symbols/498785455dcb5a9e49d815731ead0399021427b333d2b29c79075525c12c2c17.kicad_sym",
+          "sha256": "673826a8a1203cb9c0fe5ab7ebde84ab135d26e352553805c6680d89dd828ba7",
+          "bytes": 4198
+        },
+        {
+          "path": "initial/LoRA_based/repair-owned-symbols/5dff5b22e26211668c96e1b3d37d0a751fb3aac1bda7038ca442d4a319bf4009.kicad_sym",
+          "sha256": "a4461f38af04f2db67f1a4dbdd24777377187be4560d16293f9419f835c5e293",
+          "bytes": 8811
+        },
+        {
+          "path": "initial/LoRA_based/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym",
+          "sha256": "db1dd3eb60dbcc9e239d107e2d123ee253aefdd841186076e9df39444d4e11c7",
+          "bytes": 2106
+        },
+        {
+          "path": "initial/LoRA_based/repair-owned-symbols/c214f705739b430b97e1c51fe5e329175867917d0a5435c19daac335875d6d17.kicad_sym",
+          "sha256": "f70f1a3fb5ceacc46f08f5d8a47e286b0f1edd7e76ceb440cc6103d372225b17",
+          "bytes": 10119
+        },
+        {
+          "path": "initial/LoRA_based/repair-owned-symbols/feather-generic-standard-3V3-output.kicad_sym",
+          "sha256": "5c07d6bffcd84b5e321630c11433bb6d4e7fd906c0d7d678c6e82c97a28eeaed",
+          "bytes": 9401
+        },
+        {
+          "path": "initial/LoRA_based/repair-owned-symbols/feather-standard-USB-BAT-output-roles.kicad_sym",
+          "sha256": "da3f9d1e8c6050075d279afa787084a063254049c85243bee1bac39f53b60f98",
+          "bytes": 9406
+        },
+        {
+          "path": "initial/LoRA_based/repair-owned-symbols/lora-common-ground-boundary.kicad_sym",
+          "sha256": "b012350668c1d8234730e52778d1dade9ef6473ef253770a0f223587cb655c65",
+          "bytes": 1846
+        },
+        {
+          "path": "initial/LoRA_based/sym-lib-table",
+          "sha256": "2f0fce914b0cdc9dbae4da05f91b3d770135f47bae3cb3224c5a9480f34aa143",
+          "bytes": 2269
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "988986102840206b2c49ab3b7cdf23c575d0ecbfc88672c11abd8b596e0c4150",
+          "bytes": 2279
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "02c5855adffb255230ef51afc6a403f932b541d822993df2a67f4a45d95a90af",
+          "bytes": 2431
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "1b81a35654f1147b0ec7283035a0e00cea13f7eb9dfc035f0530bf8bef1f5209",
+          "bytes": 2621
+        },
+        {
+          "path": "runtime-input-layout.json",
+          "sha256": "b155e10249c5b33785718c1ff08013f748892fd725239ae9fc470ca06803b713",
+          "bytes": 3387
+        }
+      ]
+    },
+    {
+      "question": "NEW63_d354554588a6a3f523b69ef1_R1",
+      "layer": "R1",
+      "prompt_sha256": "652e9f5bfb01a86b6b7f436cf1f4667fff0ff7909509d4a9f0701f14b9b97a52",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "27aadbc6c7ae9571bbf16bba1806002a3b6670bdac6897454dc7eb138c5c2622",
+          "bytes": 677
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "53fb65c3072ea07f7f03ff07dab4cdeb9d798fbb03de33eb53fb7ad4cb26a46f",
+          "bytes": 1231
+        },
+        {
+          "path": "initial/pico-led-example/components.kicad_sch",
+          "sha256": "e2d2ed4a3444b2243bc9f21ad4ce188263a6e40737ee447862e16ee8982e4e67",
+          "bytes": 54683
+        },
+        {
+          "path": "initial/pico-led-example/external-interfaces.json",
+          "sha256": "53fb65c3072ea07f7f03ff07dab4cdeb9d798fbb03de33eb53fb7ad4cb26a46f",
+          "bytes": 1231
+        },
+        {
+          "path": "initial/pico-led-example/fp-lib-table",
+          "sha256": "74a66d6f6f6cb8e17cf8797a457d4d5e00d6ce34a253b19c4f78a49238bef5c4",
+          "bytes": 334
+        },
+        {
+          "path": "initial/pico-led-example/input-contract.json",
+          "sha256": "9513424e8bb903790fa9f2a5513f0ec822efd20340d8f5615145a8d085873381",
+          "bytes": 409
+        },
+        {
+          "path": "initial/pico-led-example/lib/KiCad-RP-Pico/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty/Crystal_SMD_HC49-US.kicad_mod",
+          "sha256": "626fed7d4c47d05d624847497d3171ec2063453502f86c9847959f4f8e92f423",
+          "bytes": 2032
+        },
+        {
+          "path": "initial/pico-led-example/lib/KiCad-RP-Pico/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty/RP2040-QFN-56.kicad_mod",
+          "sha256": "83bb951b1fe64f1d82e57e6b4cc49b62f91c036a2e8bba6e8a6c1cbf74839808",
+          "bytes": 9477
+        },
+        {
+          "path": "initial/pico-led-example/lib/KiCad-RP-Pico/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty/RPi_Pico_SMD_TH.kicad_mod",
+          "sha256": "5893a9fe137962428eb98137502e674f5810a26f755ded752184f96d55f5e3c2",
+          "bytes": 28764
+        },
+        {
+          "path": "initial/pico-led-example/lib/example-footprints.pretty/FENRIR_copper_8x8mm.kicad_mod",
+          "sha256": "705738b790b43f3ae7af9b7b128d0c2c587365e79b17401ed753194d0e44119f",
+          "bytes": 210476
+        },
+        {
+          "path": "initial/pico-led-example/lib/example-footprints.pretty/LED0805.kicad_mod",
+          "sha256": "c0fda83e39bedac047a126721791ee4e590b8f5b18fa511819239974fc7d2ace",
+          "bytes": 2997
+        },
+        {
+          "path": "initial/pico-led-example/lib/example-footprints.pretty/SOT-23.kicad_mod",
+          "sha256": "01d91026bd92cf7c7957bcc883b77509caafbcbee484a009e18df45c8b121faa",
+          "bytes": 4455
+        },
+        {
+          "path": "initial/pico-led-example/lib/example-symbols.kicad_sym",
+          "sha256": "48918f279868654d998e851235ab0a1c206804d577d76d77c03ed24b5058fc92",
+          "bytes": 13779
+        },
+        {
+          "path": "initial/pico-led-example/pico-led-example.kicad_pro",
+          "sha256": "30f22caf37abbbfcb97870a1a5c8dc717493523575b55c299cbfa646cd8df00e",
+          "bytes": 17180
+        },
+        {
+          "path": "initial/pico-led-example/pico-led-example.kicad_sch",
+          "sha256": "17848c658955896458b1b26c118f47c5bf6acdb41e91c2d62ff0025ff0a63527",
+          "bytes": 43334
+        },
+        {
+          "path": "initial/pico-led-example/prompt.txt",
+          "sha256": "652e9f5bfb01a86b6b7f436cf1f4667fff0ff7909509d4a9f0701f14b9b97a52",
+          "bytes": 1423
+        },
+        {
+          "path": "initial/pico-led-example/public-requirements.json",
+          "sha256": "c392fedf6d9075f6b2460e5200b21ae16b8d01280264743365229f00338fe08d",
+          "bytes": 3942
+        },
+        {
+          "path": "initial/pico-led-example/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "269017f2c91c1938c83ba50aaa8ad226bb86b3319191a0dc0b3553e140fa9300",
+          "bytes": 3590
+        },
+        {
+          "path": "initial/pico-led-example/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym",
+          "sha256": "e983b0d2c450bc8c517b5bd83873bbe060f9e11e71dbb07951765a1b54f39a8e",
+          "bytes": 1915
+        },
+        {
+          "path": "initial/pico-led-example/repair-owned-symbols/9bdab70daf20508cb763de8795f4fc54972c9d218b1db8466704bc8342c4b4b6.kicad_sym",
+          "sha256": "f96e73a2318975570fbb07848cd0016f51191372e6cdcd25103783b1e1e8ca6a",
+          "bytes": 12159
+        },
+        {
+          "path": "initial/pico-led-example/sym-lib-table",
+          "sha256": "39ae48522996c6606e8c3ad767c5369ef05d2eea0b62b2b5c8468afbe2a8b9c8",
+          "bytes": 914
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "9513424e8bb903790fa9f2a5513f0ec822efd20340d8f5615145a8d085873381",
+          "bytes": 409
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "042b9cb34dd116961627665e20dad2e04989a86167fd849d8eb80a380c84bb33",
+          "bytes": 4267
+        },
+        {
+          "path": "input-manifest.json",
+          "sha256": "2045f32ccca66ea0257b3b5245201aec9d20e7d72f8e97cf52c57d4b22f6ab42",
+          "bytes": 7519
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "652e9f5bfb01a86b6b7f436cf1f4667fff0ff7909509d4a9f0701f14b9b97a52",
+          "bytes": 1423
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "c392fedf6d9075f6b2460e5200b21ae16b8d01280264743365229f00338fe08d",
+          "bytes": 3942
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "1d672d5fc9d88aa8f694125848f4a20520bbf77170d84c518d126f376a79a891",
+          "bytes": 1764
+        }
+      ]
+    },
+    {
+      "question": "NEW63_66ca5bf76c44bc656cdbbc46_R1",
+      "layer": "R1",
+      "prompt_sha256": "493ccb9d6195eba28e44f92e0bac40d155c1f2d4d585a9f3a883811ef96de239",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "ac7a769812cb1e0bc37e4f8aa8fd64fc15112a75ae2b2f6669c03b94c784b097",
+          "bytes": 677
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "02db65048e9641ae0a4e226752dec062d9ffa1b86a57f2bca364cc08280027d7",
+          "bytes": 20346
+        },
+        {
+          "path": "initial/RFID KICAD/RFID KICAD.kicad_pro",
+          "sha256": "cc7b2c29403514c89025ca1ff2bfec27bb70017c344371a3ea12b46e6aca6ac2",
+          "bytes": 15522
+        },
+        {
+          "path": "initial/RFID KICAD/RFID KICAD.kicad_sch",
+          "sha256": "a74d4266e503b7a27b76b70e0832267bb7ff549bcf07c8a8142ac56f04efe58c",
+          "bytes": 107848
+        },
+        {
+          "path": "initial/RFID KICAD/external-interfaces.json",
+          "sha256": "02db65048e9641ae0a4e226752dec062d9ffa1b86a57f2bca364cc08280027d7",
+          "bytes": 20346
+        },
+        {
+          "path": "initial/RFID KICAD/input-contract.json",
+          "sha256": "92f9fe5d768d042ff8bf234b068bba09b8e6074a1dc33e2f34bf627f23e983dc",
+          "bytes": 379
+        },
+        {
+          "path": "initial/RFID KICAD/prompt.txt",
+          "sha256": "493ccb9d6195eba28e44f92e0bac40d155c1f2d4d585a9f3a883811ef96de239",
+          "bytes": 1405
+        },
+        {
+          "path": "initial/RFID KICAD/public-requirements.json",
+          "sha256": "c874781d4f3b79bbd77e0ef8d1cf0cac0f231ab3b2a42740a3fffe84c22e1d0a",
+          "bytes": 23930
+        },
+        {
+          "path": "initial/RFID KICAD/repair-owned-symbols/044f223410431621bdfd9c950ea23bfd7758fb9e7ff0579d534206373b8739dc.kicad_sym",
+          "sha256": "27d4c155866d1e3cebf67da4b0ffe3ae4af79785a6c0f73180b46d78dc6c634a",
+          "bytes": 3999
+        },
+        {
+          "path": "initial/RFID KICAD/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "d3bc5f4e414b2b65617363963287a2792d7fbb4c4585b3b6cae25edace802a08",
+          "bytes": 3616
+        },
+        {
+          "path": "initial/RFID KICAD/repair-owned-symbols/49f45f9c272fce628d75767f6c4a11a4a74a4923d14f3920efa900951edd8e9f.kicad_sym",
+          "sha256": "00b6861068c8bf2474d653ed3c158684a5bcd2f8a0dbaef2a10f802b3b0a4a3e",
+          "bytes": 5614
+        },
+        {
+          "path": "initial/RFID KICAD/repair-owned-symbols/4f6d6c0025602d5b86ba1339ffba5190bdbf25ad44cf09e80f9997968536a1da.kicad_sym",
+          "sha256": "305530f84dee2a05575b59d9f383c3e94790ab67c883280f6b63f19de3481707",
+          "bytes": 5295
+        },
+        {
+          "path": "initial/RFID KICAD/repair-owned-symbols/735a26d7c45ff8617296b0a8d717421eb6dccb37b9643414ec01b25e05c3d5ce.kicad_sym",
+          "sha256": "d55f5478e569999e62f252bab8114cc97fa15f961273ffede5d25ae2898d41c8",
+          "bytes": 9512
+        },
+        {
+          "path": "initial/RFID KICAD/repair-owned-symbols/a07c3a70a4d5b7b817e8dc5f687dd774108a8b57f30fcbee0a709de86c80dde5.kicad_sym",
+          "sha256": "53ac34afdf42ff4fd914a1a63d14735c2e337c4dec96733219bcc3ff3ef9a990",
+          "bytes": 6534
+        },
+        {
+          "path": "initial/RFID KICAD/repair-owned-symbols/a212c8bd4d8f0decd399bf58c1fac7f24739df4a01f4463f663ac5e3d78755c0.kicad_sym",
+          "sha256": "757e06dc90b1b4e225489c012de44bba461f0a77f5ef679efb5b1f594cfb7931",
+          "bytes": 4810
+        },
+        {
+          "path": "initial/RFID KICAD/repair-owned-symbols/f485cfe452efbaf6a0d223824421ad5c848f6c07f792f326ce58eff1682490aa.kicad_sym",
+          "sha256": "a2165b53c06b04f52079e2d667ea68a48b60b0441d7d396cd3fdb26a173d57e9",
+          "bytes": 6046
+        },
+        {
+          "path": "initial/RFID KICAD/repair-owned-symbols/f85e2fc4d733fef19d54fc26fe7a10f4bc96c4f24b68c682412fe2dfefdf4510.kicad_sym",
+          "sha256": "64ff34a7ecc5edaca48af2664c3be2670c4e22f4c8b38fa8f57a9dbf001e1457",
+          "bytes": 6026
+        },
+        {
+          "path": "initial/RFID KICAD/sym-lib-table",
+          "sha256": "aaedea7137bcf1e5c4f34c34bbc9e6836818e4a032d384049d58e464fc304fd0",
+          "bytes": 2333
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "92f9fe5d768d042ff8bf234b068bba09b8e6074a1dc33e2f34bf627f23e983dc",
+          "bytes": 379
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "fc8e5cf507e696da3bf3b604f5d40413ac6aef5b7652a328a2be23de1eea260b",
+          "bytes": 3730
+        },
+        {
+          "path": "input-manifest.json",
+          "sha256": "94d29817bd96379c73336c16a3efd7261c75eedc84c8856a4e14fd7c17807eea",
+          "bytes": 6581
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "493ccb9d6195eba28e44f92e0bac40d155c1f2d4d585a9f3a883811ef96de239",
+          "bytes": 1405
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "c874781d4f3b79bbd77e0ef8d1cf0cac0f231ab3b2a42740a3fffe84c22e1d0a",
+          "bytes": 23930
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "257b6b02130efaa37b28e96ef96283c0b223a92b8a83593a303dfc70ee8095dd",
+          "bytes": 1740
+        }
+      ]
+    },
+    {
+      "question": "Q393",
+      "layer": "R2",
+      "prompt_sha256": "86ad0ad7b2a3f995079fc0b1a65a10cdb0c5a9d975198458bab430f95394c61e",
+      "public_files": [
+        {
+          "path": "acceptance.txt",
+          "sha256": "f6201b987f28a3f15eb059532909a18a28b5ce9f99517ee06385c089d83c71c7",
+          "bytes": 286
+        },
+        {
+          "path": "assessment-requirements.json",
+          "sha256": "e9a7cd092dfef19e626a1a23aa51ec4e3639c4a6c70d1cfaa564c3c301c20cdf",
+          "bytes": 6293
+        },
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "784238c49f7d8ea775730bae90af28a1fc724fee303df0ea472e5a5df6f21c5b",
+          "bytes": 737
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "8a16a9cf6a77ec60e32e6616fd3863f544a45cab6a1718dcad744061ffa801bc",
+          "bytes": 447
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "19a6e71373328d254d257fa16868dfdf25f241561591c6b4c153b7e8f3322e47",
+          "bytes": 6381
+        },
+        {
+          "path": "mechanical.json",
+          "sha256": "512e95d102e105c3bfc2443793e8431c33a29a7734805207349c4c054a63400d",
+          "bytes": 2210
+        },
+        {
+          "path": "project/.local-libraries/footprints/2fd42fc28a76005b.pretty/DIP-14_W7.62mm.kicad_mod",
+          "sha256": "617eb5014944b5b77106d9f97357dad37eccd4c6c58e38b6929a2a65583682a0",
+          "bytes": 5582
+        },
+        {
+          "path": "project/.local-libraries/footprints/39677840fc90d52e.pretty/SW_PUSH_6mm_H5mm.kicad_mod",
+          "sha256": "4fc01e8adfb749fd8cb1089b19a05672e3b26ca8dbe3b148bc0a27cee71ea5cb",
+          "bytes": 4864
+        },
+        {
+          "path": "project/.local-libraries/footprints/661dd5efa71aaaed.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.kicad_mod",
+          "sha256": "2fb1cf4d7df02d34b83827a1b1c68db523b53cb2beea6874af55dc0faeaf31d9",
+          "bytes": 3775
+        },
+        {
+          "path": "project/.local-libraries/footprints/89e1a34e21c90388.pretty/USB_B_OST_USB-B1HSxx_Horizontal.kicad_mod",
+          "sha256": "86240d83c0a536ddcb29660dce0e2cfaa166c92251ed4146f9487b0a972d8403",
+          "bytes": 4734
+        },
+        {
+          "path": "project/.local-libraries/footprints/9c5255d569dbbd8e.pretty/CP_Radial_D4.0mm_P2.00mm.kicad_mod",
+          "sha256": "13ca06c5e0215988b90250ede81036ac660a7990ebe9e9efd45fbb4e836a7ff9",
+          "bytes": 16238
+        },
+        {
+          "path": "project/.local-libraries/footprints/9c5255d569dbbd8e.pretty/C_Disc_D3.4mm_W2.1mm_P2.50mm.kicad_mod",
+          "sha256": "5fcb2bdcd934ca135dcfb3f3a917863e795ede4f62d97c440c8c42746966d8b4",
+          "bytes": 3497
+        },
+        {
+          "path": "project/.local-libraries/footprints/9c5255d569dbbd8e.pretty/C_Disc_D3.8mm_W2.6mm_P2.50mm.kicad_mod",
+          "sha256": "4acf5c5c3d6018f0f97bf5cf178e5ef3812c1101fbd0aa9d04f721fa5d9ea079",
+          "bytes": 3500
+        },
+        {
+          "path": "project/.local-libraries/footprints/babf3c9aaa0b6037.pretty/LED_D4.0mm.kicad_mod",
+          "sha256": "c75cba2413b84b5f357907d189f10fe16df7a8cfe7f4c3b6fb114ae261d96c6e",
+          "bytes": 3314
+        },
+        {
+          "path": "project/.local-libraries/symbols/library2b6c01aae914.kicad_sym",
+          "sha256": "acfeb4d37b60231f5f9084f6a1a012327c5603ae6836b4e169f85fc14c870197",
+          "bytes": 9829
+        },
+        {
+          "path": "project/.local-libraries/symbols/library3c672202a170.kicad_sym",
+          "sha256": "bd30ef3dcd5b3c501a8ee45bace14d708c8458521fcc84ad0f0b32bec3981b76",
+          "bytes": 2698
+        },
+        {
+          "path": "project/.local-libraries/symbols/library52d2269e7292.kicad_sym",
+          "sha256": "811ed7d2b4cfc53d5c209b9afa7ef61242f515eafac989887c1a26a334505866",
+          "bytes": 3461
+        },
+        {
+          "path": "project/.local-libraries/symbols/library78e8ad2f1720.kicad_sym",
+          "sha256": "ee95b2290892f25527bfa1878a17498b427e731dbd5e3c87ea3ee4e2403f2f84",
+          "bytes": 7611
+        },
+        {
+          "path": "project/.local-libraries/symbols/libraryaa8e87c09e01.kicad_sym",
+          "sha256": "27693087609856a025c1f32a8e1191c9442dc35e2ba2bcd024a363184585468d",
+          "bytes": 1587
+        },
+        {
+          "path": "project/.local-libraries/symbols/librarye11368f2a88e.kicad_sym",
+          "sha256": "bfc1e45d99b5cd527a29732065fbffe2a220a47e385e30009e52b2c570ea9cd3",
+          "bytes": 3606
+        },
+        {
+          "path": "project/board.kicad_pro",
+          "sha256": "08c354c51ed2e7db5865de39a4a8a4610b903fc4e5b0a50ace02e515d2111ef1",
+          "bytes": 10877
+        },
+        {
+          "path": "project/board.kicad_sch",
+          "sha256": "709b7676f27ea6809d9247e11d475b6099b160147abb8d2e3cbef29767c6fa59",
+          "bytes": 112484
+        },
+        {
+          "path": "project/fp-lib-table",
+          "sha256": "5050af235375c7b0c8674189add9b6d3b5159fd6542a5bc382373b770b5f53a1",
+          "bytes": 862
+        },
+        {
+          "path": "project/pcf3d2decf8/symbols/library7126ff5dc201.kicad_sym",
+          "sha256": "8f6c0ad113363f168e5dac666ad0c0a6e79da44f9edcaf3425a3cbbed0e2e46a",
+          "bytes": 3641
+        },
+        {
+          "path": "project/sym-lib-table",
+          "sha256": "a8f88f5d7294d3183c9ff1a0eba3d348df47e28f4d7c1888f1f796bde31c11e7",
+          "bytes": 987
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "86ad0ad7b2a3f995079fc0b1a65a10cdb0c5a9d975198458bab430f95394c61e",
+          "bytes": 3276
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "694e79f0923a139511169a0f765d1cf57c846e9e713732fac43740e959c29f9b",
+          "bytes": 3617
+        }
+      ]
+    },
+    {
+      "question": "Q412",
+      "layer": "R2",
+      "prompt_sha256": "d0d24cb090e29617ee878689cdbb3461dc759d4483dcaf50bf231be398bbe231",
+      "public_files": [
+        {
+          "path": "assessment-requirements.json",
+          "sha256": "671d94b1676bfd9df8ea3e1f70f0686baf79a69a9cee3643d1bd0d0559131ee2",
+          "bytes": 6241
+        },
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "7e2940d6014ed4a6085d5179744fd1e0750f51d34c544bd9ed49be38368bee74",
+          "bytes": 737
+        },
+        {
+          "path": "initial/.local-libraries/footprints/5a090a50cb27380d.pretty/wire2board_smt_justin.kicad_mod",
+          "sha256": "eae9ee07ac38596af60f205c8260af574e103786e8e0cd3a9c0b4dabad0b466a",
+          "bytes": 1972
+        },
+        {
+          "path": "initial/.local-libraries/footprints/ebf646f3cc26760f.pretty/MountingHole_3.2mm_M3.kicad_mod",
+          "sha256": "616eeb6a0ea1c1b316080e34e214b58d3d09755732268693770676fef4484414",
+          "bytes": 1581
+        },
+        {
+          "path": "initial/.local-libraries/instances.pretty/instance_0e79ab295d8b4a42b4f01327eb02b221.kicad_mod",
+          "sha256": "71758144fcfc3fa24ffcf7717aeb09003f878ce373e2d8a29ce818675d2dc911",
+          "bytes": 4372
+        },
+        {
+          "path": "initial/.local-libraries/instances.pretty/instance_3e461d53f96b478999e7acc31965e5e0.kicad_mod",
+          "sha256": "b80439daf512fda3d6c9e8b349fbdd976ee2453a56d5f52d81ee30432017e90b",
+          "bytes": 4367
+        },
+        {
+          "path": "initial/.local-libraries/instances.pretty/instance_525ea9b3c9bc4c9e93ca39feb238984a.kicad_mod",
+          "sha256": "8e2ec6426bec2b5127246f524fb967a99d4bec9ba927c72ea9419b448348a449",
+          "bytes": 4361
+        },
+        {
+          "path": "initial/.local-libraries/instances.pretty/instance_5a85b65f2a1d454e9519b1210b6f8918.kicad_mod",
+          "sha256": "e9b9e19d4ca20e21f4691b341d3abd6e03c4a8e301332e60d30313f1370e4991",
+          "bytes": 4357
+        },
+        {
+          "path": "initial/.local-libraries/instances.pretty/instance_f31be4f1b80941f1a17a038bee12d244.kicad_mod",
+          "sha256": "15c5d0319a9187dc99446b9eef4ce796faa2e0dc65b7098c59c9421d07ef583a",
+          "bytes": 4365
+        },
+        {
+          "path": "initial/.local-libraries/symbols/library15d41a16e7ce.kicad_sym",
+          "sha256": "5ec37e4f8fc2fb319838a7647917b2680f07b9d0fa0a265eb185048ba93ac951",
+          "bytes": 1761
+        },
+        {
+          "path": "initial/.local-libraries/symbols/library46b77ea12f62.kicad_sym",
+          "sha256": "9f24a1e7ebf6a4603a3041c6e357b9c46c624e39e5ed765aa2889ee001da6850",
+          "bytes": 1232
+        },
+        {
+          "path": "initial/.local-libraries/symbols/library78e8ad2f1720.kicad_sym",
+          "sha256": "b83b2bf3ebea28e29e9cd25bd65c5fa17d1df07be8603663178caa646f1b0cbd",
+          "bytes": 2483
+        },
+        {
+          "path": "initial/assessment-requirements.json",
+          "sha256": "671d94b1676bfd9df8ea3e1f70f0686baf79a69a9cee3643d1bd0d0559131ee2",
+          "bytes": 6241
+        },
+        {
+          "path": "initial/fp-lib-table",
+          "sha256": "e91efa20244391b3023da7975fbc60f25d45be28ade1d74860abadac2611d891",
+          "bytes": 421
+        },
+        {
+          "path": "initial/input-contract.json",
+          "sha256": "5d19eea9a02159edacee2eef97519a2ca8ca906dfd345c32c3688c259edb358a",
+          "bytes": 453
+        },
+        {
+          "path": "initial/prompt.txt",
+          "sha256": "d0d24cb090e29617ee878689cdbb3461dc759d4483dcaf50bf231be398bbe231",
+          "bytes": 3230
+        },
+        {
+          "path": "initial/sheet011.kicad_pro",
+          "sha256": "500675e54076c452fc8ee013d6ee24eaf6bf68d8e11cdcf40964e37a75b0bc84",
+          "bytes": 17074
+        },
+        {
+          "path": "initial/sheet011.kicad_sch",
+          "sha256": "fa5bad69a57bc3a4ea468c29a4d8cca843f1846379b198914c4c0ae0fddac15f",
+          "bytes": 21357
+        },
+        {
+          "path": "initial/sym-lib-table",
+          "sha256": "ebb6e3ceb21a483f60d37e2e1ec9351085744a0e0c77f8d7d8256ed793c99fb2",
+          "bytes": 451
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "5d19eea9a02159edacee2eef97519a2ca8ca906dfd345c32c3688c259edb358a",
+          "bytes": 453
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "91c9b4465c8763b5b8d332870fed7adce8816fac2dadea778489370f072f4dee",
+          "bytes": 3540
+        },
+        {
+          "path": "input-manifest.json",
+          "sha256": "6b9352ed15b8bec01e6bfe5cce8d2d5240ed0bb3e54d58ce56c97ca726fc7996",
+          "bytes": 6114
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "d0d24cb090e29617ee878689cdbb3461dc759d4483dcaf50bf231be398bbe231",
+          "bytes": 3230
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "014d9cbc49af3648cf33efa032fa7192a6851865e14de2889f718bd2e720f132",
+          "bytes": 3574
+        }
+      ]
+    },
+    {
+      "question": "WB14_v2_75813229939cdb811343aa9d_R2_01",
+      "layer": "R2",
+      "prompt_sha256": "c0b604f84ff64aa3c5b619d154b519d798079db2dcf00304a143c17e1fd1f6a4",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "9d3adf2a12fb674a61892e8228ad178b6572cb160f6695a6bee2ddb157326847",
+          "bytes": 708
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "beea322a6c36cadac80db5d3f650d391f4412d00519d772d2f1d5de086f9fc73",
+          "bytes": 2258
+        },
+        {
+          "path": "initial/kicad project/external-interfaces.json",
+          "sha256": "beea322a6c36cadac80db5d3f650d391f4412d00519d772d2f1d5de086f9fc73",
+          "bytes": 2258
+        },
+        {
+          "path": "initial/kicad project/fp-lib-table",
+          "sha256": "9dcdee399a1e1c26b36b8b99f492bb99770d54eb6e4e4ceec4e81fdbb64b6a03",
+          "bytes": 210
+        },
+        {
+          "path": "initial/kicad project/input-contract.json",
+          "sha256": "5f5eb3c214ee3cc262e5cbfecf1b042f52dbc140c2f3175f5913e0cfc281c585",
+          "bytes": 446
+        },
+        {
+          "path": "initial/kicad project/input-layout.json",
+          "sha256": "5f5eb3c214ee3cc262e5cbfecf1b042f52dbc140c2f3175f5913e0cfc281c585",
+          "bytes": 446
+        },
+        {
+          "path": "initial/kicad project/mechanical.json",
+          "sha256": "75d49da8ddef68dbc05ba44c66e9f221412a689a8e5dfe694d05e9a9bf995bc1",
+          "bytes": 14499
+        },
+        {
+          "path": "initial/kicad project/prompt.txt",
+          "sha256": "c0b604f84ff64aa3c5b619d154b519d798079db2dcf00304a143c17e1fd1f6a4",
+          "bytes": 2736
+        },
+        {
+          "path": "initial/kicad project/public-requirements.json",
+          "sha256": "82c6c07dd48a487b57d4fe1fe1c678d70329010cae87a8594834b5000ac60705",
+          "bytes": 2888
+        },
+        {
+          "path": "initial/kicad project/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym",
+          "sha256": "e3c385b3773be3ca7eee4374f904628589059c0aa5ad940f51f1a654c05c1b80",
+          "bytes": 1480
+        },
+        {
+          "path": "initial/kicad project/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym",
+          "sha256": "c51cf76ee5289a4a0e2f2cc94e65a499bdece3b76a9d72517863fc382f04a6a2",
+          "bytes": 14147
+        },
+        {
+          "path": "initial/kicad project/repair-usb.pretty/R_Vishay_CRCW0201_0603Metric_5K10.kicad_mod",
+          "sha256": "7bbc1e3b866babe6dacae23c86fed765ee7babc6a060c7c659cbdff0c550b78c",
+          "bytes": 1582
+        },
+        {
+          "path": "initial/kicad project/repair-usb.pretty/USB_C_Receptacle_GCT_USB4215-03-A_HostShieldCastellations.kicad_mod",
+          "sha256": "f03cbd2d58acbbb5070120c7c0a4cf181383b228903a5ea77df65e36e80f79e8",
+          "bytes": 7216
+        },
+        {
+          "path": "initial/kicad project/sym-lib-table",
+          "sha256": "18d03bd91a9de79b68835e766c29239960190ab9fd4f9cf1e203de3be6d61fa0",
+          "bytes": 530
+        },
+        {
+          "path": "initial/kicad project/tascamusbc.kicad_pcb",
+          "sha256": "e4532e026dc8428a0763d725f317adb9dff862fbfbad65b8925e25715feffc27",
+          "bytes": 53075
+        },
+        {
+          "path": "initial/kicad project/tascamusbc.kicad_pro",
+          "sha256": "805970ed608c788c82ee24ac07784874a7af4eb41f5de4f19b518eee15040fe2",
+          "bytes": 11263
+        },
+        {
+          "path": "initial/kicad project/tascamusbc.kicad_sch",
+          "sha256": "266f57bdc2fd1a82dd35add42e56d582ccacb90d8f798dbb588a34213d367de6",
+          "bytes": 26701
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "5f5eb3c214ee3cc262e5cbfecf1b042f52dbc140c2f3175f5913e0cfc281c585",
+          "bytes": 446
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "5f5eb3c214ee3cc262e5cbfecf1b042f52dbc140c2f3175f5913e0cfc281c585",
+          "bytes": 446
+        },
+        {
+          "path": "mechanical.json",
+          "sha256": "75d49da8ddef68dbc05ba44c66e9f221412a689a8e5dfe694d05e9a9bf995bc1",
+          "bytes": 14499
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "c0b604f84ff64aa3c5b619d154b519d798079db2dcf00304a143c17e1fd1f6a4",
+          "bytes": 2736
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "82c6c07dd48a487b57d4fe1fe1c678d70329010cae87a8594834b5000ac60705",
+          "bytes": 2888
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "15287e835f55b8d1ff7eb45fc9083aa310cd3481e570a69473de839249e756a6",
+          "bytes": 3082
+        },
+        {
+          "path": "runtime-input-layout.json",
+          "sha256": "4fe6ff1c0af076fa881e20fc3cf4c4f37e75b45ba379e205fa04cc4c2415f30f",
+          "bytes": 3093
+        }
+      ]
+    },
+    {
+      "question": "WB14_v2_1787c87680c8bbceca37562f_R3_01",
+      "layer": "R3",
+      "prompt_sha256": "bf51c01d2a579098d4eaabef6fcffe80c684be486c669d0334fe2421a7312aec",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "7f7feb950e194a29d00f3694af2b01ffa0f7461173967cfd76f64137ba7b2aca",
+          "bytes": 708
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "3f2da2a623ed1124312c0be725474a35a36b2288e5b2bc8a5a4c9f3a0431a659",
+          "bytes": 3928
+        },
+        {
+          "path": "initial/pcb/Counter thing.kicad_pcb",
+          "sha256": "266895ff9cb53cf216321a47c869fd96a8a24469ec83f397714104da7d504a03",
+          "bytes": 178464
+        },
+        {
+          "path": "initial/pcb/Counter thing.kicad_pro",
+          "sha256": "ea5d848e7b73defc5efa3bde7b1e8324fdb35947a7846fbe55a42680eb9a69c9",
+          "bytes": 15757
+        },
+        {
+          "path": "initial/pcb/Counter thing.kicad_sch",
+          "sha256": "b822adf0d0f7cae609c74cac1de1c586efa2bdac60aec5ad05e0942165a8b907",
+          "bytes": 101924
+        },
+        {
+          "path": "initial/pcb/external-interfaces.json",
+          "sha256": "3f2da2a623ed1124312c0be725474a35a36b2288e5b2bc8a5a4c9f3a0431a659",
+          "bytes": 3928
+        },
+        {
+          "path": "initial/pcb/fp-lib-table",
+          "sha256": "c28d9aad45f689dc7f46f72e03bd4d10db6589e5ce3208d84d09d3bd93636f75",
+          "bytes": 596
+        },
+        {
+          "path": "initial/pcb/input-contract.json",
+          "sha256": "8d16a14e6ddd57aef16781761fea7e32156df8223821e91663f0781b553e2aae",
+          "bytes": 415
+        },
+        {
+          "path": "initial/pcb/input-layout.json",
+          "sha256": "8d16a14e6ddd57aef16781761fea7e32156df8223821e91663f0781b553e2aae",
+          "bytes": 415
+        },
+        {
+          "path": "initial/pcb/mechanical.json",
+          "sha256": "b82da48432ae86d8e8c7082fbbfb1c0fd672487a33c4e4dd440b0383d461746c",
+          "bytes": 20049
+        },
+        {
+          "path": "initial/pcb/project_libraries/footprints/BU2032-1-G.pretty/BA2032SM.kicad_mod",
+          "sha256": "19465458ab76360fd23909032f39156ec8d61fa6e7a0ee46f5af99c651b7e333",
+          "bytes": 4433
+        },
+        {
+          "path": "initial/pcb/project_libraries/footprints/BU2032-1-G.pretty/BU2032-1-G.kicad_mod",
+          "sha256": "9e3c29c5f91faec8bc273d11b9b0a3da05f52ec26abc67be73cb68d428390ada",
+          "bytes": 3688
+        },
+        {
+          "path": "initial/pcb/project_libraries/footprints/ECS-327KE.pretty/OSC_ECS-327KE-TR.kicad_mod",
+          "sha256": "d26434104a4cce8a822b177c55a0f56e7fdcc92ebc0f0452918af6987a81cebc",
+          "bytes": 4007
+        },
+        {
+          "path": "initial/pcb/project_libraries/footprints/ECS-327KE.pretty/OSC_ECS-327KE-TR_HandSolder.kicad_mod",
+          "sha256": "13225bf730770332ee4a2e76bd07234ab32b4a5abaae01daf2404cb8217a1cf1",
+          "bytes": 4149
+        },
+        {
+          "path": "initial/pcb/project_libraries/footprints/SAMTEC_FTSH-105-X-X-DV-007-P-X.pretty/SAMTEC_FTSH-105-X-X-DV-007-P-X.kicad_mod",
+          "sha256": "2d61fd98b340904bd20d702ecac9ee768143c96094601045d0efa174178b1a90",
+          "bytes": 6766
+        },
+        {
+          "path": "initial/pcb/project_libraries/footprints/VI-201-DP-RC-S.pretty/LCD-A2X1C50TR.kicad_mod",
+          "sha256": "c3889170a3b32963885101f1f4457e8e07865c4d5615d828c1a228e91dc03dc8",
+          "bytes": 7288
+        },
+        {
+          "path": "initial/pcb/project_libraries/footprints/VI-201-DP-RC-S.pretty/VI-201-DP-RC-S.kicad_mod",
+          "sha256": "12f71a71301c8772c7f693dd5aca2ff9a6c60ed55bea55888d25f3d76c04c17d",
+          "bytes": 6764
+        },
+        {
+          "path": "initial/pcb/prompt.txt",
+          "sha256": "bf51c01d2a579098d4eaabef6fcffe80c684be486c669d0334fe2421a7312aec",
+          "bytes": 2618
+        },
+        {
+          "path": "initial/pcb/public-requirements.json",
+          "sha256": "053a83ce71c89c77ac34b023e12bb9b2374883f493d68f6d16fcf4ea81026f2c",
+          "bytes": 2809
+        },
+        {
+          "path": "initial/pcb/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "73d850d0f458ef30797ceef7215aab66af34af2a1e4f8f92f978a42dabbd9fd0",
+          "bytes": 4790
+        },
+        {
+          "path": "initial/pcb/repair-owned-symbols/1f79fe97398a44a3e161f2cbec7d7182efef30d284918f8c240977a2d47bc7f3.kicad_sym",
+          "sha256": "51f5912769896bd73800b3e88376e0a802d6be4f4dd65e84e93af29a33d48c87",
+          "bytes": 2532
+        },
+        {
+          "path": "initial/pcb/repair-owned-symbols/39921a740bf2b67802a2042e1f87e9dec566131c2458aba5683e2827ced0d2c3.kicad_sym",
+          "sha256": "5346b22de0d817c957266b46909f3eee3e51d055a1abe6008d57435980d97579",
+          "bytes": 2470
+        },
+        {
+          "path": "initial/pcb/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym",
+          "sha256": "ee9b5e5eaa5853c8ce504713e85bd377fd15b707a44c4f29bc525480cf230d32",
+          "bytes": 4635
+        },
+        {
+          "path": "initial/pcb/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym",
+          "sha256": "38144758e136d6970e292657e6eae96fc61fda4a8d74919db2ed7c622bc52ae7",
+          "bytes": 5489
+        },
+        {
+          "path": "initial/pcb/repair-owned-symbols/d691f96cc05c12c9c3a3f025ea329c8545a439bdde68df58beedcd7f575868ec.kicad_sym",
+          "sha256": "9a4e5cdbc0f361b19b28bf0abedf7532068649e8510a18002d184e4a62b7009c",
+          "bytes": 16289
+        },
+        {
+          "path": "initial/pcb/repair-owned-symbols/e8995d8cae48d94932426d08cc1a282d4f4022de0ca4960529e69ab64d13c7e8.kicad_sym",
+          "sha256": "e5268161807ad6857c962a44d8c95e198584eecd222fbd3e361d506bdd25f18b",
+          "bytes": 5150
+        },
+        {
+          "path": "initial/pcb/sym-lib-table",
+          "sha256": "63edaf161b98ba58bc6d6a7d0d904edd39ddd769d7b08998348b87c17da7580f",
+          "bytes": 1796
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "8d16a14e6ddd57aef16781761fea7e32156df8223821e91663f0781b553e2aae",
+          "bytes": 415
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "8d16a14e6ddd57aef16781761fea7e32156df8223821e91663f0781b553e2aae",
+          "bytes": 415
+        },
+        {
+          "path": "mechanical.json",
+          "sha256": "b82da48432ae86d8e8c7082fbbfb1c0fd672487a33c4e4dd440b0383d461746c",
+          "bytes": 20049
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "bf51c01d2a579098d4eaabef6fcffe80c684be486c669d0334fe2421a7312aec",
+          "bytes": 2618
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "053a83ce71c89c77ac34b023e12bb9b2374883f493d68f6d16fcf4ea81026f2c",
+          "bytes": 2809
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "06b9547b268423934b50e2306df54439d33b4c608a88a8dcc1db909e2b546ae0",
+          "bytes": 2967
+        },
+        {
+          "path": "runtime-input-layout.json",
+          "sha256": "1ba28c9666aedd2a8b6391724695540b93e465ca4936895bab811580b7138051",
+          "bytes": 5140
+        }
+      ]
+    },
+    {
+      "question": "WB14_v2_4af30152b1e3b80bd1795ad7_R3_01",
+      "layer": "R3",
+      "prompt_sha256": "7ebbdcff56ccf3ad8d01fc8a447e42db4a050f3ef545187ccc443f9a87d79576",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "c4109852f4cfe619987bc5c3029028714a785cdb7f1558600625686ede8100ad",
+          "bytes": 708
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "26b59d848a185e4b983220187b07fa2586aa3837f2095f955833e14ac9843d43",
+          "bytes": 521
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/automatic hand sanitizer.kicad_pcb",
+          "sha256": "a3730ec7c380681415d4dc249303b99fb645ceeb762f798c921cf50183b87e06",
+          "bytes": 35750
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/automatic hand sanitizer.kicad_pro",
+          "sha256": "a10a7c6f4af3915d12f3a17fdf6ecc22ef62a955f49c62ae281ce33662bfa5bb",
+          "bytes": 16433
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/automatic hand sanitizer.kicad_sch",
+          "sha256": "840b1a44f9fbe678dfc86fa09e33b1cde9239fc9c65c3d4ed96090d141fdcb2a",
+          "bytes": 26288
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/external-interfaces.json",
+          "sha256": "26b59d848a185e4b983220187b07fa2586aa3837f2095f955833e14ac9843d43",
+          "bytes": 521
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/input-contract.json",
+          "sha256": "417de4077993a8cb550d1a0fa17a4f009473438fdb1086daa43ea63b7041e835",
+          "bytes": 600
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/input-layout.json",
+          "sha256": "417de4077993a8cb550d1a0fa17a4f009473438fdb1086daa43ea63b7041e835",
+          "bytes": 600
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/mechanical.json",
+          "sha256": "d7a2554ed8a3754786e16d74ad8cac732e2c117cf3fa52e9c87976ec674ec379",
+          "bytes": 6072
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/prompt.txt",
+          "sha256": "7ebbdcff56ccf3ad8d01fc8a447e42db4a050f3ef545187ccc443f9a87d79576",
+          "bytes": 2570
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/public-requirements.json",
+          "sha256": "83271fb228d6392cb6d1c569540ba443680276513fce6f4f6377d3232a0ba117",
+          "bytes": 2761
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym",
+          "sha256": "5c6937b472884940ea5924d06cee0ed5413d296dcc054e4fb570dc826c1f6b33",
+          "bytes": 2878
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym",
+          "sha256": "0fe78d260ae3200b1b082b2d9d655509fbc43c34f3db0b2c5dff25d74cd2c866",
+          "bytes": 6106
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/repair-owned-symbols/ec4196b3ddf9e5f0dcb019b061f372bd6fc01fffc2311719932f721085ac7ff8.kicad_sym",
+          "sha256": "a0dc99f42906f1ad167c8100634dec0b6fd48eea4a383d0e267d1595bfabc155",
+          "bytes": 3720
+        },
+        {
+          "path": "initial/Transistor Based/automatic hand sanitizer/sym-lib-table",
+          "sha256": "008388618f64d9049277a8e6883ffe34b21f831e4db9c315942a55f0d10a6253",
+          "bytes": 789
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "417de4077993a8cb550d1a0fa17a4f009473438fdb1086daa43ea63b7041e835",
+          "bytes": 600
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "417de4077993a8cb550d1a0fa17a4f009473438fdb1086daa43ea63b7041e835",
+          "bytes": 600
+        },
+        {
+          "path": "mechanical.json",
+          "sha256": "d7a2554ed8a3754786e16d74ad8cac732e2c117cf3fa52e9c87976ec674ec379",
+          "bytes": 6072
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "7ebbdcff56ccf3ad8d01fc8a447e42db4a050f3ef545187ccc443f9a87d79576",
+          "bytes": 2570
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "83271fb228d6392cb6d1c569540ba443680276513fce6f4f6377d3232a0ba117",
+          "bytes": 2761
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "bee6bfb4bc8c9386edf2cdb9d001c6301f9b9e3bf11b770a1da96f49e721680c",
+          "bytes": 2930
+        },
+        {
+          "path": "runtime-input-layout.json",
+          "sha256": "2e518daca409df11d5eaf020db7d007400509f22aa1887680cfd266ecc859352",
+          "bytes": 3218
+        }
+      ]
+    },
+    {
+      "question": "WB14_v2_3b3b0595cb8ec682e670aca9_R3_01",
+      "layer": "R3",
+      "prompt_sha256": "1cc5efffff9a5e57edf67b5c8835e61f35c48af86c555dd6925b18038147b24d",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "ebb3301e4be99a31524c307c165a2a05c64515efd3fa7e6a6f18e6698742f861",
+          "bytes": 708
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "a0ca11878ead484c65333283cd9ef8b8518759a9a4fa88c6b58432c263ab9732",
+          "bytes": 1871
+        },
+        {
+          "path": "initial/SAMD-UPDI-breakaway.kicad_pcb",
+          "sha256": "d8e1d6fffb4f175c5e743c77bedf49cb33e732d37a2e0d0f944b1b24b1e9e6d9",
+          "bytes": 73540
+        },
+        {
+          "path": "initial/SAMD-UPDI-breakaway.kicad_pro",
+          "sha256": "703a63cc18b7dc7a88ffbcf154c1af2b4c7a15f608bdf2f72ba156b99e6013e2",
+          "bytes": 9279
+        },
+        {
+          "path": "initial/SAMD-UPDI-breakaway.kicad_sch",
+          "sha256": "6f835209c8222667dbe0c3645462907cfff458dd22685e6666cc37b22d2b8a1b",
+          "bytes": 58400
+        },
+        {
+          "path": "initial/external-interfaces.json",
+          "sha256": "a0ca11878ead484c65333283cd9ef8b8518759a9a4fa88c6b58432c263ab9732",
+          "bytes": 1871
+        },
+        {
+          "path": "initial/input-contract.json",
+          "sha256": "e3ef263fa6601f1398ef7eeb3d2bae8cb4fb5ff88fd02603985e6f3a7b9a9e81",
+          "bytes": 417
+        },
+        {
+          "path": "initial/input-layout.json",
+          "sha256": "e3ef263fa6601f1398ef7eeb3d2bae8cb4fb5ff88fd02603985e6f3a7b9a9e81",
+          "bytes": 417
+        },
+        {
+          "path": "initial/mechanical.json",
+          "sha256": "7973a750a2c69072a04bbc5497d7bd0d778bfdc084ff161244d7f720ec71f5e5",
+          "bytes": 22406
+        },
+        {
+          "path": "initial/prompt.txt",
+          "sha256": "1cc5efffff9a5e57edf67b5c8835e61f35c48af86c555dd6925b18038147b24d",
+          "bytes": 2825
+        },
+        {
+          "path": "initial/public-requirements.json",
+          "sha256": "b650f3c2829fbc72a34147afba3cda47ffa4f06c2ec559305a686ae2bcd3c4e9",
+          "bytes": 3021
+        },
+        {
+          "path": "initial/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "91bd709a3333dbdcef5c8dd20cc7933674e295b8d6c8f9af45394622472326ae",
+          "bytes": 4626
+        },
+        {
+          "path": "initial/repair-owned-symbols/c2242e2c12190babaf9f9488fb7bb1bb37182a94cda68699af53ed35160d3933.kicad_sym",
+          "sha256": "abc3bb591efb010502f5d62fd63e7849e1651ed2c3d936bee57f4de33905eafb",
+          "bytes": 14394
+        },
+        {
+          "path": "initial/repair-owned-symbols/d96eaafce539988edee33f10d82d66f37335e7d31394243b3a7f29af5ac82fcb.kicad_sym",
+          "sha256": "7a64026cd613b5d031831f4ca967b2c9a982b15d19279af10a80989078d9e0f8",
+          "bytes": 1911
+        },
+        {
+          "path": "initial/repair-owned-symbols/ed2891817314563f01329d59e48b1b7f3bfc3efc568945b217591fd074148c48.kicad_sym",
+          "sha256": "36782326d61a853372447a4a052d1a92b54722bc14dd982c1c5ba4984d488202",
+          "bytes": 1704
+        },
+        {
+          "path": "initial/repair-owned-symbols/usb-zeroohm-supply-annotation.kicad_sym",
+          "sha256": "33ba8fd2ce7a9bb991e9670e620feeec6d0d1ab4b8a9dc2618664eb01f221c25",
+          "bytes": 1838
+        },
+        {
+          "path": "initial/sym-lib-table",
+          "sha256": "57e7369d5e8d01ffcf56e7f1f0b404bbce7f52e801502c061c04030008732688",
+          "bytes": 1259
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "e3ef263fa6601f1398ef7eeb3d2bae8cb4fb5ff88fd02603985e6f3a7b9a9e81",
+          "bytes": 417
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "e3ef263fa6601f1398ef7eeb3d2bae8cb4fb5ff88fd02603985e6f3a7b9a9e81",
+          "bytes": 417
+        },
+        {
+          "path": "mechanical.json",
+          "sha256": "7973a750a2c69072a04bbc5497d7bd0d778bfdc084ff161244d7f720ec71f5e5",
+          "bytes": 22406
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "1cc5efffff9a5e57edf67b5c8835e61f35c48af86c555dd6925b18038147b24d",
+          "bytes": 2825
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "b650f3c2829fbc72a34147afba3cda47ffa4f06c2ec559305a686ae2bcd3c4e9",
+          "bytes": 3021
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "6e936caf406bf7a4ccb60c271db3133b6e8ca84bb1dfbe3e30ea600f621216e4",
+          "bytes": 3180
+        },
+        {
+          "path": "runtime-input-layout.json",
+          "sha256": "5c92d129ab5dce5931f62925104b3cd54eb73499fb19f4f714f87ec1b01c820e",
+          "bytes": 2984
+        }
+      ]
+    },
+    {
+      "question": "WB14_v2_cccda10e95995995ddbd962a_R3_01",
+      "layer": "R3",
+      "prompt_sha256": "4fd80b9598581a235e780ba815d92588ed4c76fbaef02beadca5f68947e628c2",
+      "public_files": [
+        {
+          "path": "delivery-requirements.json",
+          "sha256": "a43654a67813cd736319cc1bf0b9e9773b6cfe205e7b82e8b8567e3f9b195c50",
+          "bytes": 708
+        },
+        {
+          "path": "external-interfaces.json",
+          "sha256": "e67c4edb0b123e3cdc93516e4e2b69583762e3e927f6861abe630f8540dc7ee2",
+          "bytes": 5119
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/FT2232HL development board to iceprog.kicad_pcb",
+          "sha256": "c5c4da23cd91bed2e9d791c1372c86f50ab81e2e86be7408703ea9bbec416923",
+          "bytes": 335478
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/FT2232HL development board to iceprog.kicad_pro",
+          "sha256": "bcf6ab1f486168e04c7176801c9356396a995c4902c06ea3af8c2d43ad9fba4d",
+          "bytes": 11237
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/FT2232HL development board to iceprog.kicad_sch",
+          "sha256": "b8c9b3e2983e45d66735057c7b9fbc6b93818c0df23d3287389d2e0049961b6f",
+          "bytes": 49901
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/external-interfaces.json",
+          "sha256": "e67c4edb0b123e3cdc93516e4e2b69583762e3e927f6861abe630f8540dc7ee2",
+          "bytes": 5119
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/input-contract.json",
+          "sha256": "822fcfa711f53836ae84d2d11b4aa946d80fe03e0412fe5984cdf4adb1c1f90b",
+          "bytes": 647
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/input-layout.json",
+          "sha256": "822fcfa711f53836ae84d2d11b4aa946d80fe03e0412fe5984cdf4adb1c1f90b",
+          "bytes": 647
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/mechanical.json",
+          "sha256": "1111125f24209af17e31282cadc3f3ec9fe9e64b8c71717c985d84e1923ffebf",
+          "bytes": 28395
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/prompt.txt",
+          "sha256": "4fd80b9598581a235e780ba815d92588ed4c76fbaef02beadca5f68947e628c2",
+          "bytes": 2688
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/public-requirements.json",
+          "sha256": "808e7536e5d0077126691b5322245f668a05b06b986e3c8d619426f971ea907a",
+          "bytes": 2877
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+          "sha256": "70afcb691b470f462f2b88662615668924ae30d28e8d0738e22afee14efdc8fe",
+          "bytes": 3588
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym",
+          "sha256": "d45c42f5be88482c30bb39990d6484b5640b1d072d314a09a58d9c677936c0b8",
+          "bytes": 12337
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/repair-owned-symbols/c214f705739b430b97e1c51fe5e329175867917d0a5435c19daac335875d6d17.kicad_sym",
+          "sha256": "ba0684eb07e4ad6d3e324330579fcb7c1750738ad2892f348845829a2dc8c96c",
+          "bytes": 5799
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/repair-owned-symbols/f08bfae80fa81d502c4ad6ba4b32ffa06ae64c5d1c0b5d1c17247f75cd314340.kicad_sym",
+          "sha256": "b1d80aa7bfcd9071b0b779aec5b7950122a2003a9928f1068405c296b9bae80f",
+          "bytes": 2508
+        },
+        {
+          "path": "initial/FT2232HL development board to iceprog/Kicad/sym-lib-table",
+          "sha256": "242d20ea1c3a70a666357bc29173b18a2a33f9eacab1173dc43f1f09c4b0b1e0",
+          "bytes": 1038
+        },
+        {
+          "path": "input-contract.json",
+          "sha256": "822fcfa711f53836ae84d2d11b4aa946d80fe03e0412fe5984cdf4adb1c1f90b",
+          "bytes": 647
+        },
+        {
+          "path": "input-layout.json",
+          "sha256": "822fcfa711f53836ae84d2d11b4aa946d80fe03e0412fe5984cdf4adb1c1f90b",
+          "bytes": 647
+        },
+        {
+          "path": "mechanical.json",
+          "sha256": "1111125f24209af17e31282cadc3f3ec9fe9e64b8c71717c985d84e1923ffebf",
+          "bytes": 28395
+        },
+        {
+          "path": "prompt.txt",
+          "sha256": "4fd80b9598581a235e780ba815d92588ed4c76fbaef02beadca5f68947e628c2",
+          "bytes": 2688
+        },
+        {
+          "path": "public-requirements.json",
+          "sha256": "808e7536e5d0077126691b5322245f668a05b06b986e3c8d619426f971ea907a",
+          "bytes": 2877
+        },
+        {
+          "path": "public_requirements.json",
+          "sha256": "851808e46b3eaa0b25bd2139c401424a4f84f50b36687bc47431e8889b56bba5",
+          "bytes": 3061
+        },
+        {
+          "path": "runtime-input-layout.json",
+          "sha256": "7ec3465a17b83433c05d2c95a6ac52f59f3ec001d25096aecbf023f1c2361ba3",
+          "bytes": 3573
+        }
+      ]
+    }
+  ],
+  "v1_manifest_sha256": "5fd80d836a9111fde5c4ae067c90607043251488dfd35ba1ff7704f7f5339d0f",
+  "restored_initial_file_count": 128
+}

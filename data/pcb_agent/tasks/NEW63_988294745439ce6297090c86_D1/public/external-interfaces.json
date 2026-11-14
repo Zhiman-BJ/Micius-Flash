@@ -1,0 +1,30 @@
+{
+  "interfaces": {
+    "P1_console_source": {
+      "1": "CSync (NTSC fixture only)",
+      "2": "AudioL",
+      "3": "AudioR",
+      "4": "+5V source",
+      "5": "Red",
+      "6": "Green",
+      "7": "Blue",
+      "8": "CVBS unused isolated",
+      "9": "Luma",
+      "10": "Chroma unused isolated",
+      "11": "common return/shield"
+    },
+    "P2_receiver": {
+      "1": "AudioR",
+      "2": "AudioL",
+      "3": "selectedSync",
+      "4": "common return/shield",
+      "5": "+5V output",
+      "6": "Blue",
+      "7": "Green",
+      "8": "Red"
+    },
+    "pin_number_convention": "Exact CAD electrical contact numbers, not guessed front/rear visual viewing convention. Repeated shield pads with same number are one role.",
+    "supply": "P1.4ideal regulated4.75/5/5.25V relativeP1.11, unlimited port current capability; P2.5normal10mA sink toP2.4. No total console supply capability/heat certification.",
+    "unused": "P1.8 and10 no intentional electrical connection to any used signal/supply; each external1Mohm toreturn during nominaltests gives defined0V."
+  }
+}

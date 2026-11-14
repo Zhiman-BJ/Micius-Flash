@@ -1,0 +1,66 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial/FT2232HL development board to iceprog/Kicad",
+  "primary_schematic": "initial/FT2232HL development board to iceprog/Kicad/FT2232HL development board to iceprog.kicad_sch",
+  "source_manifest_sha256": "a36c295ccea35f87ae1b57ae25dde0c1278f0ffb734ed0a9c033bade10f1d9d4",
+  "public_attachments_readonly": "/task",
+  "initial_files": {
+    "initial/FT2232HL development board to iceprog/Kicad/FT2232HL development board to iceprog.kicad_pcb": {
+      "sha256": "c5c4da23cd91bed2e9d791c1372c86f50ab81e2e86be7408703ea9bbec416923",
+      "bytes": 335478
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/FT2232HL development board to iceprog.kicad_pro": {
+      "sha256": "bcf6ab1f486168e04c7176801c9356396a995c4902c06ea3af8c2d43ad9fba4d",
+      "bytes": 11237
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/FT2232HL development board to iceprog.kicad_sch": {
+      "sha256": "b8c9b3e2983e45d66735057c7b9fbc6b93818c0df23d3287389d2e0049961b6f",
+      "bytes": 49901
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/external-interfaces.json": {
+      "sha256": "e67c4edb0b123e3cdc93516e4e2b69583762e3e927f6861abe630f8540dc7ee2",
+      "bytes": 5119
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/input-contract.json": {
+      "sha256": "822fcfa711f53836ae84d2d11b4aa946d80fe03e0412fe5984cdf4adb1c1f90b",
+      "bytes": 647
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/input-layout.json": {
+      "sha256": "822fcfa711f53836ae84d2d11b4aa946d80fe03e0412fe5984cdf4adb1c1f90b",
+      "bytes": 647
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/mechanical.json": {
+      "sha256": "1111125f24209af17e31282cadc3f3ec9fe9e64b8c71717c985d84e1923ffebf",
+      "bytes": 28395
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/prompt.txt": {
+      "sha256": "4fd80b9598581a235e780ba815d92588ed4c76fbaef02beadca5f68947e628c2",
+      "bytes": 2688
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/public-requirements.json": {
+      "sha256": "808e7536e5d0077126691b5322245f668a05b06b986e3c8d619426f971ea907a",
+      "bytes": 2877
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "70afcb691b470f462f2b88662615668924ae30d28e8d0738e22afee14efdc8fe",
+      "bytes": 3588
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym": {
+      "sha256": "d45c42f5be88482c30bb39990d6484b5640b1d072d314a09a58d9c677936c0b8",
+      "bytes": 12337
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/repair-owned-symbols/c214f705739b430b97e1c51fe5e329175867917d0a5435c19daac335875d6d17.kicad_sym": {
+      "sha256": "ba0684eb07e4ad6d3e324330579fcb7c1750738ad2892f348845829a2dc8c96c",
+      "bytes": 5799
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/repair-owned-symbols/f08bfae80fa81d502c4ad6ba4b32ffa06ae64c5d1c0b5d1c17247f75cd314340.kicad_sym": {
+      "sha256": "b1d80aa7bfcd9071b0b779aec5b7950122a2003a9928f1068405c296b9bae80f",
+      "bytes": 2508
+    },
+    "initial/FT2232HL development board to iceprog/Kicad/sym-lib-table": {
+      "sha256": "242d20ea1c3a70a666357bc29173b18a2a33f9eacab1173dc43f1f09c4b0b1e0",
+      "bytes": 1038
+    }
+  },
+  "scope": "Only authorized public input; no private reference, fault recipe or prior candidates"
+}

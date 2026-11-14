@@ -1,0 +1,103 @@
+{
+  "schema": "input_only_fast_track.input_manifest/v1",
+  "task_id": "NEW63_3b3b0595cb8ec682e670aca9_R1",
+  "layer": "R1",
+  "stage": "schematic",
+  "input_prepared": true,
+  "direct_kimi_ready": false,
+  "runtime_registered": false,
+  "reference_qualified": false,
+  "fault_seed_qualified": false,
+  "files": {
+    "public-requirements.json": {
+      "sha256": "7d380c547e0ce206072d1dc17c5e99eadb0b747bd3289eefa0caeb5929c7d112",
+      "bytes": 32016,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "external-interfaces.json": {
+      "sha256": "718cf6dc1e1ec6ce03d1831d5b51f4d9260a4197ed9043d16c862f904155323b",
+      "bytes": 4990,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "initial/SAMD-UPDI-breakaway.kicad_sch": {
+      "sha256": "47bfeb25094e3d57217976908c9c01a396f26111348204fb4d69be87878f36cc",
+      "bytes": 58311,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "initial/SAMD-UPDI-breakaway.kicad_pro": {
+      "sha256": "703a63cc18b7dc7a88ffbcf154c1af2b4c7a15f608bdf2f72ba156b99e6013e2",
+      "bytes": 9279,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "initial/sym-lib-table": {
+      "sha256": "57e7369d5e8d01ffcf56e7f1f0b404bbce7f52e801502c061c04030008732688",
+      "bytes": 1259,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "initial/repair-owned-symbols/d96eaafce539988edee33f10d82d66f37335e7d31394243b3a7f29af5ac82fcb.kicad_sym": {
+      "sha256": "7a64026cd613b5d031831f4ca967b2c9a982b15d19279af10a80989078d9e0f8",
+      "bytes": 1911,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "initial/repair-owned-symbols/c2242e2c12190babaf9f9488fb7bb1bb37182a94cda68699af53ed35160d3933.kicad_sym": {
+      "sha256": "abc3bb591efb010502f5d62fd63e7849e1651ed2c3d936bee57f4de33905eafb",
+      "bytes": 14394,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "initial/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "91bd709a3333dbdcef5c8dd20cc7933674e295b8d6c8f9af45394622472326ae",
+      "bytes": 4626,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "initial/repair-owned-symbols/ed2891817314563f01329d59e48b1b7f3bfc3efc568945b217591fd074148c48.kicad_sym": {
+      "sha256": "36782326d61a853372447a4a052d1a92b54722bc14dd982c1c5ba4984d488202",
+      "bytes": 1704,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "initial/repair-owned-symbols/usb-zeroohm-supply-annotation.kicad_sym": {
+      "sha256": "33ba8fd2ce7a9bb991e9670e620feeec6d0d1ab4b8a9dc2618664eb01f221c25",
+      "bytes": 1838,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "prompt.txt": {
+      "sha256": "5ead173171efc24e8ea2868ddb08421f0a480663cb25794a948190b51edd9129",
+      "bytes": 1357,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "delivery-requirements.json": {
+      "sha256": "d50d8184aee121db91a5ac40f2617d985a38ffb379aad884fd9be84bc9ca46f7",
+      "bytes": 521,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "input-contract.json": {
+      "sha256": "a0240b81167ca25e38f6d29a9026dd4ea0cc4c8adf882edd9e6515ac63280414",
+      "bytes": 297,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    }
+  },
+  "primary_schematic": "initial/SAMD-UPDI-breakaway.kicad_sch",
+  "dependency_closure": [
+    "initial/SAMD-UPDI-breakaway.kicad_sch",
+    "initial/SAMD-UPDI-breakaway.kicad_pro",
+    "initial/sym-lib-table",
+    "initial/repair-owned-symbols/d96eaafce539988edee33f10d82d66f37335e7d31394243b3a7f29af5ac82fcb.kicad_sym",
+    "initial/repair-owned-symbols/c2242e2c12190babaf9f9488fb7bb1bb37182a94cda68699af53ed35160d3933.kicad_sym",
+    "initial/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+    "initial/repair-owned-symbols/ed2891817314563f01329d59e48b1b7f3bfc3efc568945b217591fd074148c48.kicad_sym",
+    "initial/repair-owned-symbols/usb-zeroohm-supply-annotation.kicad_sym"
+  ],
+  "evaluation": "Positive/negative and completion judgments deferred to final evaluator; no engineering PASS assigned."
+}

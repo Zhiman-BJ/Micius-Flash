@@ -1,0 +1,223 @@
+{
+  "interfaces": {
+    "21": {
+      "role": "GND",
+      "header_contacts": [
+        "J1.4",
+        "J4.4"
+      ]
+    },
+    "5": {
+      "role": "GND",
+      "header_contacts": [
+        "J1.4",
+        "J4.4"
+      ]
+    },
+    "12": {
+      "role": "PB0",
+      "header_contacts": [
+        "J3.5"
+      ]
+    },
+    "16": {
+      "role": "PB4",
+      "header_contacts": [
+        "J3.1"
+      ]
+    },
+    "15": {
+      "role": "PB3",
+      "header_contacts": [
+        "J3.2"
+      ]
+    },
+    "10": {
+      "role": "PD6",
+      "header_contacts": [
+        "J3.7"
+      ]
+    },
+    "9": {
+      "role": "PD5",
+      "header_contacts": [
+        "J3.8"
+      ]
+    },
+    "13": {
+      "role": "PB1",
+      "header_contacts": [
+        "J3.4"
+      ]
+    },
+    "1": {
+      "role": "PD3",
+      "header_contacts": [
+        "J1.8"
+      ]
+    },
+    "11": {
+      "role": "PD7",
+      "header_contacts": [
+        "J3.6"
+      ]
+    },
+    "6": {
+      "role": "PE1",
+      "header_contacts": [
+        "J1.3"
+      ]
+    },
+    "3": {
+      "role": "PE0",
+      "header_contacts": [
+        "J1.6"
+      ]
+    },
+    "2": {
+      "role": "PD4",
+      "header_contacts": [
+        "J1.7"
+      ]
+    },
+    "7": {
+      "role": "PB6",
+      "header_contacts": [
+        "J1.2"
+      ]
+    },
+    "8": {
+      "role": "PB7",
+      "header_contacts": [
+        "J1.1"
+      ]
+    },
+    "14": {
+      "role": "PB2",
+      "header_contacts": [
+        "J3.3"
+      ]
+    },
+    "20": {
+      "role": "AREF",
+      "header_contacts": [
+        "J4.5"
+      ]
+    },
+    "18": {
+      "role": "AVCC",
+      "header_contacts": [
+        "J4.7"
+      ]
+    },
+    "17": {
+      "role": "PB5",
+      "header_contacts": [
+        "J4.8"
+      ]
+    },
+    "23": {
+      "role": "PC0",
+      "header_contacts": [
+        "J4.2"
+      ]
+    },
+    "24": {
+      "role": "PC1",
+      "header_contacts": [
+        "J4.1"
+      ]
+    },
+    "25": {
+      "role": "PC2",
+      "header_contacts": [
+        "J2.8"
+      ]
+    },
+    "26": {
+      "role": "PC3",
+      "header_contacts": [
+        "J2.7"
+      ]
+    },
+    "27": {
+      "role": "PC4",
+      "header_contacts": [
+        "J2.6"
+      ]
+    },
+    "28": {
+      "role": "PC5",
+      "header_contacts": [
+        "J2.5"
+      ]
+    },
+    "29": {
+      "role": "PC6/RESET",
+      "header_contacts": [
+        "J2.4"
+      ]
+    },
+    "30": {
+      "role": "PD0",
+      "header_contacts": [
+        "J2.3"
+      ]
+    },
+    "31": {
+      "role": "PD1",
+      "header_contacts": [
+        "J2.2"
+      ]
+    },
+    "32": {
+      "role": "PD2",
+      "header_contacts": [
+        "J2.1"
+      ]
+    },
+    "19": {
+      "role": "PE2",
+      "header_contacts": [
+        "J4.6"
+      ]
+    },
+    "22": {
+      "role": "PE3",
+      "header_contacts": [
+        "J4.3"
+      ]
+    },
+    "4": {
+      "role": "VCC",
+      "header_contacts": [
+        "J1.5"
+      ]
+    }
+  },
+  "fixture": {
+    "authority": "Explicitcurator25C nominalhardwarepin-breakoutbench. A finite port-mode surrogate checksnumberedinterconnect/support/load/RC/current/power, notAVRISAexecution, fuseprogramming,realADCaccuracy/fullserialprotocol/manufacturerSOA. Parametersindependentcontinuous andfixedperrun; R1conductorsideal; R2finitewiresbelow.",
+    "rails": "CommonidealE continuously3.135..3.465V suppliedexternallytoJ1.5->IC1.4VCC andJ4.7->IC1.18AVCC. J1.4/J4.4 andIC1.5/.21 commonexternal0V. BothrailsON=E orbothOFF=0, not independentfloatingAVCC. Local.1uF±20%>=10V bypass foreachsupply toground, initiallyprecharged; no startupinrush claim. Allotherpoweredbenchconditionsstartafterrailssettled.",
+    "AREF": "J4.5->IC1.20 drivenbyseparateexternalE sourcethrough100ohm, withselected1Mohm//10nFreceiverandconstantleak±1uA to0V atAREF. Initialcapstate settled; referenceONwhenrailsON/OFF0whenOFF. StaticAREFwithin1mV ofE required. No ADCtransfer or SARtiming claim; eightanalog-capablepins also includedinordinaryinputmode continuum0..E.",
+    "mode_selection": "PC6/RESETpin29 remainsreset, not27thGPIO. The26otherportpins (all32 except4/5/18/20/21/29) independentlyuseINPUT orOUTPUT. PB6/7 areGPIO underexplicitinternal8MHzRC oscillator selection/AS2=0/allalternateperipheralsdisabled; RSTDISBL unprogrammed preservesreset, noexternalcrystalrequired. Thisispublicbenchconfigurationsurrogate, notrequiredfirmwarefile/programmer/emulatedISA. No SPI/I2C/UART end-to-end claim.",
+    "INPUT": "For eachinputpin includingselectedanalogcapablepins, externaldriverthrough100ohm takesindependentconstant0..E or10nslinearrampsbetweenendpoints at1kHz50%duty; input1Mohm//10pF plusconstantleak±1uAto0V, internalpullupsdisabled. Nointernaloutputsource inINPUT. Relativephasesarbitrary; eachscalarbranchindependentunderidealrails. Header-to-ICinput steadyerror<=1mV, errorafter1usfromrampend<=1mV. GPIOinterpretsLOW<=.3E/HIGH>=.7E; intermediateanalogvoltages onlytrack, notlogicclassification.",
+    "OUTPUT": "Eachconfiguredoutput internalTheveninsource at0/E (10nslinearramps,1kHz50%duty orheldDC) throughselected1000ohm Rout. Itsheaderreceiver100kohm//50pF withindependentconstantleak±1uAto0V. Noopposingexternaldriver. InitialreceiveratpriorDC for ordinaryactive ramps. Resetre-enable preserves the actual prior HiZ capacitor voltage without reinitialization; the active source may be heldLOW orHIGH. Sample>=1usafterthelaterofactualrampendandoutputre-enable, andlateruntilnexttransition: LOW<=.05E andHIGH>=.95E. OutputmodelcapacitiveRloss explicitlyincluded; noadditionalundefinedCpd/internaltransitionenergy.",
+    "RESET": "External10kohm±5% pullupfromE toJ2.4->IC1.29; resetpin1Mohm//10pF andleak±1uAto0V. Externalpushswitch off1Gohm orclosedRon0..1ohmto0V; after1ms releasedreset>=.7E, pressedabs<=.3E. Thresholdresetlow<=.3E asynchronouslydisablesalloutputsafterselected1us, theybecome1Gohmto0V untilresetreturns>=.7E for1ms. Whileheldintermediatevoltage modelholdspriorresetstate. Stabletestswitchstates only; no realPOR/BOD/programmerguarantee.",
+    "OFF_OR_RESET_OUTPUTS": "Disabled/unpoweredoutputs1Gohmto0V, receivers100k//50pF andleak±1uApersist; after1ms absoutput<=.11V. OFFdrivers/AREF/pullup0; allINPUTdrivers0. NormalONactiveoutputthresholds notappliedtoHiZstates. No floatingnodeguess.",
+    "normal_power": "Selectedmodelperpinpeakcapacity>=5mA andsumabsolutealloutputcurrents<=.1A, supplynormalcapacity>=.1A. Ideal INPUT driver and active OUTPUT Thevenin source setpoints are0..E, not loaded pin voltage. For fixed ON railE, active INPUT/OUTPUT model and capacities apply over[-.11V,E+.11V], including retained HiZ receiver capacitance on reset re-enable and ordinaryLOW/HIGH ramps. This is an explicit model-domain selection, not an added clamp or instantaneous capacitor reinitialization. Global receiver state envelope remains[-.11V,E+.11V] through reset/disable/re-enable at fixedrails; existing±.11V OFF/HiZ predicate is the settledafter1ms measurement, not a prohibition on retained priorHIGH voltage during its settling interval. Existing branchlaws/signedleak remain unchanged. ChipIqtotalacrossVCC+AVCC continuously.5..2mA, splitarbitrarily butsumfixed. Pchip(t)=E*Iq+sum26*Iout(t)^2*Rout, noadditionalundefinedinternaldynamicloss. Averagebound includesordinary26*Cload*E^2*1kHz plusDC/Iq and any resetre-enablecapacitiveRoutloss. Resetre-enable events are separated by at least1ms ofRESET>=.7E as alreadyrequired; each additional re-enable transient loss bounded2*Cload*(E+.11V)^2 including transient/DC cross terms. SteadynominalproxyT=25+200*averagePchip. Capacitorsselected>=10V. Allcapacity/current/instantaneous.35W/average.01W/60C gates remain; thesearecuratornominalmodel/proxy, notMicrochipcrossbiasdrive/SOA orrealPCBtheta."
+  },
+  "acceptance": {
+    "PIN_BREAKOUT": "All32actualIC1numberedpins exposedthroughdeclaredheadercontacts; commonGNDtwoICpins/J1.4/J4.4 correct, allremaining30partitions preservedexceptqualifiedrepair. Source32Aphysicalmappriority, noNCunusedsignalor deletedfunction. Hardwarepinmodes/support mustfollowpublicmapping andnormalrails.",
+    "INPUT_OUTPUT_RESET": "Forallindependentmodechoices/states/phase/leak/continuousE, satisfydeclaredINPUT/OUTPUT/AREF/RESET/OFFbounds usingactualCADpaths. Provebranchindependence/stateinvariantsorperformneededcases; no arbitrary2^26samplecount requirement. Noinstructionset/ADCconversion/fullperipheralprotocolclaim.",
+    "CURRENT_POWER": "Eachactiveoutputabspeak<=5mA; sumabsoutputs<=.1A, fullsupplyincludingIq/resetpullup/AREF<=.1A. InstantaneousPchip<=.35W,periodicaverage<=.01W andsteadyproxy<=60C; outputcurrent/powerboundsincludeall26simultaneousswitches. Noextraunboundedinternalenergyterm.",
+    "R2_CONDUCTORS": "Eachpublicsignal/header-to-ICconductivepath<=1ohm andsupply/return paths<=.1ohm at25C fromactualgeometry usingrho<=2e-8ohm*m/Cu>=35um. Verifyfinitecorrections stillmeetDC/1us/peak/averagebounds, notassumeidealPCB. Solder/headercontactdropsnotincluded; noPCBthermalorrealheaderfit certification. Retainallactualpins/holes/layers andcorrectchirality."
+  },
+  "scope_control": {
+    "R1": "Actualschematic/ERC/deps andstatedfinitehardwarefunction, noPCB/manufacturing/realfit/firmware/ISA/fullserialprotocol/realADCaccuracy.",
+    "R2": "PCBcreationexplicitstage fromactualfaultSCH/deps+neutraloutline ifnoPCBprovided; fullDRCrefill/parity/unrouted/fullpad-hole-layer-net/process andactualrequestedmanufacturing/designnotes. Privatecorrectcoppernotpublished; PCBconstructionnotsecondfault. Samefinitefunctionwithdeclaredconductorbounds, notactualPCBtheta.",
+    "prompt": "Currentprompt_policy/actualdeliverycutoff, no cancelledmissingconditioncriterion/file. Sourcefacts/officialpinroles/curatorfixture separated; no uniqueprivatecomponentvalue/layoutanswer."
+  },
+  "task_id": "NEW63_d4e6baf431cdeda3cbc21da1_R1",
+  "layer": "R1",
+  "scope_endpoint": "schematic"
+}

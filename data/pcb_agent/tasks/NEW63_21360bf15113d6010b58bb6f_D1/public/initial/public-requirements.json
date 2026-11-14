@@ -1,0 +1,24 @@
+{
+  "purpose": "STM32 host expansion board for vending-controller local I/O: LM35 temperature analog input, eight grounded pushbuttons, common-cathode RGB indication and4-bit16x2 character LCD. The MCU/host is external viaCN7/CN10; no vending actuator or real machine protocol is on this board.",
+  "ports": {
+    "power": "Single external5V atCN7.18 with common GND CN7.8/19/20/22 andCN10.9/20; source has no on-board MCU or3.3V regulator.",
+    "U2": "LM35 symbol1+5V/2analog output toPA0 CN7.28/3GND; exact supported part variant/range and host ADC input safety fixed before validation.",
+    "buttons": "Each switch shorts its signal toGND when pressed: ENTER1 PA1 CN7.30; ENTER2 PA4 CN7.32; ENTER3 PC2 CN7.35; ENTER4 PC0 CN7.38; COIN1 PA15 CN7.17; OK1 PB0 CN7.34; MODE1 PC1 CN7.36; ESCAPE1 PC3 CN7.37. External host supplies disclosed pullups.",
+    "RGB": "D1 common cathode pin4 GND; pin1 PA10 CN10.33, pin2 PB5 CN10.29,pin3 PB4 CN10.27. Source lacks series current limiters; qualified implementation must provide explicit current limiting or a supported current-limited fixture, not directly assume safe3.3V GPIO drive.",
+    "LCD": "DS1 pin1GND/2+5V/3contrast grounded/4RS PB10 CN10.25/5RW GND/6E PA8 CN10.23/11D4 PA9 CN10.21/12D5 PC7 CN10.19/13D6 PB6 CN10.17/14D7 PA7 CN10.15/15backlight+5V/16GND; data0..3 NC."
+  },
+  "authoring_operating_scope": "Curator25C,5V board supply and3.3V host GPIO, declared external10k button pullups. A supported LCD/module or level interface must accept the chosen logic and provide a disclosed contrast/backlight current condition; no arbitrary5V LCD3.3V threshold guarantee. Select LM35 temperature range compatible with5V supply and host ADC; finite temperature-voltage and RGB signed-I/V/timing/load models added before relevant validation. LCD observation uses disclosed4-bit command/data strobe sequences, not an unobserved firmware claim.",
+  "observables": [
+    "Eight independent activeLOW button states and unchanged unrelated signals.",
+    "Monotone temperature-to-ADC input behavior in the selected public range.",
+    "Independent RGB channels under explicit safe current limiting, and LCD RS/E/D4..D7 write-only4-bit path with visible declared character fixture.",
+    "CN7/CN10 numbered port mapping,5V/common-return integrity."
+  ],
+  "source_caveats": "Source README describes a beverage vending project; this board exposes only local sensor/control/display I/O. No coin validation, liquid handling, motors, complete machine application or STM32 flashing acceptance is inferred. Source RGB resistor omission, LCD electrical-level/contrast/backlight compatibility and LM35 package pin mapping are later correction/selection work, not evidence the original source is qualified.",
+  "R1_scope": "Schematic/dependencies and actual declared public local function only; noPCB/manufacturing/bodyfit/full external system protocol gate. Source observations and intended corrected function are separate.",
+  "R2_scope": "PCB stage preserves the complete source outer boundary/thickness/twoCu and declared external interface roles. Internal placement/routing free. Correct manufacturer pin/pad map overrides source errors. Detailed pad/hole/process/conductor/manufacturing constraints are fixed in the actual public task supplement before applicable validation, not blockers to this drafting-readiness freeze. No private correct copper/CAD answer is supplied publicly.",
+  "scope_control": "Use actual prompt_policy/current delivery cutoff. No canceled missing-conditions criterion/file. Later exact numerical/module/programming/functional and physical applicability needs immutable public supplements and affected validation/final review. Existing source CAD is not a qualified correct reference.",
+  "task_id": "NEW63_21360bf15113d6010b58bb6f_D1",
+  "layer": "D1",
+  "scope_endpoint": "schematic"
+}

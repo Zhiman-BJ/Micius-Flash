@@ -1,0 +1,87 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial/pico-led-example",
+  "primary_schematic": "initial/pico-led-example/pico-led-example.kicad_sch",
+  "public_attachments_readonly": "/task",
+  "working_public_copies_mutable": true,
+  "initial_files": {
+    "initial/pico-led-example/components.kicad_sch": {
+      "sha256": "e2d2ed4a3444b2243bc9f21ad4ce188263a6e40737ee447862e16ee8982e4e67",
+      "bytes": 54683
+    },
+    "initial/pico-led-example/external-interfaces.json": {
+      "sha256": "53fb65c3072ea07f7f03ff07dab4cdeb9d798fbb03de33eb53fb7ad4cb26a46f",
+      "bytes": 1231
+    },
+    "initial/pico-led-example/fp-lib-table": {
+      "sha256": "74a66d6f6f6cb8e17cf8797a457d4d5e00d6ce34a253b19c4f78a49238bef5c4",
+      "bytes": 334
+    },
+    "initial/pico-led-example/input-contract.json": {
+      "sha256": "9513424e8bb903790fa9f2a5513f0ec822efd20340d8f5615145a8d085873381",
+      "bytes": 409
+    },
+    "initial/pico-led-example/lib/KiCad-RP-Pico/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty/Crystal_SMD_HC49-US.kicad_mod": {
+      "sha256": "626fed7d4c47d05d624847497d3171ec2063453502f86c9847959f4f8e92f423",
+      "bytes": 2032
+    },
+    "initial/pico-led-example/lib/KiCad-RP-Pico/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty/RP2040-QFN-56.kicad_mod": {
+      "sha256": "83bb951b1fe64f1d82e57e6b4cc49b62f91c036a2e8bba6e8a6c1cbf74839808",
+      "bytes": 9477
+    },
+    "initial/pico-led-example/lib/KiCad-RP-Pico/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty/RPi_Pico_SMD_TH.kicad_mod": {
+      "sha256": "5893a9fe137962428eb98137502e674f5810a26f755ded752184f96d55f5e3c2",
+      "bytes": 28764
+    },
+    "initial/pico-led-example/lib/example-footprints.pretty/FENRIR_copper_8x8mm.kicad_mod": {
+      "sha256": "705738b790b43f3ae7af9b7b128d0c2c587365e79b17401ed753194d0e44119f",
+      "bytes": 210476
+    },
+    "initial/pico-led-example/lib/example-footprints.pretty/LED0805.kicad_mod": {
+      "sha256": "c0fda83e39bedac047a126721791ee4e590b8f5b18fa511819239974fc7d2ace",
+      "bytes": 2997
+    },
+    "initial/pico-led-example/lib/example-footprints.pretty/SOT-23.kicad_mod": {
+      "sha256": "01d91026bd92cf7c7957bcc883b77509caafbcbee484a009e18df45c8b121faa",
+      "bytes": 4455
+    },
+    "initial/pico-led-example/lib/example-symbols.kicad_sym": {
+      "sha256": "48918f279868654d998e851235ab0a1c206804d577d76d77c03ed24b5058fc92",
+      "bytes": 13779
+    },
+    "initial/pico-led-example/pico-led-example.kicad_pro": {
+      "sha256": "30f22caf37abbbfcb97870a1a5c8dc717493523575b55c299cbfa646cd8df00e",
+      "bytes": 17180
+    },
+    "initial/pico-led-example/pico-led-example.kicad_sch": {
+      "sha256": "17848c658955896458b1b26c118f47c5bf6acdb41e91c2d62ff0025ff0a63527",
+      "bytes": 43334
+    },
+    "initial/pico-led-example/prompt.txt": {
+      "sha256": "652e9f5bfb01a86b6b7f436cf1f4667fff0ff7909509d4a9f0701f14b9b97a52",
+      "bytes": 1423
+    },
+    "initial/pico-led-example/public-requirements.json": {
+      "sha256": "c392fedf6d9075f6b2460e5200b21ae16b8d01280264743365229f00338fe08d",
+      "bytes": 3942
+    },
+    "initial/pico-led-example/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "269017f2c91c1938c83ba50aaa8ad226bb86b3319191a0dc0b3553e140fa9300",
+      "bytes": 3590
+    },
+    "initial/pico-led-example/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym": {
+      "sha256": "e983b0d2c450bc8c517b5bd83873bbe060f9e11e71dbb07951765a1b54f39a8e",
+      "bytes": 1915
+    },
+    "initial/pico-led-example/repair-owned-symbols/9bdab70daf20508cb763de8795f4fc54972c9d218b1db8466704bc8342c4b4b6.kicad_sym": {
+      "sha256": "f96e73a2318975570fbb07848cd0016f51191372e6cdcd25103783b1e1e8ca6a",
+      "bytes": 12159
+    },
+    "initial/pico-led-example/sym-lib-table": {
+      "sha256": "39ae48522996c6606e8c3ad767c5369ef05d2eea0b62b2b5c8468afbe2a8b9c8",
+      "bytes": 914
+    }
+  },
+  "source_manifest_sha256": "2045f32ccca66ea0257b3b5245201aec9d20e7d72f8e97cf52c57d4b22f6ab42",
+  "scope": "Original public prompt, public attachments and actual initial CAD only; no source/gold/fault recipe/curator/controller paths mounted."
+}

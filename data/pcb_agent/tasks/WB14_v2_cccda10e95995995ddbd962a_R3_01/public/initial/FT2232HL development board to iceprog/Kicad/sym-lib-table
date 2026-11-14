@@ -1,0 +1,6 @@
+(sym_lib_table (version 7)
+(lib (name "Connector") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "Connector_Generic") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/c214f705739b430b97e1c51fe5e329175867917d0a5435c19daac335875d6d17.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "Jumper") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/f08bfae80fa81d502c4ad6ba4b32ffa06ae64c5d1c0b5d1c17247f75cd314340.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "power") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+)

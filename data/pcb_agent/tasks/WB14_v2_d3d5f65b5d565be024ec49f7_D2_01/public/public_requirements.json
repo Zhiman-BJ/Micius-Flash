@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "scope": "engineering",
+  "requirements": {},
+  "brief": {
+    "text": "第 32 题：3.3V UART／RS232 双向接口（WB14_v2_d3d5f65b5d565be024ec49f7_D2_01，D2 需求与约束到原理图）\n\n目标\n- 5V输入经模块产生3.3V，UART与RS232共用信号回流；TTL发送高对应RS232负，发送低对应正；RS232负输入接收为高，正输入接收为低。\n- 两个方向在标称1000baud下独立传输，TTL空闲高、RS232空闲负，检查四种组合及跳变。\n- 开漏复位控制拉低时复位有效，释放后由明确上拉恢复；复位时UART保持空闲或高阻。不要求Renogy消息协议或WiFi。\n\n你的工作\n- 根据公开需求选择适用器件、数值及连接并完成工程；接受满足需求的不同合法内部实现。\n\n必要要求\n- 供电与回流：U1.9输入5V，U1.10回流；U1.8输出标称3.3V给A2.16，A2.15及J1.1共地。外部串口不另行给模块电源轨供电，接口信号按公开RS232电平激励。\n- 标称供电：input5V=5V；module3V3=3.295V\n- 5V源至少100mA；TTL标称3.3V。\n- RS232采用±5.5V、300ohm驱动与5kohm/100pF接收。\n- TTL接收100kohm/20pF；复位端10kohm上拉，开漏控制端100kohm上拉。\n- 外部接口角色见 external-interfaces.json；具体功能与验收以 public-requirements.json 为准。\n- 在公开负载和时序边界下确定器件、拓扑、阻容及额定值，给出器件事实来源、最坏适用标称状态及功耗依据。\n- 端口电平与所连接设备的输入阈值相容，器件电压/电流/功率额定覆盖公开工况；不以ERC通过替代该判断。\n\n输入文件\n- public-requirements.json\n- external-interfaces.json\n\n输入方式\n- 从空工程创建；给出公开需求、标称工况及可检验电气/负载/时序限制。\n\n验收条件\n- 工程与依赖可由KiCad10.0.6正常打开；原理图ERC全severity零error零warning、ignored[]，不得降规则或新增豁免。\n- 全部适用公开接口、电源、模式和功能满足要求，证据绑定最终交付版本；ERC不替代功能。\n- 本题终点是原理图，不要求PCB、制造文件或完整外部系统协议。\n\n交付内容\n- output/ 内的完整工程与依赖\n- 工程包含 .kicad_pro、.kicad_sch 及实际使用的子页/本地库。\n- validation/：与当前工程绑定的适用原生检查、接口及功能证据。\n- changes.md：设计决策或局部改动、器件依据与适用工况。\n",
+    "sha256": "155ba236ca01b3d8594b5d30978494d97acb1422720072f9eed2851f69d3e7f1"
+  },
+  "delivery": {
+    "directory": "final_project",
+    "project_name": "board"
+  },
+  "evaluation_mode": "diagnostic"
+}

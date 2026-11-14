@@ -1,0 +1,11 @@
+{
+  "task_id": "NEW63_3b3b0595cb8ec682e670aca9_R1",
+  "layer": "R1",
+  "stages": 1,
+  "project_root": "initial",
+  "initial_primary": {
+    "schematic": "initial/SAMD-UPDI-breakaway.kicad_sch"
+  },
+  "input_mode": "given_schematic",
+  "final_engineering_judgment": "DEFERRED_TO_FINAL_EVALUATOR"
+}

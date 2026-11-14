@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "scope": "engineering",
+  "requirements": {},
+  "brief": {
+    "text": "第 NEW63_665e94bb3f713fa72445722f_D3 题：ruler_dino（D3）\n\n目标\n- 完成public-requirements.json中的公开用途、编号接口、供电、模式和可观察功能。\n\n你的工作\n- 基于给定原理图和依赖完成PCB设计；保留公开电气接口。\n- 接受满足公开要求的不同合法内部实现，不按私有参考文件、内部网名或坐标逐字评分。\n\n必要要求\n- 实际功能条件见public-requirements.json及external-interfaces.json；curator夹具与名义模型不是厂家跨条件或实物认证保证。\n- 不通过降低规则、新增豁免、删除真实对象或伪造报告消除失败。\n\n输入文件\n- public-requirements.json\n- external-interfaces.json\n- initial/：起始工程及依赖；主原理图 initial/kicad/ruler_dino.kicad_sch\n\n输入方式\n- 基于给定原理图和依赖完成PCB设计；保留公开电气接口。\n\n验收条件\n- 最终工程可由KiCad10.0.6打开，原理图全severity ERC及本阶段适用DRC零error零warning，ignored[]。\n- 最终版本满足本题公开接口、供电、模式、功能和适用范围；静态检查不替代功能。\n- 本题终点是PCB或联合工程，仅验收公开条件适用的电气和机械范围。\n\n交付内容\n- output/ 内的完整工程与依赖\n- validation/：与最终工程绑定的适用检查和功能证据\n- changes.md：设计或修复说明、器件依据与适用范围\n",
+    "sha256": "32e09168650fa0d80dac396d0cd19524e8054024398586da76ad3b35c344fdcc"
+  },
+  "delivery": {
+    "directory": "output",
+    "project_name": "ruler_dino"
+  },
+  "evaluation_mode": "diagnostic"
+}

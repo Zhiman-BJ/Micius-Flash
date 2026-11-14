@@ -1,0 +1,9 @@
+{
+  "axes": [
+    "answer",
+    "structure",
+    "completion"
+  ],
+  "scope": "Actual public prompt only; evaluator-produced full severity native reports; independent gpt-6.1-sol/xhigh completion",
+  "prompt_sha256": "86ad0ad7b2a3f995079fc0b1a65a10cdb0c5a9d975198458bab430f95394c61e"
+}

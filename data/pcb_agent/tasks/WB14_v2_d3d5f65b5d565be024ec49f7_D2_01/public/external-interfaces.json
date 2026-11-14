@@ -1,0 +1,108 @@
+{
+  "ports": [
+    {
+      "contact": "U1.1",
+      "role": "RESETactiveLOWdiodeanode"
+    },
+    {
+      "contact": "U1.10",
+      "role": "return"
+    },
+    {
+      "contact": "U1.11",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "U1.12",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "U1.13",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "U1.14",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "U1.15",
+      "role": "TTLreceivefromA2.R1OUT"
+    },
+    {
+      "contact": "U1.16",
+      "role": "TTLtransmittoA2.T1IN"
+    },
+    {
+      "contact": "U1.2",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "U1.3",
+      "role": "D0open-drainresetcontroldiodecathode"
+    },
+    {
+      "contact": "U1.4",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "U1.5",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "U1.6",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "U1.7",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "U1.8",
+      "role": "regulated3.3Voutput"
+    },
+    {
+      "contact": "U1.9",
+      "role": "5Vinput"
+    },
+    {
+      "contact": "J1.1",
+      "role": "return"
+    },
+    {
+      "contact": "J1.2",
+      "role": "RS232inputnegativeidletoA2.R1IN"
+    },
+    {
+      "contact": "J1.3",
+      "role": "RS232outputnegativeidlefromA2.T1OUT"
+    },
+    {
+      "contact": "J1.4",
+      "role": "unusedisolated"
+    },
+    {
+      "contact": "A2.11",
+      "role": "T1INTTLinput"
+    },
+    {
+      "contact": "A2.12",
+      "role": "R1OUTTTLoutput"
+    },
+    {
+      "contact": "A2.13",
+      "role": "R1INRS232input"
+    },
+    {
+      "contact": "A2.14",
+      "role": "T1OUTRS232output"
+    },
+    {
+      "contact": "A2.15",
+      "role": "return"
+    },
+    {
+      "contact": "A2.16",
+      "role": "3.3Vinput"
+    }
+  ]
+}

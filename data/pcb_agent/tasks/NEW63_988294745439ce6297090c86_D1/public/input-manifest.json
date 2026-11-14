@@ -1,0 +1,65 @@
+{
+  "schema": "input_only_fast_track.input_manifest/v1",
+  "task_id": "NEW63_988294745439ce6297090c86_D1",
+  "board_id": "988294745439ce6297090c86",
+  "layer": "D1",
+  "stage": "schematic",
+  "input_prepared": true,
+  "direct_kimi_ready": false,
+  "engineering_qualified": false,
+  "task_admitted": false,
+  "source_unqualified": true,
+  "working_directory": "initial",
+  "primary_schematic": "initial/board.kicad_sch",
+  "dependency_closure": [
+    "initial/board.kicad_pro",
+    "initial/board.kicad_sch"
+  ],
+  "files": {
+    "public-requirements.json": {
+      "sha256": "800d1829fd1761fd6c1551f76dd5c4e6db8cb75f2d532dd1c7d12f127b295fa1",
+      "bytes": 5870,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "external-interfaces.json": {
+      "sha256": "590f118056845814c706379a5ce7bbe6f76dd7d56fced0f772d58619d2d3ff83",
+      "bytes": 1074,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "initial/board.kicad_sch": {
+      "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+      "bytes": 154,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "initial/board.kicad_pro": {
+      "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+      "bytes": 124,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "prompt.txt": {
+      "sha256": "41f9d430662502b3b4307b03ba3b1b6110b4227df175294927c01340406456b0",
+      "bytes": 1343,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "delivery-requirements.json": {
+      "sha256": "063c98f9f567b3f58a4efc9b90837e7616448b1f91e1ce2f0d594fa76a8a346f",
+      "bytes": 521,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "input-contract.json": {
+      "sha256": "9926eb35c24f759c3d3ee9d020d5fd5bd82cc9c8541b1b596d116371bffe34a6",
+      "bytes": 336,
+      "source_role": "public_requirement",
+      "model_visible": true
+    }
+  },
+  "Native": "NOT_RUN",
+  "model_requests": 0,
+  "positive_negative_and_completion": "DEFERRED_TO_FINAL_EVALUATOR"
+}

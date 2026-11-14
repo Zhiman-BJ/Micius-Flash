@@ -1,0 +1,13 @@
+{
+  "schema": "input_only_fast_track.initial_layout/v1",
+  "task_id": "NEW63_b80d918f7200d4165ce71739_R1",
+  "layer": "R1",
+  "stage": "schematic",
+  "stages": 1,
+  "project_root": "initial/Hardware",
+  "initial_primary": {
+    "schematic": "initial/Hardware/prj2.kicad_sch",
+    "project": "initial/Hardware/prj2.kicad_pro"
+  },
+  "direct_kimi_ready": false
+}

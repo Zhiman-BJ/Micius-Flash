@@ -1,0 +1,110 @@
+{
+  "mode": "FAULTY_SCHEMATIC_NO_PCB",
+  "working_directory": ".",
+  "aliases": {},
+  "public_package_prefix": "project/",
+  "mapping": {
+    ".local-libraries/footprints/2fd42fc28a76005b.pretty/DIP-14_W7.62mm.kicad_mod": ".local-libraries/footprints/2fd42fc28a76005b.pretty/DIP-14_W7.62mm.kicad_mod",
+    ".local-libraries/footprints/39677840fc90d52e.pretty/SW_PUSH_6mm_H5mm.kicad_mod": ".local-libraries/footprints/39677840fc90d52e.pretty/SW_PUSH_6mm_H5mm.kicad_mod",
+    ".local-libraries/footprints/661dd5efa71aaaed.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.kicad_mod": ".local-libraries/footprints/661dd5efa71aaaed.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.kicad_mod",
+    ".local-libraries/footprints/89e1a34e21c90388.pretty/USB_B_OST_USB-B1HSxx_Horizontal.kicad_mod": ".local-libraries/footprints/89e1a34e21c90388.pretty/USB_B_OST_USB-B1HSxx_Horizontal.kicad_mod",
+    ".local-libraries/footprints/9c5255d569dbbd8e.pretty/CP_Radial_D4.0mm_P2.00mm.kicad_mod": ".local-libraries/footprints/9c5255d569dbbd8e.pretty/CP_Radial_D4.0mm_P2.00mm.kicad_mod",
+    ".local-libraries/footprints/9c5255d569dbbd8e.pretty/C_Disc_D3.4mm_W2.1mm_P2.50mm.kicad_mod": ".local-libraries/footprints/9c5255d569dbbd8e.pretty/C_Disc_D3.4mm_W2.1mm_P2.50mm.kicad_mod",
+    ".local-libraries/footprints/9c5255d569dbbd8e.pretty/C_Disc_D3.8mm_W2.6mm_P2.50mm.kicad_mod": ".local-libraries/footprints/9c5255d569dbbd8e.pretty/C_Disc_D3.8mm_W2.6mm_P2.50mm.kicad_mod",
+    ".local-libraries/footprints/babf3c9aaa0b6037.pretty/LED_D4.0mm.kicad_mod": ".local-libraries/footprints/babf3c9aaa0b6037.pretty/LED_D4.0mm.kicad_mod",
+    ".local-libraries/symbols/library2b6c01aae914.kicad_sym": ".local-libraries/symbols/library2b6c01aae914.kicad_sym",
+    ".local-libraries/symbols/library3c672202a170.kicad_sym": ".local-libraries/symbols/library3c672202a170.kicad_sym",
+    ".local-libraries/symbols/library52d2269e7292.kicad_sym": ".local-libraries/symbols/library52d2269e7292.kicad_sym",
+    ".local-libraries/symbols/library78e8ad2f1720.kicad_sym": ".local-libraries/symbols/library78e8ad2f1720.kicad_sym",
+    ".local-libraries/symbols/libraryaa8e87c09e01.kicad_sym": ".local-libraries/symbols/libraryaa8e87c09e01.kicad_sym",
+    ".local-libraries/symbols/librarye11368f2a88e.kicad_sym": ".local-libraries/symbols/librarye11368f2a88e.kicad_sym",
+    "board.kicad_pro": "board.kicad_pro",
+    "board.kicad_sch": "board.kicad_sch",
+    "fp-lib-table": "fp-lib-table",
+    "pcf3d2decf8/symbols/library7126ff5dc201.kicad_sym": "pcf3d2decf8/symbols/library7126ff5dc201.kicad_sym",
+    "sym-lib-table": "sym-lib-table"
+  },
+  "initial_files": {
+    "board.kicad_sch": {
+      "sha256": "709b7676f27ea6809d9247e11d475b6099b160147abb8d2e3cbef29767c6fa59",
+      "bytes": 112484
+    },
+    "board.kicad_pro": {
+      "sha256": "08c354c51ed2e7db5865de39a4a8a4610b903fc4e5b0a50ace02e515d2111ef1",
+      "bytes": 10877
+    },
+    "fp-lib-table": {
+      "sha256": "5050af235375c7b0c8674189add9b6d3b5159fd6542a5bc382373b770b5f53a1",
+      "bytes": 862
+    },
+    "mechanical.json": {
+      "sha256": "512e95d102e105c3bfc2443793e8431c33a29a7734805207349c4c054a63400d",
+      "bytes": 2210
+    },
+    "sym-lib-table": {
+      "sha256": "a8f88f5d7294d3183c9ff1a0eba3d348df47e28f4d7c1888f1f796bde31c11e7",
+      "bytes": 987
+    },
+    "pcf3d2decf8/symbols/library7126ff5dc201.kicad_sym": {
+      "sha256": "8f6c0ad113363f168e5dac666ad0c0a6e79da44f9edcaf3425a3cbbed0e2e46a",
+      "bytes": 3641
+    },
+    ".local-libraries/footprints/2fd42fc28a76005b.pretty/DIP-14_W7.62mm.kicad_mod": {
+      "sha256": "617eb5014944b5b77106d9f97357dad37eccd4c6c58e38b6929a2a65583682a0",
+      "bytes": 5582
+    },
+    ".local-libraries/footprints/89e1a34e21c90388.pretty/USB_B_OST_USB-B1HSxx_Horizontal.kicad_mod": {
+      "sha256": "86240d83c0a536ddcb29660dce0e2cfaa166c92251ed4146f9487b0a972d8403",
+      "bytes": 4734
+    },
+    ".local-libraries/footprints/39677840fc90d52e.pretty/SW_PUSH_6mm_H5mm.kicad_mod": {
+      "sha256": "4fc01e8adfb749fd8cb1089b19a05672e3b26ca8dbe3b148bc0a27cee71ea5cb",
+      "bytes": 4864
+    },
+    ".local-libraries/footprints/babf3c9aaa0b6037.pretty/LED_D4.0mm.kicad_mod": {
+      "sha256": "c75cba2413b84b5f357907d189f10fe16df7a8cfe7f4c3b6fb114ae261d96c6e",
+      "bytes": 3314
+    },
+    ".local-libraries/footprints/661dd5efa71aaaed.pretty/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.kicad_mod": {
+      "sha256": "2fb1cf4d7df02d34b83827a1b1c68db523b53cb2beea6874af55dc0faeaf31d9",
+      "bytes": 3775
+    },
+    ".local-libraries/footprints/9c5255d569dbbd8e.pretty/CP_Radial_D4.0mm_P2.00mm.kicad_mod": {
+      "sha256": "13ca06c5e0215988b90250ede81036ac660a7990ebe9e9efd45fbb4e836a7ff9",
+      "bytes": 16238
+    },
+    ".local-libraries/footprints/9c5255d569dbbd8e.pretty/C_Disc_D3.4mm_W2.1mm_P2.50mm.kicad_mod": {
+      "sha256": "5fcb2bdcd934ca135dcfb3f3a917863e795ede4f62d97c440c8c42746966d8b4",
+      "bytes": 3497
+    },
+    ".local-libraries/footprints/9c5255d569dbbd8e.pretty/C_Disc_D3.8mm_W2.6mm_P2.50mm.kicad_mod": {
+      "sha256": "4acf5c5c3d6018f0f97bf5cf178e5ef3812c1101fbd0aa9d04f721fa5d9ea079",
+      "bytes": 3500
+    },
+    ".local-libraries/symbols/library2b6c01aae914.kicad_sym": {
+      "sha256": "acfeb4d37b60231f5f9084f6a1a012327c5603ae6836b4e169f85fc14c870197",
+      "bytes": 9829
+    },
+    ".local-libraries/symbols/library78e8ad2f1720.kicad_sym": {
+      "sha256": "ee95b2290892f25527bfa1878a17498b427e731dbd5e3c87ea3ee4e2403f2f84",
+      "bytes": 7611
+    },
+    ".local-libraries/symbols/library52d2269e7292.kicad_sym": {
+      "sha256": "811ed7d2b4cfc53d5c209b9afa7ef61242f515eafac989887c1a26a334505866",
+      "bytes": 3461
+    },
+    ".local-libraries/symbols/library3c672202a170.kicad_sym": {
+      "sha256": "bd30ef3dcd5b3c501a8ee45bace14d708c8458521fcc84ad0f0b32bec3981b76",
+      "bytes": 2698
+    },
+    ".local-libraries/symbols/librarye11368f2a88e.kicad_sym": {
+      "sha256": "bfc1e45d99b5cd527a29732065fbffe2a220a47e385e30009e52b2c570ea9cd3",
+      "bytes": 3606
+    },
+    ".local-libraries/symbols/libraryaa8e87c09e01.kicad_sym": {
+      "sha256": "27693087609856a025c1f32a8e1191c9442dc35e2ba2bcd024a363184585468d",
+      "bytes": 1587
+    }
+  },
+  "scope": "Exact original frozen public fault or blank inputs, canonical relative paths; no gold CAD, private netlist, fault locator, previous submission, or reviewer evidence"
+}

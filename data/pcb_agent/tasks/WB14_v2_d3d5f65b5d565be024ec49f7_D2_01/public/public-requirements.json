@@ -1,0 +1,48 @@
+{
+  "schema": "weighted_board_task.public_requirements/v1",
+  "task_id": "WB14_v2_d3d5f65b5d565be024ec49f7_D2_01",
+  "title": "3.3V UART／RS232 双向接口",
+  "layer": "D2",
+  "work_scope": "schematic",
+  "kind": "design",
+  "terminal_stage": "schematic",
+  "requirement_level": "natural_language_with_constraints",
+  "selected_nominal_supply_V": {
+    "input5V": 5.0,
+    "module3V3": 3.295
+  },
+  "supply_and_return": "U1.9输入5V，U1.10回流；U1.8输出标称3.3V给A2.16，A2.15及J1.1共地。外部串口不另行给模块电源轨供电，接口信号按公开RS232电平激励。",
+  "functional_goals": [
+    "5V输入经模块产生3.3V，UART与RS232共用信号回流；TTL发送高对应RS232负，发送低对应正；RS232负输入接收为高，正输入接收为低。",
+    "两个方向在标称1000baud下独立传输，TTL空闲高、RS232空闲负，检查四种组合及跳变。",
+    "开漏复位控制拉低时复位有效，释放后由明确上拉恢复；复位时UART保持空闲或高阻。不要求Renogy消息协议或WiFi。"
+  ],
+  "nominal_conditions": [
+    "5V源至少100mA；TTL标称3.3V。",
+    "RS232采用±5.5V、300ohm驱动与5kohm/100pF接收。",
+    "TTL接收100kohm/20pF；复位端10kohm上拉，开漏控制端100kohm上拉。"
+  ],
+  "interface_attachment": "external-interfaces.json",
+  "interface_scope": "所有列出的外部接口角色均按本题功能适用；未用或保留接点不得增加信号/电源连接。",
+  "supply_scope": "公开供电域按各接口用途适用。",
+  "nominal_boundary": "上述器件和外部设备逻辑为明确选定的标称测试模型，不代表真实整机/协议/物理认证；只按本题公开工作边界评分。",
+  "acceptance": [
+    "工程与依赖可由KiCad10.0.6正常打开；原理图ERC全severity零error零warning、ignored[]，不得降规则或新增豁免。",
+    "全部适用公开接口、电源、模式和功能满足要求，证据绑定最终交付版本；ERC不替代功能。"
+  ],
+  "edit_policy": {
+    "allowed": [
+      "schematic",
+      "project",
+      "necessary_local_dependencies"
+    ],
+    "preserve": [
+      "public_requirements",
+      "used_external_interface_roles"
+    ]
+  },
+  "design_constraints": [
+    "在公开负载和时序边界下确定器件、拓扑、阻容及额定值，给出器件事实来源、最坏适用标称状态及功耗依据。",
+    "端口电平与所连接设备的输入阈值相容，器件电压/电流/功率额定覆盖公开工况；不以ERC通过替代该判断。"
+  ]
+}

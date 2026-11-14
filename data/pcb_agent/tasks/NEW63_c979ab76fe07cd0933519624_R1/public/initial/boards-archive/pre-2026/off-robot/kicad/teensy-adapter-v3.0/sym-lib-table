@@ -1,0 +1,12 @@
+(sym_lib_table (version 7)
+(lib (name "teensy")(type "Legacy")(uri "${KIPRJMOD}/../../../../../boards/rev-2026/control-v4.0/lib/teensy.lib")(options "")(descr ""))
+(lib (name "Connector") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "Connector_Generic") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/c214f705739b430b97e1c51fe5e329175867917d0a5435c19daac335875d6d17.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "Device") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "lib") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/76b5a357391276b282a516f54f48ef3c207f46d8192dc58c208d5183d38415f8.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "power") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+
+(lib (name "RepairModule") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/teensy41-original-3V3-outputs.kicad_sym") (options "") (descr "Original module cache with manufacturer-documented3V3regulator output roles"))
+
+(lib (name "RepairTeensyUSBCommonRails") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/teensy-module-usb-conditional-supply.kicad_sym") (options "") (descr "Original Teensy module conditional normal USB bridge source and return boundary"))
+)

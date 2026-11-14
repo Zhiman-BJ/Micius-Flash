@@ -1,0 +1,6 @@
+(sym_lib_table (version 7)
+(lib (name "example-symbols")(type "KiCad")(uri "${KIPRJMOD}/lib/example-symbols.kicad_sym")(options "")(descr ""))
+(lib (name "Connector") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "MCU_RaspberryPi_and_Boards") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/9bdab70daf20508cb763de8795f4fc54972c9d218b1db8466704bc8342c4b4b6.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "power") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+)

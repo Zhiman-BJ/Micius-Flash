@@ -1,0 +1,35 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial",
+  "primary_schematic": "initial/board.kicad_sch",
+  "public_attachments_readonly": "/task",
+  "working_public_copies_mutable": true,
+  "initial_files": {
+    "initial/board.kicad_pro": {
+      "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+      "bytes": 124
+    },
+    "initial/board.kicad_sch": {
+      "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+      "bytes": 154
+    },
+    "initial/external-interfaces.json": {
+      "sha256": "a07a15957fcb196d54b3899b0f333e9b62fdc8c1d35f4d19f5d57a181c873f83",
+      "bytes": 143
+    },
+    "initial/input-contract.json": {
+      "sha256": "d9ab77bde46486242ec79006a1a9464995fc59f1c800e24bb6e0231778dbc642",
+      "bytes": 336
+    },
+    "initial/prompt.txt": {
+      "sha256": "3bb512b9a049a799c40ec5770e490b81cfdf5482d609a985065c720bd75e65e7",
+      "bytes": 1336
+    },
+    "initial/public-requirements.json": {
+      "sha256": "d8ae3bcd844e75040ba02dafc202bf60165870b4e4bce68e5b14b509b9a2ea11",
+      "bytes": 2754
+    }
+  },
+  "source_manifest_sha256": "52ea8989ff4e19ecafdf53c8513d54afc059f3d23e6f4c1fa05bbe0354ca39f3",
+  "scope": "Original public prompt, public attachments and actual initial CAD only; no source/gold/fault recipe/curator/controller paths mounted."
+}

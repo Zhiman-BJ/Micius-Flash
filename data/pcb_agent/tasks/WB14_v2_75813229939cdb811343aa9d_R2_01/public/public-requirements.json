@@ -1,0 +1,50 @@
+{
+  "schema": "weighted_board_task.public_requirements/v1",
+  "task_id": "WB14_v2_75813229939cdb811343aa9d_R2_01",
+  "title": "USB-C 至 mini-USB 静态接口适配",
+  "layer": "R2",
+  "work_scope": "joint",
+  "kind": "repair",
+  "terminal_stage": "pcb_complete",
+  "requirement_level": "natural_language",
+  "selected_nominal_supply_V": {
+    "VBUS": 5.0
+  },
+  "supply_and_return": "仅USB-C主机提供VBUS。USB-C所有VBUS接点向J1.1供电，所有GND接点与J1.5回流相通。目标负载不另行供电；金属屏蔽是独立接口功能，测试时经1Mohm接信号回流。",
+  "functional_goals": [
+    "USB-C 的 VBUS、GND、D+、D- 在两种插入方向下分别到达 mini-USB 同名功能，数据正负不互换、不短接。",
+    "CC1、CC2 分别以标称5.1kohm下拉至回流；主机经56kohm接5V时，受激励 CC 在0.35～0.5V，未激励 CC 经自身下拉回到0V。",
+    "ID、SBU不参与通信；屏蔽保持独立功能并在静态测试中有有限阻抗回流参考。只考静态USB2接口，不要求PD或高速链路认证。"
+  ],
+  "nominal_conditions": [
+    "VBUS 接1kohm负载，数据端以3.3V标称驱动、100kohm/100pF接收。",
+    "PCB目标厚度0.8mm；外部连接器焊盘及相对位置见机械附件。",
+    "mini-USB屏蔽为接口逻辑功能；不得要求源转接焊盘不存在的额外屏蔽接点。"
+  ],
+  "interface_attachment": "external-interfaces.json",
+  "interface_scope": "所有列出的外部接口角色均按本题功能适用；未用或保留接点不得增加信号/电源连接。",
+  "supply_scope": "公开供电域按各接口用途适用。",
+  "nominal_boundary": "上述器件和外部设备逻辑为明确选定的标称测试模型，不代表真实整机/协议/物理认证；只按本题公开工作边界评分。",
+  "acceptance": [
+    "工程与依赖可由KiCad10.0.6正常打开；原理图ERC全severity零error零warning、ignored[]，不得降规则或新增豁免。",
+    "全部适用公开接口、电源、模式和功能满足要求，证据绑定最终交付版本；ERC不替代功能。",
+    "PCB完成布局、必需网络实际布通及铺铜填充，SCH/PCB原生一致；DRC全severity零error零warning、ignored[]，保留更严适用工艺。",
+    "满足机械附件中的板框、厚度、铜层和外部接口相对姿态；内部布局和铜实现可自由决定。",
+    "真实输入故障消失，未受影响的正确电路、器件、铜与规则保持；允许必要的局部修复和本题明确要求的增量同步。"
+  ],
+  "edit_policy": {
+    "allowed": [
+      "schematic",
+      "pcb",
+      "project",
+      "necessary_local_dependencies"
+    ],
+    "preserve": [
+      "public_requirements",
+      "external_interfaces",
+      "mechanical_anchors",
+      "unaffected_valid_work"
+    ]
+  },
+  "mechanical_attachment": "mechanical.json"
+}

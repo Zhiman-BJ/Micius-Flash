@@ -1,0 +1,30 @@
+{
+  "schema": "public_delivery_requirements/v3",
+  "policy_id": "20261017-actual-prompt-delivery-integrity-v17",
+  "question": "Q412",
+  "layer": "R2",
+  "stage_count": 1,
+  "prompt_sha256": "d0d24cb090e29617ee878689cdbb3461dc759d4483dcaf50bf231be398bbe231",
+  "directory": "output",
+  "required_cad": [
+    "schematic",
+    "project",
+    "pcb"
+  ],
+  "required_notes": [
+    "design-notes.md"
+  ],
+  "validation": false,
+  "manufacturing": [
+    "gerber",
+    "drill",
+    "bom",
+    "positions"
+  ],
+  "verification_axes": [
+    "answer",
+    "structure",
+    "completion"
+  ],
+  "scope": "Actual public prompt only; input filenames and stale machine contracts add no delivery obligations; file presence grants no engineering PASS"
+}

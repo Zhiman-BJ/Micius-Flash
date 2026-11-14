@@ -1,0 +1,142 @@
+{
+  "schema": "actual_prompt_assessment/v1",
+  "question": "Q118",
+  "layer": "D2",
+  "stage_count": 1,
+  "prompt_sha256": "c2034ee5278430a8ca1490bd33d9aa40ffc7361d07447af094008d6afa1100f3",
+  "delivery": {
+    "schema": "public_delivery_requirements/v3",
+    "policy_id": "20261017-actual-prompt-delivery-integrity-v17",
+    "question": "Q118",
+    "layer": "D2",
+    "stage_count": 1,
+    "prompt_sha256": "c2034ee5278430a8ca1490bd33d9aa40ffc7361d07447af094008d6afa1100f3",
+    "directory": "output",
+    "required_cad": [
+      "schematic"
+    ],
+    "required_notes": [
+      "design-notes.md"
+    ],
+    "validation": false,
+    "manufacturing": [],
+    "verification_axes": [
+      "answer",
+      "structure",
+      "completion"
+    ],
+    "scope": "Actual public prompt only; input filenames and stale machine contracts add no delivery obligations; file presence grants no engineering PASS"
+  },
+  "axes": [
+    "answer",
+    "structure",
+    "completion"
+  ],
+  "criteria": [
+    {
+      "id": "a8dca3e5d15d856e5815",
+      "section": "目标",
+      "text": "为 TTGO T-Display 提供翻页显示系统控制接口。",
+      "line": 6
+    },
+    {
+      "id": "e42ef762f91ca2bef9f1",
+      "section": "你的工作",
+      "text": "从空工程开始，在公开资源约束内设计原理图，器件与内部连接自主决定。只交付原理图，不要求完成 PCB。",
+      "line": 9
+    },
+    {
+      "id": "d01f88702d42d59bb101",
+      "section": "必要要求",
+      "text": "为 TTGO T-Display 提供翻页显示系统控制接口。",
+      "line": 12
+    },
+    {
+      "id": "c356e682f27cafeb4f81",
+      "section": "必要要求",
+      "text": "原生网表中独立器件位号总数不超过 16。同位号多单元只计一次；这是题目资源约束，不能以删除必要功能来满足。",
+      "line": 13
+    },
+    {
+      "id": "722ad48fd6f5ed1a27ae",
+      "section": "必要要求",
+      "text": "本轮公开设计与验收边界",
+      "line": 15
+    },
+    {
+      "id": "ce5c47608a29fc6d37ba",
+      "section": "必要要求",
+      "text": "题面明确给出的功能、接口及附件优先；未固定的内部拓扑、器件选型和标称设计参数由你选择，并在 design-notes.md 与原理图中明确，使其能被重复核对。对外接口未固定针序时可自行定义并标清；修复题保留输入中的有效接口针号语义，允许有依据地修复损坏连接。",
+      "line": 16
+    },
+    {
+      "id": "c99815e545c0422e0467",
+      "section": "必要要求",
+      "text": "采用所声明的标称供电、负载和选定工作模式评估原理图功能；不追加未公开的实物认证、完整设备协议或隐藏阈值。修复题说明输入问题、局部差异与无关电路回归。",
+      "line": 17
+    },
+    {
+      "id": "366bdf4973d0e168535c",
+      "section": "必要要求",
+      "text": "验收证据由评测侧针对最终交付版本独立产生；生成模型无须交付原生 validation 报告，文件存在不代表功能通过。",
+      "line": 18
+    },
+    {
+      "id": "4be061ad3ea195946c05",
+      "section": "验收条件",
+      "text": "全部提交主文件可由 KiCad 10.0.6 打开，层级子页与使用到的本地依赖完整。",
+      "line": 25
+    },
+    {
+      "id": "2bce16330fca7c206efe",
+      "section": "验收条件",
+      "text": "评测侧在最终候选的私有副本上运行全 severity ERC，错误和警告均为零；不得降低规则、隐藏报警或新增豁免。",
+      "line": 26
+    },
+    {
+      "id": "974ff8d89819f1dbc780",
+      "section": "验收条件",
+      "text": "评测侧导出原生 XML 网表，检查本题公开接口、供电与功能要求。开放设计按功能等价验收，不按内部器件编号、网名或文件逐字相等判分。",
+      "line": 27
+    },
+    {
+      "id": "6d401c1ae2584fbcc037",
+      "section": "验收条件",
+      "text": "XML components/comp 的独立 ref 数量 ≤ 16，并同时满足全部功能。",
+      "line": 28
+    },
+    {
+      "id": "5238f79ecd468ae923b5",
+      "section": "验收条件",
+      "text": "检验模块供电及全部控制端口的电平与功能。",
+      "line": 29
+    },
+    {
+      "id": "462aa9f7f3e88e5b2b05",
+      "section": "验收条件",
+      "text": "目标模块与载板在针序、供电、电平、协议和装配方面兼容。",
+      "line": 30
+    },
+    {
+      "id": "fbc0d9c6bb21ac96ebbd",
+      "section": "验收条件",
+      "text": "仅验收本题公开的电路范围与工况，不附加完整设备协议、量产认证、未声明的实物测量或外部系统门槛。",
+      "line": 31
+    },
+    {
+      "id": "29906e048480e5230851",
+      "section": "交付内容",
+      "text": "output/ 内的完整工程与依赖：最终原理图、所有子页和必要本地库；影响检查的已有工程配置一并保留。",
+      "line": 34
+    },
+    {
+      "id": "2a18e17b5c0d4c7e45d3",
+      "section": "交付内容",
+      "text": "design-notes.md：设计依据；修复题补充诊断、改动范围和回归依据。",
+      "line": 35
+    }
+  ],
+  "authority": "Actual prompt and its explicitly referenced supplied attachments; stale machine briefs cannot add criteria",
+  "capture_is_scored": false,
+  "trace_collection_retained": true
+}

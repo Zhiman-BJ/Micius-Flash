@@ -1,0 +1,64 @@
+{
+  "origin_policy": "Numbered source interfaces, physical feature intent and nominal land geometry below are direct source/generator facts. All model/tolerance/load/acceptance choices explicitly curator benchmark conditions, not original author measurements, real-cell discharge curves, manufacturer LED ratings or as-built accuracy guarantees.",
+  "interfaces": {
+    "cell": "BT1positive feeds sourceVBAT andnegative GND; usefixture source below, not installedcell performance test.",
+    "continuity": "TP1.1=PROBE_A at D1 cathode tail; TP2.1=PROBE_B GNDnose. VBAT->R1nominal220ohm->redD1anode->D1cathode->TP1->externalresistor->TP2.",
+    "LEDtest": "TP3.1=LED+ fedVBATthroughR2nominal100ohm; TP4.1=LED- GND. Place externalLEDanodeatTP3,cathodeatTP4 forforward,reverse its orientation forreversecase.",
+    "mode_exclusivity": "Exercise one tester at a time; other port is physicallyopen. No simultaneous two-load gate or active standby circuitry."
+  },
+  "curator_electrical_fixture": {
+    "temperature_C": 25,
+    "source": "Ideal2.85/3.0/3.15V source inseries15ohm intoBT1 supply, commonGND. This is an explicitly selected cell-equivalent benchfixture, not a CR2032battery-life guarantee.",
+    "passives": "R1=220ohm±5%,R2=100ohm±5%; each at least0.125W rated. C1normal10uF capacitor open inDC; idealwires; wait forDC equilibrium.",
+    "LEDmodels": "Normalpiecewiseidealconstantthresholddiodes: I=0 for0<=V_AK<Vf; forwardconductingV_AK=Vf andI>=0; reverse1Gohm for|V_AK|<=3.15V,noavalancheinthisnominalmodel. OnboardredD1 Vf=1.6/1.9/2.2V. ExternaltestLED Vf=1.6/2.0/2.6V. No vendor curve/optical/color/thermal performance claim.",
+    "cases": "All3sourcevoltages, eachresistor0.95/1/1.05multiplier; continuity externalR=0/10/1000000ohm andopen; LEDtest eachVf inforward/reverse andexternalshortTP3TP4. Otherportopen throughout."
+  },
+  "electrical_acceptance": [
+    "Continuity with0or10ohm bridge: D1loopcurrent2.5..8mA; with1Mohm<=10uA; open<=1uA.",
+    "ExternalLEDforward:2..17mA atallselectedcorners; reverse<=1uA withdeclaredorientation/sourcepolarity. ExternalLEDportshort:current<=30mA andR2dissipation<=0.125W.",
+    "R1/R2dissipation<=0.125W inallcorrespondingcases; preservecell/port polarity and independentpaths, no source-to-GND directshort. LEDcurrent is electrical predicate; no visible-light or actualcell life proof."
+  ],
+  "geometry_and_label_fixture": {
+    "scope": "CADnominalgeometryonlywhere actualpublicPCB/mechanicaltaskrequiresit; R1schematictaskdoesnotinheritthis. UsefrontPCB+x coordinate increasingright, mirroredbackreadorientation declared; measurefromticks,notroutededge. Noas-builtmetrologycertificate.",
+    "outline": "Sourceoutlinebbox156.1x56.0mm, nominal1.6mmFR4/twolayers, declared purplemask/whitesilk/ENIG fabricationintent. Benchmarkbboxdimensions±0.2mm; sourceoutlineidentity/roundedminradius1.5mm retainedwhere applicable. No unknownenclosurefit.",
+    "metric": "Zero-tick center is source x=6.0mm. 151tickcenters n=0..150 at x=6+n mm, cumulativepositionerrorfromzerotick<=0.15mm. Major10mm,medium5mm,other1mmteeth nominal4/3/2mm long; cmnumbers0..15 mustmatch. Gold comb inset0.6mmfrommeasuringedge.",
+    "inch": "Backside zero center sourcefrontx=156.0mm, readfromback. Tick k=0..47 at x=156-3.175*k mm (sourcegeneratorbreakexcludesk48 belowx4.5). Cumulativedistanceerrorfromownzerotick<=0.15mm; labelwholeinchesat8tickintervals0..5. Do not forcebackzeroticktofrontzerotick.",
+    "passive_gauges": [
+      {
+        "name": "0402",
+        "land_width_mm": 0.5,
+        "land_height_mm": 0.6,
+        "inner_gap_mm": 0.9
+      },
+      {
+        "name": "0603",
+        "land_width_mm": 0.8,
+        "land_height_mm": 0.9,
+        "inner_gap_mm": 1.6
+      },
+      {
+        "name": "0805",
+        "land_width_mm": 1.0,
+        "land_height_mm": 1.3,
+        "inner_gap_mm": 1.9
+      },
+      {
+        "name": "1206",
+        "land_width_mm": 1.15,
+        "land_height_mm": 1.7,
+        "inner_gap_mm": 2.9
+      }
+    ],
+    "SOT23_gauge": "Three0.6x1.0mmrectlands centeredrelativegaugeorigin at(-0.95,+1.1),(+0.95,+1.1),(0,-1.1)mm, sourcegenerator dimensions not newmanufacturerpackageguarantee. Landwidth/height/gap/relativecenterCADtolerance±0.05mm, correctlabelsadjacent.",
+    "holes": "H1M2=2.2,H2M2.5=2.7,H3M3=3.2,H4M4=4.3mm drilleddiameter±0.1mm; correctholelabelsadjacent. Noactualscrewfitclaim.",
+    "colourcode": "Readfromback:black0,brown1,red2,orange3,yellow4,green5,blue6,violet7,grey8,white9; goldmultiplierx0.1/tolerance5%,silverx0.01/tolerance10%, legiblecorrecttext. Correctdimension/rolelabels retained, no opticalscannerorQRnetworkrequirement."
+  },
+  "scope_control": {
+    "R1": "Actualpublicschematic/ERC/electricalnominalsubsetonly. NoPCB/gauges/manufacturing/cellretention/consumerproductcertification/optical/electrochemical measurement hidden gates.",
+    "R2": "ActualpublicPCBprompt defines suppliedinput/geometry/manufacturing obligations and applicable fullDRC/refill/parity/unrouted/fullpad-hole-layer-net checks. R1approvalnevergrantsR2.",
+    "prototype": "BenchCAD/electricalprototype. Sourceunbuiltstatement is retained; storefrontcopy is not fabrication, cellcapacity, sales/compliance or certifiedaccuracy evidence. No cancelledmissingconditionsfile/criterion."
+  },
+  "task_id": "NEW63_665e94bb3f713fa72445722f_D3",
+  "layer": "D3",
+  "scope_endpoint": "pcb"
+}

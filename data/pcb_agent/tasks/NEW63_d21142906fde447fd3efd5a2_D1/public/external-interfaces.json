@@ -1,0 +1,7 @@
+{
+  "interfaces": {
+    "J1.1": "RF input to FL2.1",
+    "J2.1": "RF output from FL2.3",
+    "J1.2/J2.2/FL2.2/FL2.4": "common RF ground"
+  }
+}

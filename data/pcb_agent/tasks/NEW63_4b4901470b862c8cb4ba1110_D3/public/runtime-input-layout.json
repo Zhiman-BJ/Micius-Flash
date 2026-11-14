@@ -1,0 +1,66 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial/source",
+  "primary_schematic": "initial/source/MCLB.kicad_sch",
+  "source_manifest_sha256": "6bbda0c1016e4393a476b3ac0691b8155f5210cb3fcfea94d61e7d42bd42812b",
+  "public_attachments_readonly": "/task",
+  "initial_files": {
+    "initial/source/MCLB.kicad_pcb": {
+      "sha256": "fa0fc5c223ba6d76336a646af13e818b78dedc1c067d6e9d62c87ee6d90cc6df",
+      "bytes": 4027
+    },
+    "initial/source/MCLB.kicad_pro": {
+      "sha256": "8d4436fbbac4839ff5ad732e82537c9a1270055be5937eb4c48ca51cb7507256",
+      "bytes": 17142
+    },
+    "initial/source/MCLB.kicad_sch": {
+      "sha256": "f896881b76bed1519be937e005e665603b3559bf91c8c93cd7aa71724243910e",
+      "bytes": 68830
+    },
+    "initial/source/external-interfaces.json": {
+      "sha256": "a929b2b0ad6882080dab4c04752b5f1eb75c32fbb43f254c8bf616d6f18369ee",
+      "bytes": 431
+    },
+    "initial/source/input-contract.json": {
+      "sha256": "5094d716d5dcbc60a16ab8359e91a1601babfc74c5e4ca17329dffc6c7f8f667",
+      "bytes": 296
+    },
+    "initial/source/prompt.txt": {
+      "sha256": "df46ecba87fa402d77c9b01785f7b7e67d0227c0c0e8d7d013f769ebaf74e840",
+      "bytes": 1364
+    },
+    "initial/source/public-requirements.json": {
+      "sha256": "5d9fd0f3cfdb3182af95024612d43853816dbf227080a819813ed354072d899c",
+      "bytes": 31454
+    },
+    "initial/source/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "bc29940d2fe2de473d5b4138767f2e815024715809076f1a9903cf73e2730449",
+      "bytes": 3641
+    },
+    "initial/source/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym": {
+      "sha256": "f35c0c8cceed13dc91b841925f9458f403657491165f527ad7e01c1a45c25ec4",
+      "bytes": 12300
+    },
+    "initial/source/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym": {
+      "sha256": "62c75ea907603480bbdf41c80724f2a2b536e8018bb855c79bd25cd5c7ec6545",
+      "bytes": 5272
+    },
+    "initial/source/repair-owned-symbols/93dc90ab0adda2cb2d7efcfe2f8b31d67d8990ad1d14940c2021512f74b41a33.kicad_sym": {
+      "sha256": "2f94ffc50435cf5e762af91675218f3f2d28184be58fbe2734b50494b8fa5baf",
+      "bytes": 3930
+    },
+    "initial/source/repair-owned-symbols/erc-supply-annotation.kicad_sym": {
+      "sha256": "bf8de39d0dd81ded966e66fd45f0cbbd571ca17ae68d0b2172b09d5234d9ea37",
+      "bytes": 1834
+    },
+    "initial/source/repair-owned-symbols/ff20e74776df948228801699b2c2fd0c89267c79795adce3b20f47b317943359.kicad_sym": {
+      "sha256": "29acb069b2d07514aebdf61287f61ed9d8c89ff08589fd6ef2b2674499cf0719",
+      "bytes": 6230
+    },
+    "initial/source/sym-lib-table": {
+      "sha256": "9af15c05017c9586ba44c59085ef0287c22fd9b42f6808984428ac433f8b38ba",
+      "bytes": 1505
+    }
+  },
+  "scope": "Only authorized public input; no private reference, fault recipe or prior candidates"
+}

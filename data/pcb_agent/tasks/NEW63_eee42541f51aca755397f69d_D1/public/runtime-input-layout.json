@@ -1,0 +1,38 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial",
+  "primary_schematic": "initial/board.kicad_sch",
+  "source_manifest_sha256": "2cdec786c2c9e4762b7e6479daf19210a6cdfbe1a89c70b3c0a15ed1fedc63f3",
+  "public_attachments_readonly": "/task",
+  "initial_files": {
+    "initial/board.kicad_pro": {
+      "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+      "bytes": 124
+    },
+    "initial/board.kicad_sch": {
+      "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+      "bytes": 154
+    },
+    "initial/external-interfaces.json": {
+      "sha256": "2c05359427a634559586cd8c2c597ce0de772fdf7351d3bcb6d06c5262b36e15",
+      "bytes": 178
+    },
+    "initial/input-contract.json": {
+      "sha256": "fe45b91718309dd70ab0962bb207862153bfdd5701ade113249002263cb5adb4",
+      "bytes": 336
+    },
+    "initial/input-layout.json": {
+      "sha256": "fe45b91718309dd70ab0962bb207862153bfdd5701ade113249002263cb5adb4",
+      "bytes": 336
+    },
+    "initial/prompt.txt": {
+      "sha256": "e98fa6dcf4bbde58259a6f0e747ef8928d8e069e74c97a07e99d81f806887cb2",
+      "bytes": 1337
+    },
+    "initial/public-requirements.json": {
+      "sha256": "faeeddb526462e6f43a894d191d5243a1d7ace5e21e70df4cd1d9db04ab362b6",
+      "bytes": 7137
+    }
+  },
+  "scope": "Only authorized public input; no private reference, fault recipe or prior candidates"
+}

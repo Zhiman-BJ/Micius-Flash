@@ -1,0 +1,86 @@
+{
+  "schema": "input_only_fast_track.input_manifest/v1",
+  "task_id": "NEW63_d4e6baf431cdeda3cbc21da1_R1",
+  "board_id": "d4e6baf431cdeda3cbc21da1",
+  "layer": "R1",
+  "stage": "schematic",
+  "input_prepared": true,
+  "direct_kimi_ready": false,
+  "engineering_qualified": false,
+  "task_admitted": false,
+  "source_unqualified": true,
+  "working_directory": "initial",
+  "primary_schematic": "initial/ATMega328_breakout.kicad_sch",
+  "dependency_closure": [
+    "initial/ATMega328_breakout.kicad_pro",
+    "initial/ATMega328_breakout.kicad_sch",
+    "initial/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+    "initial/repair-owned-symbols/db45241fb78a38941f4ad7c0731ef5919aabc818f00e875747ddb656350534d0.kicad_sym",
+    "initial/sym-lib-table"
+  ],
+  "files": {
+    "public-requirements.json": {
+      "sha256": "66d4cabce3878cafa38386d36f6500ec3e3eac1285178a394d88ae93fe12cffa",
+      "bytes": 9836,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "external-interfaces.json": {
+      "sha256": "9c293591bcc1c31f4397782c20e8edf8532d70532771cf810b6f96b8e0039911",
+      "bytes": 2936,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "initial/ATMega328_breakout.kicad_sch": {
+      "sha256": "81e9d74e747faf867b1128f9730ed11cff109b61948a4b81e7a45cdce4b9aa32",
+      "bytes": 52764,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "initial/ATMega328_breakout.kicad_pro": {
+      "sha256": "9fd7992e025f25d80d7ae9dc00e14d4733f4ec2dadba766765ffd14869eea641",
+      "bytes": 9460,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "initial/sym-lib-table": {
+      "sha256": "1e4c7f3ee09fbf54cfe0b64431cb9d3a5756e7fce34e3a77ccbc7910f254d0de",
+      "bytes": 534,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "initial/repair-owned-symbols/db45241fb78a38941f4ad7c0731ef5919aabc818f00e875747ddb656350534d0.kicad_sym": {
+      "sha256": "96248b197624dee69440eb33b379d6a4cb554426a4a3ff40288785e6dcf4fe49",
+      "bytes": 15396,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "initial/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "6d05a367fdcc60f3a47abb40fcb269474d959b51451bd1248177e371602500a2",
+      "bytes": 5544,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "prompt.txt": {
+      "sha256": "d108aa81114a754d02ca5428d34c5719c956a599cd022d29c70f25971f22beaa",
+      "bytes": 1410,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "delivery-requirements.json": {
+      "sha256": "b76a48edf6f91b2709eca0dc7270476309a90cbe1fe45ae20833043bfd9b3175",
+      "bytes": 521,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "input-contract.json": {
+      "sha256": "63a39f337661dada453ea293ebdc776dc12f786d040535ccf04347304d34f052",
+      "bytes": 362,
+      "source_role": "public_requirement",
+      "model_visible": true
+    }
+  },
+  "Native": "NOT_RUN",
+  "model_requests": 0,
+  "positive_negative_and_completion": "DEFERRED_TO_FINAL_EVALUATOR"
+}

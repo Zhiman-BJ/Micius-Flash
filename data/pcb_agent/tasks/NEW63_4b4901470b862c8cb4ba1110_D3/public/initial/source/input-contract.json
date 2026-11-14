@@ -1,0 +1,11 @@
+{
+  "task_id": "NEW63_4b4901470b862c8cb4ba1110_D3",
+  "layer": "D3",
+  "stages": 1,
+  "project_root": "initial/source",
+  "initial_primary": {
+    "schematic": "initial/source/MCLB.kicad_sch"
+  },
+  "input_mode": "given_schematic",
+  "final_engineering_judgment": "DEFERRED_TO_FINAL_EVALUATOR"
+}

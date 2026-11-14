@@ -1,0 +1,137 @@
+{
+  "origin": "新版题目采用旧公开条件的机械约束；不等于实板制造合格证据",
+  "outline_primitives": [
+    [
+      "gr_line",
+      [
+        "start",
+        "72.5",
+        "57.5"
+      ],
+      [
+        "end",
+        "172.5",
+        "57.5"
+      ],
+      [
+        "stroke",
+        [
+          "width",
+          "0.1"
+        ],
+        [
+          "type",
+          "default"
+        ]
+      ],
+      [
+        "layer",
+        "Edge.Cuts"
+      ]
+    ],
+    [
+      "gr_line",
+      [
+        "start",
+        "72.5",
+        "97.5"
+      ],
+      [
+        "end",
+        "72.5",
+        "57.5"
+      ],
+      [
+        "stroke",
+        [
+          "width",
+          "0.1"
+        ],
+        [
+          "type",
+          "default"
+        ]
+      ],
+      [
+        "layer",
+        "Edge.Cuts"
+      ]
+    ],
+    [
+      "gr_line",
+      [
+        "start",
+        "172.5",
+        "57.5"
+      ],
+      [
+        "end",
+        "172.5",
+        "97.5"
+      ],
+      [
+        "stroke",
+        [
+          "width",
+          "0.1"
+        ],
+        [
+          "type",
+          "default"
+        ]
+      ],
+      [
+        "layer",
+        "Edge.Cuts"
+      ]
+    ],
+    [
+      "gr_line",
+      [
+        "start",
+        "172.5",
+        "97.5"
+      ],
+      [
+        "end",
+        "72.5",
+        "97.5"
+      ],
+      [
+        "stroke",
+        [
+          "width",
+          "0.1"
+        ],
+        [
+          "type",
+          "default"
+        ]
+      ],
+      [
+        "layer",
+        "Edge.Cuts"
+      ]
+    ]
+  ],
+  "external_anchors": [
+    {
+      "reference": "J1",
+      "footprint": "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal",
+      "x_mm": 83.75,
+      "y_mm": 82.29,
+      "rotation_deg": -90.0
+    }
+  ],
+  "anchor_position_tolerance_mm": 0.1,
+  "anchor_rotation_tolerance_deg": 1,
+  "copper_layers": 2,
+  "thickness_nominal_mm": 1.6,
+  "manufacturing_minimums": {
+    "track_width_min_mm": 0.127,
+    "clearance_min_mm": 0.127,
+    "via_drill_min_mm": 0.3,
+    "via_diameter_min_mm": 0.6
+  },
+  "additional_requirement": "不得降低给定工程更严格的规则；载流、阻抗和机械配接须另有适用工况与证据。"
+}

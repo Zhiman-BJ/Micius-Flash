@@ -1,0 +1,75 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial/RFID KICAD",
+  "primary_schematic": "initial/RFID KICAD/RFID KICAD.kicad_sch",
+  "public_attachments_readonly": "/task",
+  "working_public_copies_mutable": true,
+  "initial_files": {
+    "initial/RFID KICAD/RFID KICAD.kicad_pro": {
+      "sha256": "cc7b2c29403514c89025ca1ff2bfec27bb70017c344371a3ea12b46e6aca6ac2",
+      "bytes": 15522
+    },
+    "initial/RFID KICAD/RFID KICAD.kicad_sch": {
+      "sha256": "a74d4266e503b7a27b76b70e0832267bb7ff549bcf07c8a8142ac56f04efe58c",
+      "bytes": 107848
+    },
+    "initial/RFID KICAD/external-interfaces.json": {
+      "sha256": "02db65048e9641ae0a4e226752dec062d9ffa1b86a57f2bca364cc08280027d7",
+      "bytes": 20346
+    },
+    "initial/RFID KICAD/input-contract.json": {
+      "sha256": "92f9fe5d768d042ff8bf234b068bba09b8e6074a1dc33e2f34bf627f23e983dc",
+      "bytes": 379
+    },
+    "initial/RFID KICAD/prompt.txt": {
+      "sha256": "493ccb9d6195eba28e44f92e0bac40d155c1f2d4d585a9f3a883811ef96de239",
+      "bytes": 1405
+    },
+    "initial/RFID KICAD/public-requirements.json": {
+      "sha256": "c874781d4f3b79bbd77e0ef8d1cf0cac0f231ab3b2a42740a3fffe84c22e1d0a",
+      "bytes": 23930
+    },
+    "initial/RFID KICAD/repair-owned-symbols/044f223410431621bdfd9c950ea23bfd7758fb9e7ff0579d534206373b8739dc.kicad_sym": {
+      "sha256": "27d4c155866d1e3cebf67da4b0ffe3ae4af79785a6c0f73180b46d78dc6c634a",
+      "bytes": 3999
+    },
+    "initial/RFID KICAD/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "d3bc5f4e414b2b65617363963287a2792d7fbb4c4585b3b6cae25edace802a08",
+      "bytes": 3616
+    },
+    "initial/RFID KICAD/repair-owned-symbols/49f45f9c272fce628d75767f6c4a11a4a74a4923d14f3920efa900951edd8e9f.kicad_sym": {
+      "sha256": "00b6861068c8bf2474d653ed3c158684a5bcd2f8a0dbaef2a10f802b3b0a4a3e",
+      "bytes": 5614
+    },
+    "initial/RFID KICAD/repair-owned-symbols/4f6d6c0025602d5b86ba1339ffba5190bdbf25ad44cf09e80f9997968536a1da.kicad_sym": {
+      "sha256": "305530f84dee2a05575b59d9f383c3e94790ab67c883280f6b63f19de3481707",
+      "bytes": 5295
+    },
+    "initial/RFID KICAD/repair-owned-symbols/735a26d7c45ff8617296b0a8d717421eb6dccb37b9643414ec01b25e05c3d5ce.kicad_sym": {
+      "sha256": "d55f5478e569999e62f252bab8114cc97fa15f961273ffede5d25ae2898d41c8",
+      "bytes": 9512
+    },
+    "initial/RFID KICAD/repair-owned-symbols/a07c3a70a4d5b7b817e8dc5f687dd774108a8b57f30fcbee0a709de86c80dde5.kicad_sym": {
+      "sha256": "53ac34afdf42ff4fd914a1a63d14735c2e337c4dec96733219bcc3ff3ef9a990",
+      "bytes": 6534
+    },
+    "initial/RFID KICAD/repair-owned-symbols/a212c8bd4d8f0decd399bf58c1fac7f24739df4a01f4463f663ac5e3d78755c0.kicad_sym": {
+      "sha256": "757e06dc90b1b4e225489c012de44bba461f0a77f5ef679efb5b1f594cfb7931",
+      "bytes": 4810
+    },
+    "initial/RFID KICAD/repair-owned-symbols/f485cfe452efbaf6a0d223824421ad5c848f6c07f792f326ce58eff1682490aa.kicad_sym": {
+      "sha256": "a2165b53c06b04f52079e2d667ea68a48b60b0441d7d396cd3fdb26a173d57e9",
+      "bytes": 6046
+    },
+    "initial/RFID KICAD/repair-owned-symbols/f85e2fc4d733fef19d54fc26fe7a10f4bc96c4f24b68c682412fe2dfefdf4510.kicad_sym": {
+      "sha256": "64ff34a7ecc5edaca48af2664c3be2670c4e22f4c8b38fa8f57a9dbf001e1457",
+      "bytes": 6026
+    },
+    "initial/RFID KICAD/sym-lib-table": {
+      "sha256": "aaedea7137bcf1e5c4f34c34bbc9e6836818e4a032d384049d58e464fc304fd0",
+      "bytes": 2333
+    }
+  },
+  "source_manifest_sha256": "94d29817bd96379c73336c16a3efd7261c75eedc84c8856a4e14fd7c17807eea",
+  "scope": "Original public prompt, public attachments and actual initial CAD only; no source/gold/fault recipe/curator/controller paths mounted."
+}

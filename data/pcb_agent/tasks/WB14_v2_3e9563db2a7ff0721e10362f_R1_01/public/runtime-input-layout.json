@@ -1,0 +1,70 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial/LoRA_based",
+  "primary_schematic": "initial/LoRA_based/LoRA_based.kicad_sch",
+  "source_manifest_sha256": "86b87dca45b54bfb91a3af334e8db2a0f09a3e8cccba165e215f991c4e6dceb8",
+  "public_attachments_readonly": "/task",
+  "initial_files": {
+    "initial/LoRA_based/LoRA_based.kicad_pro": {
+      "sha256": "c58c7b9f42fe08cb05a36c049c5fa9e66f394caec5d96fc2712302a172056d06",
+      "bytes": 11038
+    },
+    "initial/LoRA_based/LoRA_based.kicad_sch": {
+      "sha256": "6cd3ddd192169af03c6e10092a67319974d131f8c40998790ff4d2cc251d63cb",
+      "bytes": 91551
+    },
+    "initial/LoRA_based/external-interfaces.json": {
+      "sha256": "8225712874f7a7b503992ee666211ea09faf6a7f4b90ea983cec38ba77f2c982",
+      "bytes": 5444
+    },
+    "initial/LoRA_based/prompt.txt": {
+      "sha256": "988986102840206b2c49ab3b7cdf23c575d0ecbfc88672c11abd8b596e0c4150",
+      "bytes": 2279
+    },
+    "initial/LoRA_based/public-requirements.json": {
+      "sha256": "02c5855adffb255230ef51afc6a403f932b541d822993df2a67f4a45d95a90af",
+      "bytes": 2431
+    },
+    "initial/LoRA_based/repair-owned-symbols/39921a740bf2b67802a2042e1f87e9dec566131c2458aba5683e2827ced0d2c3.kicad_sym": {
+      "sha256": "650beb4ee58eda52928926b1eb0ad8b11dedaacc9ad1334bb4d3a920c38c9814",
+      "bytes": 2474
+    },
+    "initial/LoRA_based/repair-owned-symbols/39bf205ed033228fefade2789181da5c5cf74d5ffb536d7e57c789d95806562d.kicad_sym": {
+      "sha256": "e1c7d12a717aee88c0ac30673c5974801fdc9d1dab154a654fbd619669df1a59",
+      "bytes": 1631
+    },
+    "initial/LoRA_based/repair-owned-symbols/498785455dcb5a9e49d815731ead0399021427b333d2b29c79075525c12c2c17.kicad_sym": {
+      "sha256": "673826a8a1203cb9c0fe5ab7ebde84ab135d26e352553805c6680d89dd828ba7",
+      "bytes": 4198
+    },
+    "initial/LoRA_based/repair-owned-symbols/5dff5b22e26211668c96e1b3d37d0a751fb3aac1bda7038ca442d4a319bf4009.kicad_sym": {
+      "sha256": "a4461f38af04f2db67f1a4dbdd24777377187be4560d16293f9419f835c5e293",
+      "bytes": 8811
+    },
+    "initial/LoRA_based/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym": {
+      "sha256": "db1dd3eb60dbcc9e239d107e2d123ee253aefdd841186076e9df39444d4e11c7",
+      "bytes": 2106
+    },
+    "initial/LoRA_based/repair-owned-symbols/c214f705739b430b97e1c51fe5e329175867917d0a5435c19daac335875d6d17.kicad_sym": {
+      "sha256": "f70f1a3fb5ceacc46f08f5d8a47e286b0f1edd7e76ceb440cc6103d372225b17",
+      "bytes": 10119
+    },
+    "initial/LoRA_based/repair-owned-symbols/feather-generic-standard-3V3-output.kicad_sym": {
+      "sha256": "5c07d6bffcd84b5e321630c11433bb6d4e7fd906c0d7d678c6e82c97a28eeaed",
+      "bytes": 9401
+    },
+    "initial/LoRA_based/repair-owned-symbols/feather-standard-USB-BAT-output-roles.kicad_sym": {
+      "sha256": "da3f9d1e8c6050075d279afa787084a063254049c85243bee1bac39f53b60f98",
+      "bytes": 9406
+    },
+    "initial/LoRA_based/repair-owned-symbols/lora-common-ground-boundary.kicad_sym": {
+      "sha256": "b012350668c1d8234730e52778d1dade9ef6473ef253770a0f223587cb655c65",
+      "bytes": 1846
+    },
+    "initial/LoRA_based/sym-lib-table": {
+      "sha256": "2f0fce914b0cdc9dbae4da05f91b3d770135f47bae3cb3224c5a9480f34aa143",
+      "bytes": 2269
+    }
+  },
+  "scope": "Only authorized public input; no private reference, fault recipe or prior candidates"
+}

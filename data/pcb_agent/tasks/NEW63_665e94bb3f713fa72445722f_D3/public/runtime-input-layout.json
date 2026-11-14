@@ -1,0 +1,58 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial/kicad",
+  "primary_schematic": "initial/kicad/ruler_dino.kicad_sch",
+  "source_manifest_sha256": "b5ae37c9d4ee4d4a2dfdeea31021921b402458464c1b5bce10216b9926225d1c",
+  "public_attachments_readonly": "/task",
+  "initial_files": {
+    "initial/kicad/external-interfaces.json": {
+      "sha256": "3091c3be97b0c646186172ac6e02e410c82c6be83cfa3e0407ea9d2cd20376c8",
+      "bytes": 614
+    },
+    "initial/kicad/input-contract.json": {
+      "sha256": "9bdd580b9ae2edf524560102a26f970cca0e6d02985e81bb2ce15099f543e2e1",
+      "bytes": 407
+    },
+    "initial/kicad/prompt.txt": {
+      "sha256": "32e09168650fa0d80dac396d0cd19524e8054024398586da76ad3b35c344fdcc",
+      "bytes": 1415
+    },
+    "initial/kicad/public-requirements.json": {
+      "sha256": "40e92d6a19c72620a774d8e9dfa84f25a95182a23b749e849c8f3b0fc191c6f1",
+      "bytes": 5376
+    },
+    "initial/kicad/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "72de738cff6de4e8b182051dc62222776eaaa8f1989e07b4d71bf438a4063bff",
+      "bytes": 5604
+    },
+    "initial/kicad/repair-owned-symbols/39bf205ed033228fefade2789181da5c5cf74d5ffb536d7e57c789d95806562d.kicad_sym": {
+      "sha256": "e7fcef9afbddcad8416f3fa33b127ccc1d26ef70f9d5d4da1dbb963411645010",
+      "bytes": 1630
+    },
+    "initial/kicad/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym": {
+      "sha256": "fb7609c541aa050bbdb22612ef9a8e6d85bc95bd4d282e14e7c2e85e15968101",
+      "bytes": 10550
+    },
+    "initial/kicad/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym": {
+      "sha256": "e983b0d2c450bc8c517b5bd83873bbe060f9e11e71dbb07951765a1b54f39a8e",
+      "bytes": 1915
+    },
+    "initial/kicad/ruler_dino.kicad_pcb": {
+      "sha256": "937a9c4e906ff21a9585877f306e15f721d57177cb811c16766906bf54ae991d",
+      "bytes": 50215
+    },
+    "initial/kicad/ruler_dino.kicad_pro": {
+      "sha256": "826a0964da27f7738b4c09dfcd931e7e8c4dd4e4d52f97dbd5505399205b37b5",
+      "bytes": 9777
+    },
+    "initial/kicad/ruler_dino.kicad_sch": {
+      "sha256": "f5e7dd6e95391fbfef8d4625fb4acc272e5990af94f53afb6daf6532245bb07d",
+      "bytes": 62718
+    },
+    "initial/kicad/sym-lib-table": {
+      "sha256": "10ccf0e9899d900ad8c2be85dea1483c17fef4e4e52ac0370d9367f5e18c85ea",
+      "bytes": 1031
+    }
+  },
+  "scope": "Only authorized public input; no private reference, fault recipe or prior candidates"
+}

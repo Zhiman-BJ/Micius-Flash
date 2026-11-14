@@ -1,0 +1,30 @@
+第 NEW63_3b3b0595cb8ec682e670aca9_R1 题：SAMD-UPDI-breakaway（R1）
+
+目标
+- 完成 public-requirements.json 所列用途、接口、供电、模式及可观察功能。
+
+你的工作
+- 检查并局部修复输入原理图，保留其余公开功能。
+- 接受满足公开要求的不同合法内部实现；不按参考文件、私有坐标或内部网名逐字评分。
+
+必要要求
+- 以 public-requirements.json 的完整公开条件为准；其中外部器件/状态夹具和curator模型不自动成为厂家跨条件保证。
+- 工程依赖保持可打开，不降低规则或新增豁免，不伪造报告。
+
+输入文件
+- public-requirements.json
+- external-interfaces.json
+- initial/：实际起始CAD及依赖，主原理图 initial/SAMD-UPDI-breakaway.kicad_sch
+
+输入方式
+- 检查并局部修复输入原理图，保留其余公开功能。
+
+验收条件
+- 使用KiCad10.0.6检查最终工程，原理图全severity ERC以及本阶段适用DRC零error零warning、ignored[]。
+- 当前工程满足公开接口、供电、模式与功能；静态检查不替代功能。
+- 本题终点为原理图，不要求PCB、制造或完整外部系统协议。
+
+交付内容
+- output/ 内的完整工程与依赖
+- validation/：与最终工程绑定的适用检查和功能证据
+- changes.md：设计或修复说明、依据和适用范围

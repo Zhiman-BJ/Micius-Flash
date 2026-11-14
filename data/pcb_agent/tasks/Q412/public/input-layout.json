@@ -1,0 +1,79 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial",
+  "primary_schematic": "initial/sheet011.kicad_sch",
+  "public_attachments_readonly": "/task",
+  "working_public_copies_mutable": true,
+  "initial_files": {
+    "initial/.local-libraries/footprints/5a090a50cb27380d.pretty/wire2board_smt_justin.kicad_mod": {
+      "sha256": "eae9ee07ac38596af60f205c8260af574e103786e8e0cd3a9c0b4dabad0b466a",
+      "bytes": 1972
+    },
+    "initial/.local-libraries/footprints/ebf646f3cc26760f.pretty/MountingHole_3.2mm_M3.kicad_mod": {
+      "sha256": "616eeb6a0ea1c1b316080e34e214b58d3d09755732268693770676fef4484414",
+      "bytes": 1581
+    },
+    "initial/.local-libraries/instances.pretty/instance_0e79ab295d8b4a42b4f01327eb02b221.kicad_mod": {
+      "sha256": "71758144fcfc3fa24ffcf7717aeb09003f878ce373e2d8a29ce818675d2dc911",
+      "bytes": 4372
+    },
+    "initial/.local-libraries/instances.pretty/instance_3e461d53f96b478999e7acc31965e5e0.kicad_mod": {
+      "sha256": "b80439daf512fda3d6c9e8b349fbdd976ee2453a56d5f52d81ee30432017e90b",
+      "bytes": 4367
+    },
+    "initial/.local-libraries/instances.pretty/instance_525ea9b3c9bc4c9e93ca39feb238984a.kicad_mod": {
+      "sha256": "8e2ec6426bec2b5127246f524fb967a99d4bec9ba927c72ea9419b448348a449",
+      "bytes": 4361
+    },
+    "initial/.local-libraries/instances.pretty/instance_5a85b65f2a1d454e9519b1210b6f8918.kicad_mod": {
+      "sha256": "e9b9e19d4ca20e21f4691b341d3abd6e03c4a8e301332e60d30313f1370e4991",
+      "bytes": 4357
+    },
+    "initial/.local-libraries/instances.pretty/instance_f31be4f1b80941f1a17a038bee12d244.kicad_mod": {
+      "sha256": "15c5d0319a9187dc99446b9eef4ce796faa2e0dc65b7098c59c9421d07ef583a",
+      "bytes": 4365
+    },
+    "initial/.local-libraries/symbols/library15d41a16e7ce.kicad_sym": {
+      "sha256": "5ec37e4f8fc2fb319838a7647917b2680f07b9d0fa0a265eb185048ba93ac951",
+      "bytes": 1761
+    },
+    "initial/.local-libraries/symbols/library46b77ea12f62.kicad_sym": {
+      "sha256": "9f24a1e7ebf6a4603a3041c6e357b9c46c624e39e5ed765aa2889ee001da6850",
+      "bytes": 1232
+    },
+    "initial/.local-libraries/symbols/library78e8ad2f1720.kicad_sym": {
+      "sha256": "b83b2bf3ebea28e29e9cd25bd65c5fa17d1df07be8603663178caa646f1b0cbd",
+      "bytes": 2483
+    },
+    "initial/assessment-requirements.json": {
+      "sha256": "671d94b1676bfd9df8ea3e1f70f0686baf79a69a9cee3643d1bd0d0559131ee2",
+      "bytes": 6241
+    },
+    "initial/fp-lib-table": {
+      "sha256": "e91efa20244391b3023da7975fbc60f25d45be28ade1d74860abadac2611d891",
+      "bytes": 421
+    },
+    "initial/input-contract.json": {
+      "sha256": "5d19eea9a02159edacee2eef97519a2ca8ca906dfd345c32c3688c259edb358a",
+      "bytes": 453
+    },
+    "initial/prompt.txt": {
+      "sha256": "d0d24cb090e29617ee878689cdbb3461dc759d4483dcaf50bf231be398bbe231",
+      "bytes": 3230
+    },
+    "initial/sheet011.kicad_pro": {
+      "sha256": "500675e54076c452fc8ee013d6ee24eaf6bf68d8e11cdcf40964e37a75b0bc84",
+      "bytes": 17074
+    },
+    "initial/sheet011.kicad_sch": {
+      "sha256": "fa5bad69a57bc3a4ea468c29a4d8cca843f1846379b198914c4c0ae0fddac15f",
+      "bytes": 21357
+    },
+    "initial/sym-lib-table": {
+      "sha256": "ebb6e3ceb21a483f60d37e2e1ec9351085744a0e0c77f8d7d8256ed793c99fb2",
+      "bytes": 451
+    }
+  },
+  "source_manifest_sha256": "6b9352ed15b8bec01e6bfe5cce8d2d5240ed0bb3e54d58ce56c97ca726fc7996",
+  "scope": "Original public prompt, public attachments and actual initial CAD only; no source/gold/fault recipe/curator/controller paths mounted."
+}

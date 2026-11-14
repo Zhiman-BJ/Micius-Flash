@@ -1,0 +1,985 @@
+{
+  "thickness_mm": 1.6,
+  "copper_layers": [
+    "F.Cu",
+    "B.Cu"
+  ],
+  "Edge_Cuts": [
+    {
+      "primitive": "gr_line",
+      "geometry": [
+        "gr_line",
+        [
+          "start",
+          "163.5",
+          "118"
+        ],
+        [
+          "end",
+          "110",
+          "118"
+        ],
+        [
+          "locked",
+          "yes"
+        ],
+        [
+          "stroke",
+          [
+            "width",
+            "0.1"
+          ],
+          [
+            "type",
+            "default"
+          ]
+        ],
+        [
+          "layer",
+          "Edge.Cuts"
+        ]
+      ],
+      "frame": "board",
+      "footprint_at_mm_deg": null,
+      "footprint_side": null
+    },
+    {
+      "primitive": "gr_line",
+      "geometry": [
+        "gr_line",
+        [
+          "start",
+          "110",
+          "84"
+        ],
+        [
+          "end",
+          "163.5",
+          "84"
+        ],
+        [
+          "locked",
+          "yes"
+        ],
+        [
+          "stroke",
+          [
+            "width",
+            "0.1"
+          ],
+          [
+            "type",
+            "default"
+          ]
+        ],
+        [
+          "layer",
+          "Edge.Cuts"
+        ]
+      ],
+      "frame": "board",
+      "footprint_at_mm_deg": null,
+      "footprint_side": null
+    },
+    {
+      "primitive": "gr_line",
+      "geometry": [
+        "gr_line",
+        [
+          "start",
+          "163.5",
+          "118"
+        ],
+        [
+          "end",
+          "171",
+          "110.5"
+        ],
+        [
+          "locked",
+          "yes"
+        ],
+        [
+          "stroke",
+          [
+            "width",
+            "0.05"
+          ],
+          [
+            "type",
+            "default"
+          ]
+        ],
+        [
+          "layer",
+          "Edge.Cuts"
+        ]
+      ],
+      "frame": "board",
+      "footprint_at_mm_deg": null,
+      "footprint_side": null
+    },
+    {
+      "primitive": "gr_line",
+      "geometry": [
+        "gr_line",
+        [
+          "start",
+          "171",
+          "91.5"
+        ],
+        [
+          "end",
+          "171",
+          "110.5"
+        ],
+        [
+          "locked",
+          "yes"
+        ],
+        [
+          "stroke",
+          [
+            "width",
+            "0.1"
+          ],
+          [
+            "type",
+            "default"
+          ]
+        ],
+        [
+          "layer",
+          "Edge.Cuts"
+        ]
+      ],
+      "frame": "board",
+      "footprint_at_mm_deg": null,
+      "footprint_side": null
+    },
+    {
+      "primitive": "gr_line",
+      "geometry": [
+        "gr_line",
+        [
+          "start",
+          "110",
+          "118"
+        ],
+        [
+          "end",
+          "110",
+          "84"
+        ],
+        [
+          "locked",
+          "yes"
+        ],
+        [
+          "stroke",
+          [
+            "width",
+            "0.1"
+          ],
+          [
+            "type",
+            "default"
+          ]
+        ],
+        [
+          "layer",
+          "Edge.Cuts"
+        ]
+      ],
+      "frame": "board",
+      "footprint_at_mm_deg": null,
+      "footprint_side": null
+    },
+    {
+      "primitive": "gr_line",
+      "geometry": [
+        "gr_line",
+        [
+          "start",
+          "163.5",
+          "84"
+        ],
+        [
+          "end",
+          "171",
+          "91.5"
+        ],
+        [
+          "locked",
+          "yes"
+        ],
+        [
+          "stroke",
+          [
+            "width",
+            "0.05"
+          ],
+          [
+            "type",
+            "default"
+          ]
+        ],
+        [
+          "layer",
+          "Edge.Cuts"
+        ]
+      ],
+      "frame": "board",
+      "footprint_at_mm_deg": null,
+      "footprint_side": null
+    }
+  ],
+  "external_anchors": [
+    {
+      "reference": "SW1",
+      "value": "B3FS-1015",
+      "at_mm_deg": [
+        156.5,
+        101.0
+      ],
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            -4.0,
+            -2.25,
+            180.0
+          ],
+          "size_mm": [
+            1.6,
+            1.4
+          ],
+          "drill": [],
+          "layers": [
+            "F.Cu",
+            "F.Paste",
+            "F.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "1",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            4.0,
+            -2.25,
+            180.0
+          ],
+          "size_mm": [
+            1.6,
+            1.4
+          ],
+          "drill": [],
+          "layers": [
+            "F.Cu",
+            "F.Paste",
+            "F.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            -4.0,
+            2.25,
+            180.0
+          ],
+          "size_mm": [
+            1.6,
+            1.4
+          ],
+          "drill": [],
+          "layers": [
+            "F.Cu",
+            "F.Paste",
+            "F.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            4.0,
+            2.25,
+            180.0
+          ],
+          "size_mm": [
+            1.6,
+            1.4
+          ],
+          "drill": [],
+          "layers": [
+            "F.Cu",
+            "F.Paste",
+            "F.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        }
+      ]
+    },
+    {
+      "reference": "DS1",
+      "value": "LCD-A2X1C50TR",
+      "at_mm_deg": [
+        119.61,
+        115.335
+      ],
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "type": "thru_hole",
+          "shape": "rect",
+          "at_mm_deg": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "2",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            2.54,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "3",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            5.08,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "4",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            7.62,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "5",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            10.16,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "6",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            12.7,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "7",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            15.24,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "8",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            17.78,
+            0.0
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "9",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            17.78,
+            -28.67
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "10",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            15.24,
+            -28.67
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "11",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            12.7,
+            -28.67
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "12",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            10.16,
+            -28.67
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "13",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            7.62,
+            -28.67
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "14",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            5.08,
+            -28.67
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "15",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            2.54,
+            -28.67
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "16",
+          "type": "thru_hole",
+          "shape": "circle",
+          "at_mm_deg": [
+            0.0,
+            -28.67
+          ],
+          "size_mm": [
+            1.6,
+            1.6
+          ],
+          "drill": [
+            "drill",
+            "0.8"
+          ],
+          "layers": [
+            "*.Cu",
+            "*.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        }
+      ]
+    },
+    {
+      "reference": "BT1",
+      "value": "BA2032SM",
+      "at_mm_deg": [
+        128.5,
+        101.0,
+        180.0
+      ],
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            15.0,
+            0.0,
+            180.0
+          ],
+          "size_mm": [
+            3.0,
+            5.0
+          ],
+          "drill": [],
+          "layers": [
+            "B.Cu",
+            "B.Paste",
+            "B.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            -15.0,
+            0.0,
+            180.0
+          ],
+          "size_mm": [
+            3.0,
+            5.0
+          ],
+          "drill": [],
+          "layers": [
+            "B.Cu",
+            "B.Paste",
+            "B.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        }
+      ]
+    },
+    {
+      "reference": "J1",
+      "value": "FTSH-105-01-L-DV-007-K",
+      "at_mm_deg": [
+        149.5,
+        90.5
+      ],
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            -2.54,
+            -2.035
+          ],
+          "size_mm": [
+            0.74,
+            2.79
+          ],
+          "drill": [],
+          "layers": [
+            "B.Cu",
+            "B.Paste",
+            "B.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "2",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            -2.54,
+            2.035
+          ],
+          "size_mm": [
+            0.74,
+            2.79
+          ],
+          "drill": [],
+          "layers": [
+            "B.Cu",
+            "B.Paste",
+            "B.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "3",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            -1.27,
+            -2.035
+          ],
+          "size_mm": [
+            0.74,
+            2.79
+          ],
+          "drill": [],
+          "layers": [
+            "B.Cu",
+            "B.Paste",
+            "B.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "4",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            -1.27,
+            2.035
+          ],
+          "size_mm": [
+            0.74,
+            2.79
+          ],
+          "drill": [],
+          "layers": [
+            "B.Cu",
+            "B.Paste",
+            "B.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "5",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            0.0,
+            -2.035
+          ],
+          "size_mm": [
+            0.74,
+            2.79
+          ],
+          "drill": [],
+          "layers": [
+            "B.Cu",
+            "B.Paste",
+            "B.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "6",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            0.0,
+            2.035
+          ],
+          "size_mm": [
+            0.74,
+            2.79
+          ],
+          "drill": [],
+          "layers": [
+            "B.Cu",
+            "B.Paste",
+            "B.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "8",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            1.27,
+            2.035
+          ],
+          "size_mm": [
+            0.74,
+            2.79
+          ],
+          "drill": [],
+          "layers": [
+            "B.Cu",
+            "B.Paste",
+            "B.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "9",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            2.54,
+            -2.035
+          ],
+          "size_mm": [
+            0.74,
+            2.79
+          ],
+          "drill": [],
+          "layers": [
+            "B.Cu",
+            "B.Paste",
+            "B.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        },
+        {
+          "number": "10",
+          "type": "smd",
+          "shape": "rect",
+          "at_mm_deg": [
+            2.54,
+            2.035
+          ],
+          "size_mm": [
+            0.74,
+            2.79
+          ],
+          "drill": [],
+          "layers": [
+            "B.Cu",
+            "B.Paste",
+            "B.Mask"
+          ],
+          "roundrect_rratio": null,
+          "additional_geometry": {}
+        }
+      ]
+    }
+  ],
+  "mounting_holes": [],
+  "conventions": "mm and degrees; footprint at is board frame, pad at is footprint-local. KiCad raw footprint local coordinates retained with side/layer; no front/back visual pin-number inference. All top-level and footprint-owned Edge.Cuts enumerated. No copper routes or UUIDs are public requirements.",
+  "acceptance": "All enumerated external pad number/type/shape/size/drill/layers/rratio and relative external-anchor pose must match within0.01mm and0.1degree after one common translation and rotation, no reflection. No internal component pose, UUID, routing or copper gold. Outline edges may be repaired only by <=0.01mm local endpoint/midpoint adjustment to obtain closed contours joined within0.001mm; circle/arc/rect/cutout primitive kind and all actual cutouts retained. Internal layout free.",
+  "additional_minimums": {
+    "track_mm": 0.2,
+    "clearance_mm": 0.2,
+    "via_drill_mm": 0.3,
+    "via_diameter_mm": 0.6,
+    "hole_clearance_mm": 0.25
+  },
+  "scope": "Essential public external geometry; internal placement/routing/UUIDs are not disclosed or scored by reference equality.",
+  "rule_policy": "Task-native configuration must preserve all stricter applicable rules. Exact task rules and dependencies are bound before engineering validation; no relaxed severity, added waiver or ignored check."
+}

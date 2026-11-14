@@ -1,0 +1,8 @@
+(sym_lib_table (version 7)
+(lib (name "Regulator_Linear") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/d96eaafce539988edee33f10d82d66f37335e7d31394243b3a7f29af5ac82fcb.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "fab") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/c2242e2c12190babaf9f9488fb7bb1bb37182a94cda68699af53ed35160d3933.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "power") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "wheaton") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/ed2891817314563f01329d59e48b1b7f3bfc3efc568945b217591fd074148c48.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+
+(lib (name "RepairUSB") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/usb-zeroohm-supply-annotation.kicad_sym") (options "") (descr "Exact native virtualERC annotation for source USB and zero-ohm jumper supply path"))
+)

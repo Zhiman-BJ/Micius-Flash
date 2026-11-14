@@ -1,0 +1,38 @@
+{
+  "scope": "Requirements only; full reference, fault, task and publication gates are separate. No Native or model executed.",
+  "origin": "Numbered source contact roles are drawn from bound CAD/XML. Numeric bench loads, stimuli, limits and ideal external devices are explicit curator choices, not author measurements or guarantees.",
+  "numbering": "Exact numbered CAD pads, not connector cable colours or guessed mirrored mating view.",
+  "temperature_C": 25,
+  "design_acceptance": "Functional equivalence to the public requirements; no exact internal topology, netname, CAD UUID, coordinate or reference-file equality grading.",
+  "schematic_task_scope": "Schematic tasks do not acquire PCB or manufacturing delivery requirements from the private full-board reference standard.",
+  "reference_proof_dependency": "Select exact models and actual assertion implementation and bind final CAD/dependencies at reference proof. Missing executable alone is not a requirements blocker.",
+  "interfaces": {
+    "J1.1": "RF input to FL2.1",
+    "J2.1": "RF output from FL2.3",
+    "J1.2/J2.2/FL2.2/FL2.4": "common RF ground"
+  },
+  "part_identity": "The source populated Value is LFCN-490+. The inherited LFCN-160/160MHz symbol metadata/datasheet is not valid 490+ primary documentation. An equivalent qualified implementation may meet the same board-port requirements.",
+  "fixture": {
+    "ports": "Single-ended50ohm source and50ohm load referenced at the external numbered J1/J2 coaxial signal and shell terminals; input available power -10dBm.",
+    "frequency": "Board-port small signal sweep100MHz to1.5GHz. Continuous100..400MHz passband and exact1GHz stopband predicate; a chosen interpolation/grid/extremum error bound must substantiate the continuous band at reference proof.",
+    "parasitics": "Include actual final board launches/interconnect/ground and selected part nonideality. Standalone chip S2P alone does not prove assembled board-port performance."
+  },
+  "acceptance": [
+    {
+      "id": "RF01",
+      "predicate": "Insertion loss -20log10|S21| at the declared50ohm external board reference planes is <=1dB throughout100..400MHz and >=20dB at1GHz."
+    },
+    {
+      "id": "RF02",
+      "predicate": "All declared ground contacts mutually <=1ohm atDC; no accidental zero-ohm copper/wire short from either RF signal terminal to ground. Selected filter internal network is evaluated using its qualified model, not treated as a wire."
+    }
+  ],
+  "outside_scope": [
+    "Other transceiver circuitry in the same repository",
+    "RF regulatory certification",
+    "Ideal brick-wall filter as a substitute for selected-part behavior"
+  ],
+  "task_id": "NEW63_d21142906fde447fd3efd5a2_D1",
+  "layer": "D1",
+  "scope_endpoint": "schematic"
+}

@@ -1,0 +1,41 @@
+(footprint "R_Vishay_CRCW0201_0603Metric_5K10"
+(version 20221018) (generator pcbnew) (layer "F.Cu")
+    
+    
+    (descr "Vishay CRCW02015K10FKED; manufacturer recommended 0201 lands")
+    (tags "Vishay CRCW02015K10FKED; manufacturer recommended 0201 lands")
+    
+    
+    (property "ki_description" "Resistor")
+    (property "ki_keywords" "R res resistor")
+    
+    (attr smd)
+    (fp_text reference "REF**" (at 0 -1.17) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 884b806d-01e7-4470-afa7-96a067fceeb3)
+    )
+    (fp_text value "5.1K" (at 0 1.17) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 8c6bfa36-cdb8-4796-856f-bb3a795d4df2)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+        (effects (font (size 0.26 0.26) (thickness 0.04)))
+      (tstamp 9be51211-e6de-41af-ac20-67d639c6e2d8)
+    )
+    
+    
+    
+    
+    
+    
+    
+    
+    (pad "1" smd rect (at -0.255 0) (size 0.28 0.43) (layers "F.Cu" "F.Paste" "F.Mask") 
+        (tstamp 41bad216-2e0a-465e-99b9-014e7b148216))
+    (pad "2" smd rect (at 0.255 0) (size 0.28 0.43) (layers "F.Cu" "F.Paste" "F.Mask") 
+        (tstamp 631faa0c-7315-4c0c-9fc8-4f06526f9387))
+    
+  
+(fp_rect (start -0.3 -0.15) (end 0.3 0.15) (stroke (width 0.05) (type solid)) (fill none) (layer "F.Fab") (tstamp 0117cc10-9064-5b89-acf2-d7c26a0930f3))
+(fp_rect (start -0.645 -0.465) (end 0.645 0.465) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp e9b1f168-4e10-51e3-bd69-196636866bb4))
+)

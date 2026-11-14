@@ -1,0 +1,83 @@
+{
+  "origin_policy": "Explicit numbered external interface and nominal finite-source acceptance chosen by curator, with repository factual purpose and source CAD kept distinct. Shared once for R1/R2; not a claim of manufacturer or real-console verification.",
+  "interfaces": {
+    "P1_console_source": {
+      "1": "CSync (NTSC fixture only)",
+      "2": "AudioL",
+      "3": "AudioR",
+      "4": "+5V source",
+      "5": "Red",
+      "6": "Green",
+      "7": "Blue",
+      "8": "CVBS unused isolated",
+      "9": "Luma",
+      "10": "Chroma unused isolated",
+      "11": "common return/shield"
+    },
+    "P2_receiver": {
+      "1": "AudioR",
+      "2": "AudioL",
+      "3": "selectedSync",
+      "4": "common return/shield",
+      "5": "+5V output",
+      "6": "Blue",
+      "7": "Green",
+      "8": "Red"
+    },
+    "pin_number_convention": "Exact CAD electrical contact numbers, not guessed front/rear visual viewing convention. Repeated shield pads with same number are one role.",
+    "supply": "P1.4ideal regulated4.75/5/5.25V relativeP1.11, unlimited port current capability; P2.5normal10mA sink toP2.4. No total console supply capability/heat certification.",
+    "unused": "P1.8 and10 no intentional electrical connection to any used signal/supply; each external1Mohm toreturn during nominaltests gives defined0V."
+  },
+  "curator_fixture": {
+    "temperature_C": 25,
+    "wires": "Ideal non-parasitic board interconnect; external loads and modeled capacitor/resistor are included.",
+    "phases": "All steady periodic phasor tests. Independent sources use all32 sign combinations of threeRGB and twoaudio; sync separately each assembly. Unselected source pin terminated toreturn by1Mohm, sourceHiZ. No turn-on transient/unknown initial charge acceptance.",
+    "RGB": {
+      "source": "EachP1.5/6/7 ideal sinusoid1.4Vpp via75ohm; frequencies10kHz,1MHz,6MHz",
+      "receiver": "correspondingP2.8/7/6 75ohm±1% toP2.4; no added parasitic C",
+      "acceptance": "Each intended received amplitude0.69..0.71Vpp, phase0±0.1degree; unintended receiver contributions<=1mVpp"
+    },
+    "audio": {
+      "source": "P1.2/.3 independent1Vrms at20Hz/1kHz/20kHz through100ohm",
+      "receiver": "P2.2/.1 each10kohm parallel100pF toP2.4",
+      "acceptance": "Intended complex gain relative ideal source amplitude0.98..1.00, absolute phase<=0.1degree; each unintended audio/video/sync receiver contribution<=1mVrms under only that audio source"
+    },
+    "power_acceptance": "P2.5relativeP2.4 >=99% of suppliedP1.4 at10mA, no connection tosignal/unusedcontacts. Shield/commonreturncontinuous. Ideal DCmodel ripple0; no actualpowercapacity claim.",
+    "source_and_component_guarantees": "Every listed source/load/model is curator assumption. Named sourceCAD connectors imply no verified vendor pinout/fit or real-console amplitudes."
+  },
+  "sync_assemblies": {
+    "exclusive": "Accept each of these three documented assembly modes; never closeJP1 while CSyncseriesC/R path populated. Assembly-mode change is intentional configuration, not extra injectedfault.",
+    "components": "Selected nominalR470ohm±5% in attenuatedmode; bypass0/.05/.1ohm inunattenuatedmode. SeriesC220uF±20%, ESR0/.5/1ohm, ideal linear capacitor, voltage modelcapability>=10V, noleak. Rselectedrating>=.125W and nominaldissipation<=.0625W. Ratings are explicit curator model selections, not inferred from1206/0603 or an unnamed vendor.",
+    "attenuated_CSync": {
+      "assembly": "JP1open(1Gohm model), R/Cpopulated inCSyncpath; onlyP1.1driven, P1.9sourceHiZ/1Mohmtoreturn",
+      "source": "P1.1 sinusoidalAC5Vpp about2.5V DC via10ohm;15.625kHz and15.734kHz",
+      "receiver": "P2.3 75ohm±1% toP2.4",
+      "acceptance": "SteadyAC amplitude0.62..0.74Vpp, phase magnitude<=0.1degree, DC residual<=1mV after settling; all modeledR/C/ESR/receiver tolerance corners"
+    },
+    "unattenuated_CSync": {
+      "assembly": "JP1open1Gohm; Rreplaced by0/.05/.1ohm bypass; Cpopulated; P1.9HiZ/1Mohm",
+      "source": "P1.1 same5Vpp about2.5V via75ohm at15.625/15.734kHz",
+      "receiver": "P2.3 1Mohm toreturn, no shuntC",
+      "acceptance": "SteadyAC amplitude4.95..5.05Vpp, phase magnitude<=0.1degree, DC residual<=1mV after settling"
+    },
+    "LumaSync": {
+      "assembly": "JP1closed0/.05/.1ohm; R/Cnotpopulated/open; P1.1HiZ/1Mohm. Covers both nominalNTSC andPAL fixture; no CSyncrequired onPAL.",
+      "source": "P1.9 sinusoidal1.4Vpp via75ohm at15.625/15.734kHz",
+      "receiver": "P2.3 75ohm±1% toreturn",
+      "acceptance": "SteadyAC amplitude0.69..0.71Vpp, phase magnitude<=0.1degree; no connection toP1.1."
+    }
+  },
+  "scope_control": {
+    "R1": "Schematic/ERC and disclosednominalRGBS/stereointerconnect includingexclusiveassemblyproof only; noPCB/manufacturing/shroud/casefit added.",
+    "R2": "ActualsourcePCBprovided for repair. Preserve outlinegeometry/thickness/twoCu andP1/P2relativeportpositionswithin0.1mm/1degree; fullDRC/refill/parity/unrouted/allpad-hole-layer-net andexplicit sourcegeometry/manufacturingcheck. No guessedconsolemetalshield/shroud3D fit certification.",
+    "outside": "RealconsolePAL/NTSCelectricalcertification, completevideoformat/timing/decoder/imagequality, realaudioquality/EMC/ESD, vendorcapacitorIV, assemblycertification andunmodeledparasitics excluded. These do not remove modeledRGBS/stereofunction."
+  },
+  "design_acceptance": [
+    "Correctnumberedexternalroles andexclusiveassemblyfunctionalbehavior atdeclaredfiniteports",
+    "ActualreferencefullseverityKiCad10.0.6ERC0E0W withactualignored[]; R2alsofullDRC0EWactualignored[]/refill/parity0/unrouted0/completephysicalcheck, no severityloweringornewwaivers",
+    "NominalAC/DCpositivesboundexactCAD/config/deps; fileexistence/mathspeccompatibility isnotreferencePASS"
+  ],
+  "task_id": "NEW63_988294745439ce6297090c86_D1",
+  "layer": "D1",
+  "scope_endpoint": "schematic"
+}

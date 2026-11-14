@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty")(options "")(descr ""))
+  (lib (name "teensy.pretty-master")(type "KiCad")(uri "${KIPRJMOD}/../../../../../boards/rev-2026/control-v4.0/lib/teensy.pretty-master")(options "")(descr ""))
+)

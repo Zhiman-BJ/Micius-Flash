@@ -1,0 +1,44 @@
+{
+  "schema": "weighted_board_task.public_requirements/v1",
+  "task_id": "WB14_v2_c032ed2dc3b298d20b0f682e_D1_01",
+  "title": "5V 主机／3.3V SD 静态 SPI 接口",
+  "layer": "D1",
+  "work_scope": "schematic",
+  "kind": "design",
+  "terminal_stage": "schematic",
+  "requirement_level": "natural_language",
+  "selected_nominal_supply_V": {
+    "host5V": 5.0,
+    "SD3V3": 3.3
+  },
+  "supply_and_return": "J1.2输入5V，J1.6回流；稳压后J3.4输出3.3V，J3.3/6及外壳接点12/13共地。SD电源域不接受独立电源，主机与SD信号按各自逻辑域连接。",
+  "functional_goals": [
+    "将5V主机供电降至SD3.3V，CS/SCK/MOSI非反相地转换到SD接口；MISO从SD返回兼容3.3V高电平的主机输入。",
+    "SPI mode0、100kHz、MSB优先8bit；声明的卡逻辑模型返回上一个完成字节，初始FF，取消选择后释放MISO并清零字节计数。",
+    "可选跳线采用断开装配，未用卡脚与缓冲通道安静处理；检查选中、取消、数据高低和再次开始，不考文件系统或存储寿命。"
+  ],
+  "nominal_conditions": [
+    "SD3.3V端负载不超过20mA，外接最低330ohm供电负载；主机源至少100mA。",
+    "MISO采用标称1kohm串联路径、100kohm/100pF接收，主机VIH不高于2V、VIL不低于0.8V。",
+    "片选建立/保持至少5us，数据建立/保持至少1us，选择实际输入耐压适用的缓冲器。"
+  ],
+  "interface_attachment": "external-interfaces.json",
+  "interface_scope": "所有列出的外部接口角色均按本题功能适用；未用或保留接点不得增加信号/电源连接。",
+  "supply_scope": "公开供电域按各接口用途适用。",
+  "nominal_boundary": "上述器件和外部设备逻辑为明确选定的标称测试模型，不代表真实整机/协议/物理认证；只按本题公开工作边界评分。",
+  "acceptance": [
+    "工程与依赖可由KiCad10.0.6正常打开；原理图ERC全severity零error零warning、ignored[]，不得降规则或新增豁免。",
+    "全部适用公开接口、电源、模式和功能满足要求，证据绑定最终交付版本；ERC不替代功能。"
+  ],
+  "edit_policy": {
+    "allowed": [
+      "schematic",
+      "project",
+      "necessary_local_dependencies"
+    ],
+    "preserve": [
+      "public_requirements",
+      "used_external_interface_roles"
+    ]
+  }
+}

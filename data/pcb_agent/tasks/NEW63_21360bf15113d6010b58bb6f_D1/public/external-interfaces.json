@@ -1,0 +1,9 @@
+{
+  "interfaces": {
+    "power": "Single external5V atCN7.18 with common GND CN7.8/19/20/22 andCN10.9/20; source has no on-board MCU or3.3V regulator.",
+    "U2": "LM35 symbol1+5V/2analog output toPA0 CN7.28/3GND; exact supported part variant/range and host ADC input safety fixed before validation.",
+    "buttons": "Each switch shorts its signal toGND when pressed: ENTER1 PA1 CN7.30; ENTER2 PA4 CN7.32; ENTER3 PC2 CN7.35; ENTER4 PC0 CN7.38; COIN1 PA15 CN7.17; OK1 PB0 CN7.34; MODE1 PC1 CN7.36; ESCAPE1 PC3 CN7.37. External host supplies disclosed pullups.",
+    "RGB": "D1 common cathode pin4 GND; pin1 PA10 CN10.33, pin2 PB5 CN10.29,pin3 PB4 CN10.27. Source lacks series current limiters; qualified implementation must provide explicit current limiting or a supported current-limited fixture, not directly assume safe3.3V GPIO drive.",
+    "LCD": "DS1 pin1GND/2+5V/3contrast grounded/4RS PB10 CN10.25/5RW GND/6E PA8 CN10.23/11D4 PA9 CN10.21/12D5 PC7 CN10.19/13D6 PB6 CN10.17/14D7 PA7 CN10.15/15backlight+5V/16GND; data0..3 NC."
+  }
+}

@@ -1,0 +1,4 @@
+(sym_lib_table (version 7)
+(lib (name "SamacSys_Parts") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/db45241fb78a38941f4ad7c0731ef5919aabc818f00e875747ddb656350534d0.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "power") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+)

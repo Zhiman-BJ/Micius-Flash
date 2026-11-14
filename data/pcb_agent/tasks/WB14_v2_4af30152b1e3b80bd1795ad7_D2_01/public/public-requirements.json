@@ -1,0 +1,47 @@
+{
+  "schema": "weighted_board_task.public_requirements/v1",
+  "task_id": "WB14_v2_4af30152b1e3b80bd1795ad7_D2_01",
+  "title": "低有效传感器控制高边负载",
+  "layer": "D2",
+  "work_scope": "schematic",
+  "kind": "design",
+  "terminal_stage": "schematic",
+  "requirement_level": "natural_language_with_constraints",
+  "selected_nominal_supply_V": {
+    "input": 5.0
+  },
+  "supply_and_return": "J1.1输入5V，J1.2回流；J2.2及J3.2共地，J3.3输出传感器供电。传感器电源端接10kohm负载，传感器不另行供电。",
+  "functional_goals": [
+    "J1 输入标称5V；J3 提供传感器供电、回流和低有效控制。控制低时 J2 正端导通，高时关闭；输入、传感器及负载共享回流。",
+    "以1kohm无感电阻代表泵：开启输出至少4.4V，关闭不超过0.05V；供电移除后不由外部信号反向供电。",
+    "检查待机、触发、保持和释放；不考真实泵的电感、流量或光学测距。"
+  ],
+  "nominal_conditions": [
+    "输入采用50mA能力的5V台式电源，传感器电源端接10kohm负载。",
+    "控制高低状态各保持至少1ms后检查输出。",
+    "选用的晶体管、封装映射、电阻功率及工作电压必须适用于上述标称负载。"
+  ],
+  "interface_attachment": "external-interfaces.json",
+  "interface_scope": "所有列出的外部接口角色均按本题功能适用；未用或保留接点不得增加信号/电源连接。",
+  "supply_scope": "公开供电域按各接口用途适用。",
+  "nominal_boundary": "上述器件和外部设备逻辑为明确选定的标称测试模型，不代表真实整机/协议/物理认证；只按本题公开工作边界评分。",
+  "acceptance": [
+    "工程与依赖可由KiCad10.0.6正常打开；原理图ERC全severity零error零warning、ignored[]，不得降规则或新增豁免。",
+    "全部适用公开接口、电源、模式和功能满足要求，证据绑定最终交付版本；ERC不替代功能。"
+  ],
+  "edit_policy": {
+    "allowed": [
+      "schematic",
+      "project",
+      "necessary_local_dependencies"
+    ],
+    "preserve": [
+      "public_requirements",
+      "used_external_interface_roles"
+    ]
+  },
+  "design_constraints": [
+    "在公开负载和时序边界下确定器件、拓扑、阻容及额定值，给出器件事实来源、最坏适用标称状态及功耗依据。",
+    "端口电平与所连接设备的输入阈值相容，器件电压/电流/功率额定覆盖公开工况；不以ERC通过替代该判断。"
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "interfaces": [
+    {
+      "contact": "J3.1",
+      "role": "UARTground",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J3.2",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "CTS",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J3.3",
+      "role": "5VoutputfromUSBhalf",
+      "source_symbol_name_observation": "VCC",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J3.4",
+      "role": "UARTTXoutput3.3V",
+      "source_symbol_name_observation": "TX",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J3.5",
+      "role": "UARTRXinput/UPDIreturn",
+      "source_symbol_name_observation": "RX",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J3.6",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "RTS",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.1",
+      "role": "UARTground",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.2",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "CTS",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.3",
+      "role": "5VinputwhenUPDIhalfseparatedonly",
+      "source_symbol_name_observation": "VCC",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.4",
+      "role": "TXinputtoUPDIhalf",
+      "source_symbol_name_observation": "TX",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.5",
+      "role": "RXoutputfromUPDIhalf",
+      "source_symbol_name_observation": "RX",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.6",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "RTS",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J1.1",
+      "role": "SWCLKinput",
+      "source_symbol_name_observation": "Pin_1",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J1.2",
+      "role": "SWDIO",
+      "source_symbol_name_observation": "Pin_2",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J1.3",
+      "role": "3.3VVTrefoutput",
+      "source_symbol_name_observation": "Pin_3",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J1.4",
+      "role": "groundreference,sourceR4jumper0ohmtoGNDmustremain",
+      "source_symbol_name_observation": "Pin_4",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J5.1",
+      "role": "5Voutputtargetpower",
+      "source_symbol_name_observation": "Pin_1",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J5.2",
+      "role": "return",
+      "source_symbol_name_observation": "Pin_2",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J5.3",
+      "role": "UPDIbidirectionaldata",
+      "source_symbol_name_observation": "Pin_3",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J2.5V",
+      "role": "5Vinput",
+      "source_symbol_name_observation": "5V",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J2.GND",
+      "role": "return",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J2.USB_M",
+      "role": "USBD-minus",
+      "source_symbol_name_observation": "USB_M",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J2.USB_P",
+      "role": "USBD-plus",
+      "source_symbol_name_observation": "USB_P",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    }
+  ]
+}

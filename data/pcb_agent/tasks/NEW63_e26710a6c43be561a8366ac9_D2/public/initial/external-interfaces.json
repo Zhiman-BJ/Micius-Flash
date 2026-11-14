@@ -1,0 +1,284 @@
+{
+  "interfaces": [
+    {
+      "contact": "RCON2.1",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "Pin_1",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.2",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "Pin_2",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.3",
+      "role": "Active-low control input OE.RAM1",
+      "source_symbol_name_observation": "Pin_3",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.4",
+      "role": "Active-low control input WE.RAM1",
+      "source_symbol_name_observation": "Pin_4",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.5",
+      "role": "Multiplexed row/column address input A3",
+      "source_symbol_name_observation": "Pin_5",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.6",
+      "role": "Multiplexed row/column address input A2",
+      "source_symbol_name_observation": "Pin_6",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.7",
+      "role": "Multiplexed row/column address input A1",
+      "source_symbol_name_observation": "Pin_7",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.8",
+      "role": "Multiplexed row/column address input A0",
+      "source_symbol_name_observation": "Pin_8",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.9",
+      "role": "Multiplexed row/column address input A9",
+      "source_symbol_name_observation": "Pin_9",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.10",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "Pin_10",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.11",
+      "role": "Multiplexed row/column address input A8",
+      "source_symbol_name_observation": "Pin_11",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.12",
+      "role": "Active-low control input CAS.RAM1-3",
+      "source_symbol_name_observation": "Pin_12",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.13",
+      "role": "Multiplexed row/column address input A6",
+      "source_symbol_name_observation": "Pin_13",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.14",
+      "role": "Multiplexed row/column address input A7",
+      "source_symbol_name_observation": "Pin_14",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.15",
+      "role": "Multiplexed row/column address input A4",
+      "source_symbol_name_observation": "Pin_15",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.16",
+      "role": "Multiplexed row/column address input A5",
+      "source_symbol_name_observation": "Pin_16",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.17",
+      "role": "Active-low control input WE.RAM3",
+      "source_symbol_name_observation": "Pin_17",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.18",
+      "role": "Active-low control input OE.RAM3",
+      "source_symbol_name_observation": "Pin_18",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.19",
+      "role": "Common regulated 5V input.",
+      "source_symbol_name_observation": "Pin_19",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.20",
+      "role": "Common regulated 5V input.",
+      "source_symbol_name_observation": "Pin_20",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.1",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "Pin_1",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.2",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "Pin_2",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.3",
+      "role": "Bidirectional data bit D3",
+      "source_symbol_name_observation": "Pin_3",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.4",
+      "role": "Bidirectional data bit D1",
+      "source_symbol_name_observation": "Pin_4",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.5",
+      "role": "Bidirectional data bit D7",
+      "source_symbol_name_observation": "Pin_5",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.6",
+      "role": "Bidirectional data bit D5",
+      "source_symbol_name_observation": "Pin_6",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.7",
+      "role": "Active-low control input WE.RAM2",
+      "source_symbol_name_observation": "Pin_7",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.8",
+      "role": "Active-low control input OE.RAM2",
+      "source_symbol_name_observation": "Pin_8",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.9",
+      "role": "Active-low control input RAS.RAM",
+      "source_symbol_name_observation": "Pin_9",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.10",
+      "role": "Active-low control input CAS.RAM2-4",
+      "source_symbol_name_observation": "Pin_10",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.11",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "Pin_11",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.12",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "Pin_12",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.13",
+      "role": "Active-low control input OE.RAM4",
+      "source_symbol_name_observation": "Pin_13",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.14",
+      "role": "Active-low control input WE.RAM4",
+      "source_symbol_name_observation": "Pin_14",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.15",
+      "role": "Bidirectional data bit D6",
+      "source_symbol_name_observation": "Pin_15",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.16",
+      "role": "Bidirectional data bit D4",
+      "source_symbol_name_observation": "Pin_16",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.17",
+      "role": "Bidirectional data bit D2",
+      "source_symbol_name_observation": "Pin_17",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.18",
+      "role": "Bidirectional data bit D0",
+      "source_symbol_name_observation": "Pin_18",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.19",
+      "role": "Common regulated 5V input.",
+      "source_symbol_name_observation": "Pin_19",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.20",
+      "role": "Common regulated 5V input.",
+      "source_symbol_name_observation": "Pin_20",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    }
+  ]
+}

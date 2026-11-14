@@ -1,0 +1,56 @@
+{
+  "interfaces": {
+    "J2.1": "AIN1/U1.16",
+    "J2.2": "AIN2/U1.15",
+    "J2.3": "VMpositive/U1.12",
+    "J2.4": "GND/U1.13/17/AISEN3/BISEN6",
+    "J2.5": "BIN1/U1.9",
+    "J2.6": "BIN2/U1.10",
+    "J1.1": "nSLEEP/U1.1",
+    "J1.2": "AOUT1/U1.2",
+    "J1.3": "AOUT2/U1.4",
+    "J1.4": "BOUT1/U1.7",
+    "J1.5": "BOUT2/U1.5",
+    "J1.6": "nFAULT/U1.8"
+  },
+  "support_circuit_preconditions": {
+    "VINT": "U1.14 onlytointernalnormalbypassnode and2.2uF±20% capacitorrated>=6.3V toGND; no externalpowerdriver or DCshorttoGND. Internalregulatoranaloguewaveformnotcertified.",
+    "VCP": "U1.11 to0.01uF±20%,>=16V X7R capacitorwhoseotherterminalisVM; no DCshorttoGND/VM. Chargepumpwaveformnotcertified.",
+    "VM": "Retainlocal.1uF and>=10uF±20% bulkbypass toGND, eachrated>=10V. Ifpolarizedpartselected, markedpositivepadgoestoVM; anysourceambiguitymustberesolvedbyactualselectedpartdefinition.",
+    "sense_ground": "AISEN3/BISEN6 directGND,currentchoppingnotpartofnominaltest;13and17mustshareGND.",
+    "operation": "NominalIC portmodel validonlyifactualCADpinidentity/rails andsupportcircuitpreconditions hold; aBooleantruthtablealonecannotqualifyreference."
+  },
+  "fixture": {
+    "ambient_C": 25,
+    "VM_V": [
+      3.3,
+      5.0,
+      6.0
+    ],
+    "source": "IdealregulatedVM/commonGND unlimitedportmodel; totalchipcurrentcapacity/realUSB/battery/chargerpowernotcertified. Quiescentcurrentincluded below, notcalledzeroinrealdevice.",
+    "logic": "Fiveexternal inputsAIN1/AIN2/BIN1/BIN2/nSLEEP use0or3.3V sources each100ohm. ICnominalinput100kohmtoGND//100pF. Everyinput mustreach low<=.3V/high>=2.7V; nSLEEPacceptedlow<=.5/high>=2.5V, otherslow<=.7/high>=2V. Alllogicdriversremainindependent.",
+    "bridge_output_ports": "Perbridge truth00 Z/Z,01 L/H,10 H/L,11 L/L. EveryH outputisVM throughr, everyL isGND throughr, everyZ isGND through1Gohm; r=.2/.3/.4ohm commonselectedcornerforallactivelegs. No impliedmanufacturerRdsboundacrossVM/temperature.",
+    "loads": "IndependentR_A,R_B each22/47/100ohm betweenrespectiveoutputpair, with10kohm//100pF fromEACHoffouroutputnodestoGND. Theseresistivemotor-portemulatorscreatefullydefinedDC/RCcases, no floatingvoltageguess or actualmotorinductance/torque/backEMFclaim.",
+    "fault_flag": "FixturevirtualF=0/1 selectsnominalnormal/faultsemanticstate, notphysicalOCP/TSDtrigger. F1 disablesallbridgeoutputsZ andmakesnFAULTsink20ohmtoGND;F0 nFAULT1GohmtoGND. ExternalnFAULT10ktoideal3.3V//100pF ground retained. RequireF0>=3V,F1<=.3V. Not actualfaulttripthresholdcertification.",
+    "IC_quiescent": "NormalIQ1/2/3mA; asleepIQ1/2/3uA, selectedcornersindependentofr. PIC=VM*IQ+sumallactiveleg I^2*r. Reportallsourcesincludingoutputshunts andLEDcurrent; do notomitIQfrompower.",
+    "LED": "RetainVMindicator LEDseries4.7k±5%. v=V(A)-V(K),IpositiveAtoK;v<0 I=v/1G,0<=v<=V0 I=0,v>V0 I=(v-V0)/10ohm;V0=1.8/2/2.2V. SelectedmodelLED>=10Vreverse/2mA/.02W, resistor>=.125W. NoactualLEDvendorIV/opticalclaim.",
+    "thermal": "PIC<=.25W, eachoutputcurrentabs<=.30A; T_IC=25+100K/W*PIC<=85C. ResistorP<=.02W,LED P<=.005W. Explicitsteadycuratormodel, notactualPCBthermal/physicalTI SOA or protectioncertification."
+  },
+  "modes_and_acceptance": {
+    "DC": "Fulljointlogic: nSLEEP0/1 × bothbridges4inputstates × F0/1, allVM/r/RA/RB/IQcorners. Afterstable2ms,no oldinductorenergy. nSLEEP0 OR F1 makesalloutputsZ irrespectiveINbits; normalactivebridgesfollowtruth. Forward/reverse signcorrect andabs(VOUT1-VOUT2)>=.95VM; brake/coast/sleep absdifferential<=.10V. Coast/sleepindividualoutputabs<=.10V underdeclaredgroundobservers. Bothchannelsmustremainindependent. Input/faultthresholdsandpower/thermalboundsallpass.",
+    "PWM": "After2mswake and10discardedcarrierperiods,testeachbridge separatelyandbothsimultaneously:10kHz,D=.25/.50/.75; oneINpinlinear1us0<->3.3Vramp,otherINheld0 forfastdecay. Otherbridge eitherownsamePWM orstatic00/01/10/11. InputportRC isexplicitabove; corecommandscomparepinvoltageto1.65V then applyconstantdelaytd=.25/.5/1us (commonforrising/falling); wakeafter2msfromnSLEEPhighthreshold. For sleep/fault priority outputsZ. Eachphysicaloutput100pF andresistiveportsretainstatecontinuously acrossedges. Afterdiscarding10cycles, sample5us aftereachinput1.65Vcrossing+td:highphase correctdirectionabsdiff>=.95VM;lowphaseabsdiff<=.10V. Over20periodsmeandifferential agrees sign*D*loadedDCforwardmagnitude within.10V. No mechanicalmotor-motionorPWMcurrent-limitcontrollerclaim.",
+    "LED": "AllVM/V0/selectedR1tolerancecorners:normalVMindicatorcurrent.1..1.0mA,unpoweredVM0current<=1uA;forwardbias/dissipationandmodelratingconstraints.",
+    "scope": "TwoelectricalDCmotorports anddeclaredPWM/sleep/status breakout purpose retained. Noactualinductiveflyback/currentchopping/OCP/TSD/UVLOtrigger/steppermotion/firmwareprotocolqualification added."
+  },
+  "scope_control": {
+    "R1": "Schematic/ERC andactualdeclaredfiniteelectrical/DC/PWM/power/steadythermalfunction only, noPCB/manufacturing/physicalfitextra.",
+    "R2": "ActualpublicpromptPCBinput/outlineports/stack/process+fullDRCrefill/parity/unrouted/allpad-hole-layer-net andsamefunction. Sourceinventorystaticwarnings notreferenceapproval.",
+    "requirements_frozen": false,
+    "reference_qualified": false,
+    "task_admitted": false,
+    "Native": 0
+  },
+  "task_id": "NEW63_b80d918f7200d4165ce71739_R1",
+  "layer": "R1",
+  "scope_endpoint": "schematic"
+}

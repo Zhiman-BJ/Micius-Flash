@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+outputs/
+/data/semiconductor_agent/
+.venv/
+.codex-verifier/
+.pytest_cache/

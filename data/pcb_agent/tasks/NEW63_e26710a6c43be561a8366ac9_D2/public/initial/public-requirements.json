@@ -1,0 +1,307 @@
+{
+  "purpose": "Four-bank multiplex-address RAM addon interface with explicitly declared logical DRAM surrogate; source blank device values are not an identified qualified manufacturer part.",
+  "supply_ranges_V": {
+    "VREG5V": [
+      4.75,
+      5.25
+    ]
+  },
+  "nominal_condition_selection": "Unless a goal specifies otherwise, use the midpoint of each declared supply interval; requirements at this freeze are the stated nominal choices, not a full tolerance guarantee.",
+  "supply_and_return": "RCON1.19/20 andRCON2.19/20 onecommon5Vinput;RCON1.1/2andRCON2.1/2commonreturn. Noindependentmultiple5Vsources. Nominalsource.2A,commonreturn<=.1ohm,totalsteady<=.1A.",
+  "external_interfaces": [
+    {
+      "contact": "RCON2.1",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "Pin_1",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.2",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "Pin_2",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.3",
+      "role": "Active-low control input OE.RAM1",
+      "source_symbol_name_observation": "Pin_3",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.4",
+      "role": "Active-low control input WE.RAM1",
+      "source_symbol_name_observation": "Pin_4",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.5",
+      "role": "Multiplexed row/column address input A3",
+      "source_symbol_name_observation": "Pin_5",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.6",
+      "role": "Multiplexed row/column address input A2",
+      "source_symbol_name_observation": "Pin_6",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.7",
+      "role": "Multiplexed row/column address input A1",
+      "source_symbol_name_observation": "Pin_7",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.8",
+      "role": "Multiplexed row/column address input A0",
+      "source_symbol_name_observation": "Pin_8",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.9",
+      "role": "Multiplexed row/column address input A9",
+      "source_symbol_name_observation": "Pin_9",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.10",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "Pin_10",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.11",
+      "role": "Multiplexed row/column address input A8",
+      "source_symbol_name_observation": "Pin_11",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.12",
+      "role": "Active-low control input CAS.RAM1-3",
+      "source_symbol_name_observation": "Pin_12",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.13",
+      "role": "Multiplexed row/column address input A6",
+      "source_symbol_name_observation": "Pin_13",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.14",
+      "role": "Multiplexed row/column address input A7",
+      "source_symbol_name_observation": "Pin_14",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.15",
+      "role": "Multiplexed row/column address input A4",
+      "source_symbol_name_observation": "Pin_15",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.16",
+      "role": "Multiplexed row/column address input A5",
+      "source_symbol_name_observation": "Pin_16",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.17",
+      "role": "Active-low control input WE.RAM3",
+      "source_symbol_name_observation": "Pin_17",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.18",
+      "role": "Active-low control input OE.RAM3",
+      "source_symbol_name_observation": "Pin_18",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.19",
+      "role": "Common regulated 5V input.",
+      "source_symbol_name_observation": "Pin_19",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON2.20",
+      "role": "Common regulated 5V input.",
+      "source_symbol_name_observation": "Pin_20",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.1",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "Pin_1",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.2",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "Pin_2",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.3",
+      "role": "Bidirectional data bit D3",
+      "source_symbol_name_observation": "Pin_3",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.4",
+      "role": "Bidirectional data bit D1",
+      "source_symbol_name_observation": "Pin_4",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.5",
+      "role": "Bidirectional data bit D7",
+      "source_symbol_name_observation": "Pin_5",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.6",
+      "role": "Bidirectional data bit D5",
+      "source_symbol_name_observation": "Pin_6",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.7",
+      "role": "Active-low control input WE.RAM2",
+      "source_symbol_name_observation": "Pin_7",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.8",
+      "role": "Active-low control input OE.RAM2",
+      "source_symbol_name_observation": "Pin_8",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.9",
+      "role": "Active-low control input RAS.RAM",
+      "source_symbol_name_observation": "Pin_9",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.10",
+      "role": "Active-low control input CAS.RAM2-4",
+      "source_symbol_name_observation": "Pin_10",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.11",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "Pin_11",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.12",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "Pin_12",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.13",
+      "role": "Active-low control input OE.RAM4",
+      "source_symbol_name_observation": "Pin_13",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.14",
+      "role": "Active-low control input WE.RAM4",
+      "source_symbol_name_observation": "Pin_14",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.15",
+      "role": "Bidirectional data bit D6",
+      "source_symbol_name_observation": "Pin_15",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.16",
+      "role": "Bidirectional data bit D4",
+      "source_symbol_name_observation": "Pin_16",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.17",
+      "role": "Bidirectional data bit D2",
+      "source_symbol_name_observation": "Pin_17",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.18",
+      "role": "Bidirectional data bit D0",
+      "source_symbol_name_observation": "Pin_18",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.19",
+      "role": "Common regulated 5V input.",
+      "source_symbol_name_observation": "Pin_19",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "RCON1.20",
+      "role": "Common regulated 5V input.",
+      "source_symbol_name_observation": "Pin_20",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    }
+  ],
+  "functional_goals_and_modes": [
+    "RCON2 pins 8,7,6,5,15,16,13,14,11,9 carry A0..A9. RCON1.9 is active-low RAS; RCON2.12 CAS selects banks1/3 and RCON1.10 banks2/4.",
+    "Bank1 WE/OE are RCON2.4/3; bank2 RCON1.7/8; bank3 RCON2.17/18; bank4 RCON1.14/13. D0..D7 are RCON1 pins 18,4,17,3,16,6,15,5. Control polarity is active LOW.",
+    "A selected logical DRAM model has four banks of 1024 rows x1024 columns x8 bits, initially zero. RAS falling latches row; CAS falling latches column and writes when the selected WE is LOW, otherwise reads when exactly one OE is LOW. Inactive data outputs are HiZ.",
+    "Use >=1us address/data setup and hold, >=5us active and precharge periods, >=20us cycles. RAS-only refresh with CAS HIGH preserves each row when refreshed within nominal 64ms. Test write/read, bank isolation, bus release and refresh. Blank source RAM values identify no qualified physical MPN; later reference selection must implement this declared model."
+  ],
+  "declared_nominal_loads": "5V nominal bench source >=200mA; each logical RAM bank <=20mA; signal receiver100kohm/100pF.",
+  "bench_conventions": "Common return; no independent peripheral power unless a separated mode explicitly selects it. Power-off signal drivers HiZ; fixtures initialize with rails off and wait for supplies/declared component models to settle before observing states. Unused external contacts individually1Mohm to return in bench fixtures; no floating voltage is inferred. A source NC observation cannot override an explicitly selected public role.",
+  "logical_model_boundary": "Declared virtual LCD/MCU/card/DRAM/module behavior is a curator-selected nominal test model. It is not installed firmware, a manufacturer guarantee, or evidence of actual source-CAD function. Detailed task fixtures and affected numerical thresholds are fixed in a later immutable task supplement before validation/admission.",
+  "R1": "Schematic-only public electrical/function scope. Later reference must have actual KiCad10.0.6 all-severity zero error/zero warning, ignored[], no reduced rules/new waivers, and scoped functional positive. No implicit PCB, manufacturing, physical fit or complete external system protocol.",
+  "implementation_freedom": "Correct observed source errors as needed in a later candidate. Functionally equivalent internal circuitry/layout is allowed; internal net names, copper, UUIDs and component poses are not a scoring gold.",
+  "task_id": "NEW63_e26710a6c43be561a8366ac9_D2",
+  "layer": "D2",
+  "scope_endpoint": "schematic"
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "NEW63_21360bf15113d6010b58bb6f_D1",
+  "layer": "D1",
+  "stages": 1,
+  "project_root": "initial",
+  "initial_primary": {
+    "schematic": "initial/board.kicad_sch"
+  },
+  "input_mode": "blank",
+  "final_engineering_judgment": "DEFERRED_TO_FINAL_EVALUATOR"
+}

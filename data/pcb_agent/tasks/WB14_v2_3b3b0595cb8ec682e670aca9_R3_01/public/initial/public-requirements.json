@@ -1,0 +1,49 @@
+{
+  "schema": "weighted_board_task.public_requirements/v1",
+  "task_id": "WB14_v2_3b3b0595cb8ec682e670aca9_R3_01",
+  "title": "USB／UART 与可分离 UPDI 接口",
+  "layer": "R3",
+  "work_scope": "pcb",
+  "kind": "repair",
+  "terminal_stage": "pcb_complete",
+  "requirement_level": "natural_language",
+  "selected_nominal_supply_V": {
+    "USB5V": 5.0,
+    "MCU3V3": 3.3
+  },
+  "supply_and_return": "J2的5V及GND给USB半板供电，稳压后产生3.3V。J3/J4.3与J5.1为5V电源角色，J3/J4.1及J5.2共地；UPDI半板分离时由J4.3单独接一个5V源，禁止并接两个独立电源。",
+  "functional_goals": [
+    "USB输入5V供USB半板，经稳压产生3.3V；D-/D+极性正确，SWD具有时钟、数据、电压参考和明确定义回流。",
+    "两半连接器按公开角色匹配回流、5V、TX、RX；完整与重接状态等效，独立UPDI半板仅由一个外部5V源供电。",
+    "声明的UART逻辑模型以9600baud、8N1回显字节；UPDI为低有效开漏，释放为高，主机发低与目标发低均有效。目标回应时主机高阻，5V节点到3.3V接收端具有适用保护/电平转换，不要求完整烧录或USB协议。"
+  ],
+  "nominal_conditions": [
+    "5V源至少100mA；USB半板20mA、目标不超过10mA。",
+    "UPDI标称4.7kohm上拉至5V、主机串联1.2kohm、总电容100pF；高至少3.5V，低不超过1.5V。",
+    "TX高状态必须释放，接收转换输入须5V容限，禁止裸3.3V推挽高输出直接对抗5V上拉。"
+  ],
+  "interface_attachment": "external-interfaces.json",
+  "interface_scope": "所有列出的外部接口角色均按本题功能适用；未用或保留接点不得增加信号/电源连接。",
+  "supply_scope": "公开供电域按各接口用途适用。",
+  "nominal_boundary": "上述器件和外部设备逻辑为明确选定的标称测试模型，不代表真实整机/协议/物理认证；只按本题公开工作边界评分。",
+  "acceptance": [
+    "工程与依赖可由KiCad10.0.6正常打开；原理图ERC全severity零error零warning、ignored[]，不得降规则或新增豁免。",
+    "全部适用公开接口、电源、模式和功能满足要求，证据绑定最终交付版本；ERC不替代功能。",
+    "PCB完成布局、必需网络实际布通及铺铜填充，SCH/PCB原生一致；DRC全severity零error零warning、ignored[]，保留更严适用工艺。",
+    "满足机械附件中的板框、厚度、铜层和外部接口相对姿态；内部布局和铜实现可自由决定。",
+    "真实输入故障消失，未受影响的正确电路、器件、铜与规则保持；允许必要的局部修复和本题明确要求的增量同步。"
+  ],
+  "edit_policy": {
+    "allowed": [
+      "pcb",
+      "declared_PCB_project_settings",
+      "necessary_footprint_dependencies"
+    ],
+    "preserve": [
+      "qualified_schematic_electrical_semantics",
+      "public_mechanical_anchors",
+      "unaffected_valid_copper"
+    ]
+  },
+  "mechanical_attachment": "mechanical.json"
+}

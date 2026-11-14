@@ -1,0 +1,15 @@
+{
+  "schema": "qualified_smoke_input_contract/v1",
+  "question": "Q001",
+  "layer": "D1",
+  "mode": "EMPTY_SCHEMATIC",
+  "project_root": ".",
+  "initial_primary": {
+    "schematic": "board.kicad_sch",
+    "project": "board.kicad_pro"
+  },
+  "stages": 1,
+  "provided_pcb": false,
+  "public_nominal_conditions": "Explicit curator-defined test fixture; source interface numbering separately declared",
+  "formal_benchmark_admission": false
+}

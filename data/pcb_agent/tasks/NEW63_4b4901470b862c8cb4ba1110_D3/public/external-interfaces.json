@@ -1,0 +1,14 @@
+{
+  "interfaces": {
+    "BT1.1": "positive battery terminal beforeD1",
+    "BT1.2": "return",
+    "J1.1": "switchedpositive rail/VCC",
+    "J1.2": "PB2/SCK U1.7",
+    "J1.3": "PB1/MISO U1.6",
+    "J1.4": "PB0/MOSI U1.5",
+    "J1.5": "RESET/PB5 U1.1",
+    "J1.6": "return",
+    "D2": "LED anode2 viaR1 fromU1.2/PB3; cathode1return",
+    "S1": "Sourcepin2 inbattery-D1path; pin1VCC; pin3unused; S1/S2 groundedmount/shieldpins"
+  }
+}

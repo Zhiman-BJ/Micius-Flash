@@ -1,0 +1,8 @@
+{
+  "interfaces": {
+    "cell": "BT1positive feeds sourceVBAT andnegative GND; usefixture source below, not installedcell performance test.",
+    "continuity": "TP1.1=PROBE_A at D1 cathode tail; TP2.1=PROBE_B GNDnose. VBAT->R1nominal220ohm->redD1anode->D1cathode->TP1->externalresistor->TP2.",
+    "LEDtest": "TP3.1=LED+ fedVBATthroughR2nominal100ohm; TP4.1=LED- GND. Place externalLEDanodeatTP3,cathodeatTP4 forforward,reverse its orientation forreversecase.",
+    "mode_exclusivity": "Exercise one tester at a time; other port is physicallyopen. No simultaneous two-load gate or active standby circuitry."
+  }
+}

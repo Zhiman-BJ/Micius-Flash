@@ -1,0 +1,47 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial",
+  "primary_schematic": "initial/ATMega328_breakout.kicad_sch",
+  "public_attachments_readonly": "/task",
+  "working_public_copies_mutable": true,
+  "initial_files": {
+    "initial/ATMega328_breakout.kicad_pro": {
+      "sha256": "9fd7992e025f25d80d7ae9dc00e14d4733f4ec2dadba766765ffd14869eea641",
+      "bytes": 9460
+    },
+    "initial/ATMega328_breakout.kicad_sch": {
+      "sha256": "81e9d74e747faf867b1128f9730ed11cff109b61948a4b81e7a45cdce4b9aa32",
+      "bytes": 52764
+    },
+    "initial/external-interfaces.json": {
+      "sha256": "9c293591bcc1c31f4397782c20e8edf8532d70532771cf810b6f96b8e0039911",
+      "bytes": 2936
+    },
+    "initial/input-contract.json": {
+      "sha256": "63a39f337661dada453ea293ebdc776dc12f786d040535ccf04347304d34f052",
+      "bytes": 362
+    },
+    "initial/prompt.txt": {
+      "sha256": "d108aa81114a754d02ca5428d34c5719c956a599cd022d29c70f25971f22beaa",
+      "bytes": 1410
+    },
+    "initial/public-requirements.json": {
+      "sha256": "66d4cabce3878cafa38386d36f6500ec3e3eac1285178a394d88ae93fe12cffa",
+      "bytes": 9836
+    },
+    "initial/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "6d05a367fdcc60f3a47abb40fcb269474d959b51451bd1248177e371602500a2",
+      "bytes": 5544
+    },
+    "initial/repair-owned-symbols/db45241fb78a38941f4ad7c0731ef5919aabc818f00e875747ddb656350534d0.kicad_sym": {
+      "sha256": "96248b197624dee69440eb33b379d6a4cb554426a4a3ff40288785e6dcf4fe49",
+      "bytes": 15396
+    },
+    "initial/sym-lib-table": {
+      "sha256": "1e4c7f3ee09fbf54cfe0b64431cb9d3a5756e7fce34e3a77ccbc7910f254d0de",
+      "bytes": 534
+    }
+  },
+  "source_manifest_sha256": "eb7ffcbf8a3d7c2b74ef7aec7bcf27af8fd9863b37814a9d246cdaa48dccc9e6",
+  "scope": "Original public prompt, public attachments and actual initial CAD only; no source/gold/fault recipe/curator/controller paths mounted."
+}

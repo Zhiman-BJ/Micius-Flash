@@ -1,0 +1,1345 @@
+{
+  "purpose": "USB-to-UART and UART-to-UPDI breakaway assembly, intact/two separated/rejoined modes. Static USB2/UART/UPDI nominal electrical behavior, not device flashing software or physical break-force certification.",
+  "supply_ranges_V": {
+    "USB5V": [
+      4.75,
+      5.25
+    ],
+    "MCU3V3": [
+      3.135,
+      3.465
+    ]
+  },
+  "nominal_condition_selection": "Unless a goal specifies otherwise, use the midpoint of each declared supply interval; requirements at this freeze are the stated nominal choices, not a full tolerance guarantee.",
+  "supply_and_return": "J2.5VsoleUSB5Vinputvia0ohmR3to+5V;J2.GNDreturn. U2MCP1700output3.3V. J3/J4.3VCCandJ5.1UPDIpoweroutput5V, J3/J4.1andJ5.2ground. SeparatedUPDIsideexternalJ4.3single5VsourcewhenUSBsideabsent. Neverconnecttwopowersources.",
+  "external_interfaces": [
+    {
+      "contact": "J3.1",
+      "role": "UARTground",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J3.2",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "CTS",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J3.3",
+      "role": "5VoutputfromUSBhalf",
+      "source_symbol_name_observation": "VCC",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J3.4",
+      "role": "UARTTXoutput3.3V",
+      "source_symbol_name_observation": "TX",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J3.5",
+      "role": "UARTRXinput/UPDIreturn",
+      "source_symbol_name_observation": "RX",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J3.6",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "RTS",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.1",
+      "role": "UARTground",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.2",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "CTS",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.3",
+      "role": "5VinputwhenUPDIhalfseparatedonly",
+      "source_symbol_name_observation": "VCC",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.4",
+      "role": "TXinputtoUPDIhalf",
+      "source_symbol_name_observation": "TX",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.5",
+      "role": "RXoutputfromUPDIhalf",
+      "source_symbol_name_observation": "RX",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J4.6",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "RTS",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J1.1",
+      "role": "SWCLKinput",
+      "source_symbol_name_observation": "Pin_1",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J1.2",
+      "role": "SWDIO",
+      "source_symbol_name_observation": "Pin_2",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J1.3",
+      "role": "3.3VVTrefoutput",
+      "source_symbol_name_observation": "Pin_3",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J1.4",
+      "role": "groundreference,sourceR4jumper0ohmtoGNDmustremain",
+      "source_symbol_name_observation": "Pin_4",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J5.1",
+      "role": "5Voutputtargetpower",
+      "source_symbol_name_observation": "Pin_1",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J5.2",
+      "role": "return",
+      "source_symbol_name_observation": "Pin_2",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J5.3",
+      "role": "UPDIbidirectionaldata",
+      "source_symbol_name_observation": "Pin_3",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J2.5V",
+      "role": "5Vinput",
+      "source_symbol_name_observation": "5V",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J2.GND",
+      "role": "return",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J2.USB_M",
+      "role": "USBD-minus",
+      "source_symbol_name_observation": "USB_M",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "J2.USB_P",
+      "role": "USBD-plus",
+      "source_symbol_name_observation": "USB_P",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    }
+  ],
+  "functional_goals_and_modes": [
+    "J2 5V/GND powers the USB half, MCP1700 gives 3.3V, and USB_M/P retain D-/D+ polarity to SAMD. SWD exposes CLK, DIO, 3.3V reference and a defined ground through the selected zero-ohm R4 link.",
+    "J3/J4 contacts1/3/4/5 mate return/5V/TX/RX. Intact and rejoined assemblies have equivalent roles. A separated UPDI half uses one external J4.3 5V supply; never connect independent supplies together. CTS/RTS are unused.",
+    "Nominal UART 9600 baud8N1 provides one-byte echo under an explicitly selected firmware model. UPDI TX LOW drives through nominal1.2kohm to J5.3, TX HIGH releases to HiZ; nominal4.7kohm pullup goes to5V and target is open-drain. Use an open-drain/level-translated host transmitter, not push-pull3.3V HIGH on this node.",
+    "All released UPDI is HIGH>=0.7*5V, host or target asserted is LOW<=0.3*5V. Host releases during target response. A 5V-tolerant receiver/translator protects actual3.3V SAMD RX; no bare5V tolerance claim. Exercise intact, separated, rejoined, UART idle/data and both UPDI directions. Full flashing/USB stack and physical break forces are outside scope."
+  ],
+  "declared_nominal_loads": "5V source>=100mA, USB half20mA and target<=10mA; UPDI1.2kohm/4.7kohm/100pF; 5V-tolerant translation.",
+  "bench_conventions": "Common return; no independent peripheral power unless a separated mode explicitly selects it. Power-off signal drivers HiZ; fixtures initialize with rails off and wait for supplies/declared component models to settle before observing states. Unused external contacts individually1Mohm to return in bench fixtures; no floating voltage is inferred. A source NC observation cannot override an explicitly selected public role.",
+  "logical_model_boundary": "Declared virtual LCD/MCU/card/DRAM/module behavior is a curator-selected nominal test model. It is not installed firmware, a manufacturer guarantee, or evidence of actual source-CAD function. Detailed task fixtures and affected numerical thresholds are fixed in a later immutable task supplement before validation/admission.",
+  "R1": "Schematic-only public electrical/function scope. Later reference must have actual KiCad10.0.6 all-severity zero error/zero warning, ignored[], no reduced rules/new waivers, and scoped functional positive. No implicit PCB, manufacturing, physical fit or complete external system protocol.",
+  "R2": {
+    "thickness_mm": 1.6,
+    "copper_layers": [
+      "F.Cu",
+      "B.Cu"
+    ],
+    "Edge_Cuts": [
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "54.5",
+            "-5.5"
+          ],
+          [
+            "end",
+            "54.5",
+            "-13.5"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "30",
+            "-1"
+          ],
+          [
+            "end",
+            "30",
+            "-1.2"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "-11.5",
+            "-18"
+          ],
+          [
+            "end",
+            "-14",
+            "-15.5"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "-14",
+            "-15.5"
+          ],
+          [
+            "end",
+            "-24.6",
+            "-15.5"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_arc",
+        "geometry": [
+          "gr_arc",
+          [
+            "start",
+            "30",
+            "-17.8"
+          ],
+          [
+            "mid",
+            "28.5",
+            "-16.3"
+          ],
+          [
+            "end",
+            "27",
+            "-17.8"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_arc",
+        "geometry": [
+          "gr_arc",
+          [
+            "start",
+            "27",
+            "-1.2"
+          ],
+          [
+            "mid",
+            "28.5",
+            "-2.7"
+          ],
+          [
+            "end",
+            "30",
+            "-1.2"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "54.5",
+            "-13.5"
+          ],
+          [
+            "end",
+            "50",
+            "-18"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "27",
+            "-18"
+          ],
+          [
+            "end",
+            "27",
+            "-17.8"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "27",
+            "-6.6"
+          ],
+          [
+            "end",
+            "27",
+            "-12.2"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "30",
+            "-1"
+          ],
+          [
+            "end",
+            "50",
+            "-1"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "30",
+            "-12.2"
+          ],
+          [
+            "end",
+            "30",
+            "-6.6"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "30",
+            "-18"
+          ],
+          [
+            "end",
+            "30",
+            "-17.8"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "-24.6",
+            "-15.5"
+          ],
+          [
+            "end",
+            "-24.6",
+            "-3.5"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "27",
+            "-18"
+          ],
+          [
+            "end",
+            "-11.5",
+            "-18"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_arc",
+        "geometry": [
+          "gr_arc",
+          [
+            "start",
+            "30",
+            "-6.6"
+          ],
+          [
+            "mid",
+            "28.5",
+            "-5.1"
+          ],
+          [
+            "end",
+            "27",
+            "-6.6"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "27",
+            "-1"
+          ],
+          [
+            "end",
+            "27",
+            "-1.2"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "50",
+            "-1"
+          ],
+          [
+            "end",
+            "54.5",
+            "-5.5"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "30",
+            "-18"
+          ],
+          [
+            "end",
+            "50",
+            "-18"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "-14.2",
+            "-3.5"
+          ],
+          [
+            "end",
+            "-11.6",
+            "-1"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "-24.6",
+            "-3.5"
+          ],
+          [
+            "end",
+            "-14.2",
+            "-3.5"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_arc",
+        "geometry": [
+          "gr_arc",
+          [
+            "start",
+            "27",
+            "-12.2"
+          ],
+          [
+            "mid",
+            "28.5",
+            "-13.7"
+          ],
+          [
+            "end",
+            "30",
+            "-12.2"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      },
+      {
+        "primitive": "gr_line",
+        "geometry": [
+          "gr_line",
+          [
+            "start",
+            "27",
+            "-1"
+          ],
+          [
+            "end",
+            "-11.6",
+            "-1"
+          ],
+          [
+            "layer",
+            "Edge.Cuts"
+          ],
+          [
+            "width",
+            "0.05"
+          ]
+        ],
+        "frame": "board"
+      }
+    ],
+    "external_anchors": [
+      {
+        "reference": "J3",
+        "value": "FTDI Out",
+        "at_mm_deg": [
+          21.0,
+          -16.0
+        ],
+        "layer": "F.Cu",
+        "pads": [
+          {
+            "number": "1",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              0.0
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "2",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              2.54
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "3",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              5.08
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "4",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              7.62
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "5",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              10.16
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "6",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              12.7
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          }
+        ]
+      },
+      {
+        "reference": "J4",
+        "value": "FTDI In",
+        "at_mm_deg": [
+          36.3,
+          -16.0
+        ],
+        "layer": "F.Cu",
+        "pads": [
+          {
+            "number": "1",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              0.0
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "2",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              2.54
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "3",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              5.08
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "4",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              7.62
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "5",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              10.16
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "6",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              12.7
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          }
+        ]
+      },
+      {
+        "reference": "J5",
+        "value": "UPDI Out",
+        "at_mm_deg": [
+          48.5,
+          -12.0
+        ],
+        "layer": "F.Cu",
+        "pads": [
+          {
+            "number": "1",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              0.0
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "2",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              2.54
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "3",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.0,
+              5.08
+            ],
+            "size_mm": [
+              2.5,
+              1.7
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          }
+        ]
+      },
+      {
+        "reference": "J1",
+        "value": "SWD",
+        "at_mm_deg": [
+          -7.47,
+          -9.625,
+          -90.0
+        ],
+        "layer": "F.Cu",
+        "pads": [
+          {
+            "number": "1",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              -2.525,
+              -1.27,
+              270.0
+            ],
+            "size_mm": [
+              3.15,
+              1.0
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "2",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              2.525,
+              -1.27,
+              270.0
+            ],
+            "size_mm": [
+              3.15,
+              1.0
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "3",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              -2.525,
+              1.27,
+              270.0
+            ],
+            "size_mm": [
+              3.15,
+              1.0
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "4",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              2.525,
+              1.27,
+              270.0
+            ],
+            "size_mm": [
+              3.15,
+              1.0
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          }
+        ]
+      },
+      {
+        "reference": "J2",
+        "value": "FAB-USB-PCB",
+        "at_mm_deg": [
+          -19.65,
+          -9.5
+        ],
+        "layer": "F.Cu",
+        "pads": [
+          {
+            "number": "5V",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              -0.2,
+              3.5
+            ],
+            "size_mm": [
+              7.5,
+              1.5
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "GND",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              -0.2,
+              -3.5
+            ],
+            "size_mm": [
+              7.5,
+              1.5
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "USB_M",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.3,
+              1.0
+            ],
+            "size_mm": [
+              6.5,
+              1.0
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          },
+          {
+            "number": "USB_P",
+            "type": "smd",
+            "shape": "rect",
+            "at_mm_deg": [
+              0.3,
+              -1.0
+            ],
+            "size_mm": [
+              6.5,
+              1.0
+            ],
+            "drill": [],
+            "layers": [
+              "F.Cu",
+              "F.Paste",
+              "F.Mask"
+            ],
+            "additional_geometry": {}
+          }
+        ]
+      }
+    ],
+    "mounting_holes": [],
+    "conventions": "mm and degrees; footprint at is board frame, pad at is footprint-local. KiCad raw footprint local coordinates retained with side/layer; no front/back visual pin-number inference. All top-level and footprint-owned Edge.Cuts enumerated. No copper routes or UUIDs are public requirements.",
+    "acceptance": "All enumerated external pad number/type/shape/size/drill/layers/rratio and relative external-anchor pose must match within0.01mm and0.1degree after one common translation and rotation, no reflection. No internal component pose, UUID, routing or copper gold. Outline edges may be repaired only by <=0.01mm local endpoint/midpoint adjustment to obtain closed contours joined within0.001mm; circle/arc/rect/cutout primitive kind and all actual cutouts retained. Internal layout free.",
+    "process_source_global_rules": {
+      "allow_blind_buried_vias": false,
+      "allow_microvias": false,
+      "max_error": 0.005,
+      "min_clearance": 0.0,
+      "min_copper_edge_clearance": 0.0,
+      "min_hole_clearance": 0.25,
+      "min_hole_to_hole": 0.25,
+      "min_microvia_diameter": 0.19999999999999998,
+      "min_microvia_drill": 0.09999999999999999,
+      "min_silk_clearance": 0.0,
+      "min_through_hole_diameter": 0.3,
+      "min_track_width": 0.19999999999999998,
+      "min_via_annular_width": 0.049999999999999996,
+      "min_via_diameter": 0.39999999999999997,
+      "use_height_for_length_calcs": true
+    },
+    "process_source_net_settings": {
+      "classes": [
+        {
+          "bus_width": 12.0,
+          "clearance": 0.2,
+          "diff_pair_gap": 0.25,
+          "diff_pair_via_gap": 0.25,
+          "diff_pair_width": 0.2,
+          "line_style": 0,
+          "microvia_diameter": 0.3,
+          "microvia_drill": 0.1,
+          "name": "Default",
+          "pcb_color": "rgba(0, 0, 0, 0.000)",
+          "schematic_color": "rgba(0, 0, 0, 0.000)",
+          "track_width": 0.25,
+          "via_diameter": 0.8,
+          "via_drill": 0.4,
+          "wire_width": 6.0
+        }
+      ],
+      "meta": {
+        "version": 2
+      }
+    },
+    "additional_minimums": {
+      "track_mm": 0.2,
+      "clearance_mm": 0.2,
+      "via_drill_mm": 0.3,
+      "via_diameter_mm": 0.6,
+      "hole_clearance_mm": 0.25
+    },
+    "preserve_stricter_source": "Every stricter applicable source custom/global/netclass/effective rule retained; these are minimum additions, never severity lowering, ignore rules or new waivers."
+  },
+  "implementation_freedom": "Correct observed source errors as needed in a later candidate. Functionally equivalent internal circuitry/layout is allowed; internal net names, copper, UUIDs and component poses are not a scoring gold.",
+  "task_id": "NEW63_3b3b0595cb8ec682e670aca9_R1",
+  "layer": "R1",
+  "scope_endpoint": "schematic"
+}

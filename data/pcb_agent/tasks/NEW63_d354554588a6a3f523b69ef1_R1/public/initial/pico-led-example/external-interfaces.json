@@ -1,0 +1,10 @@
+{
+  "interfaces": {
+    "U101": "Pico module abstraction. Source uses3V3OUT pad36 and commonGND; GPIO21 pad27 LED_CTRL,GPIO18 pad24 TOUCH. VBUS40/VSYS39 are NC because power can arrive through the selected Pico module USB input. Do not infer a source on an unconnected power pin.",
+    "hierarchical_boundary": "Root Components sheet connects +3V3,LED_CTRL,TOUCH; GND is global. Complete components.kicad_sch is part of the consumed source closure.",
+    "LED_switch": "Q201 source at3.3V,pin3;gate1 atLED_CTRL viaR20110k;drain2 at LED_3V3 shared withthreeLEDanodes pin2 andR203.2. D201/D202/D203 cathode1 GND. PMOS20V DS is a generic Value, not an exact supported MPN.",
+    "touch": "FENRIR201 is a single-contact copper/logo electrode onTOUCH, withR2021M pull-down; physical electrode function is separate from decorative artwork. TP103 touches the signal; source provides no touchcontroller or guaranteedcapacitivesensitivity.",
+    "testpoints": "TP1013.3V;TP102LED_CTRL;TP103TOUCH;TP201switchedLED_3V3; sharedreturn atPicoGND.",
+    "R203": "Source Value R, between+3.3V and LED_3V3; its shunt/bypass behavior and finite selection must be disclosed or corrected. It is not automatically an LED series-current limiter."
+  }
+}

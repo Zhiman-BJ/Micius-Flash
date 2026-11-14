@@ -1,0 +1,96 @@
+{
+  "ports": [
+    {
+      "contact": "J3.1",
+      "role": "UARTground"
+    },
+    {
+      "contact": "J3.2",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "J3.3",
+      "role": "5VoutputfromUSBhalf"
+    },
+    {
+      "contact": "J3.4",
+      "role": "UARTTXoutput3.3V"
+    },
+    {
+      "contact": "J3.5",
+      "role": "UARTRXinput/UPDIreturn"
+    },
+    {
+      "contact": "J3.6",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "J4.1",
+      "role": "UARTground"
+    },
+    {
+      "contact": "J4.2",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "J4.3",
+      "role": "5VinputwhenUPDIhalfseparatedonly"
+    },
+    {
+      "contact": "J4.4",
+      "role": "TXinputtoUPDIhalf"
+    },
+    {
+      "contact": "J4.5",
+      "role": "RXoutputfromUPDIhalf"
+    },
+    {
+      "contact": "J4.6",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "J1.1",
+      "role": "SWCLKinput"
+    },
+    {
+      "contact": "J1.2",
+      "role": "SWDIO"
+    },
+    {
+      "contact": "J1.3",
+      "role": "3.3VVTrefoutput"
+    },
+    {
+      "contact": "J1.4",
+      "role": "groundreference,sourceR4jumper0ohmtoGNDmustremain"
+    },
+    {
+      "contact": "J5.1",
+      "role": "5Voutputtargetpower"
+    },
+    {
+      "contact": "J5.2",
+      "role": "return"
+    },
+    {
+      "contact": "J5.3",
+      "role": "UPDIbidirectionaldata"
+    },
+    {
+      "contact": "J2.5V",
+      "role": "5Vinput"
+    },
+    {
+      "contact": "J2.GND",
+      "role": "return"
+    },
+    {
+      "contact": "J2.USB_M",
+      "role": "USBD-minus"
+    },
+    {
+      "contact": "J2.USB_P",
+      "role": "USBD-plus"
+    }
+  ]
+}

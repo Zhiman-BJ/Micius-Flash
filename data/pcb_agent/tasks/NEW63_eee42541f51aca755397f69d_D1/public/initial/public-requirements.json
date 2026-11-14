@@ -1,0 +1,90 @@
+{
+  "interfaces": {
+    "J1": {
+      "1": "selectedpositiveVDD",
+      "2": "0Vreturn"
+    },
+    "R3": "exposedtimingadjustment",
+    "D1": "visibleoscillationindicator"
+  },
+  "fixture": {
+    "authority": "Explicit curator continuous nominal model, not TI crossbias guarantees, actual capacitor/LED IV, measured EMC, chip SOA or source-project certification. All conductors ideal; finite components below. Temperature25C. All listed independent parameters range continuously over their intervals and remain fixed during a run.",
+    "supply": {
+      "J1.1": "Ideal4.75..5.25V rail VDD",
+      "J1.2": "bench0V",
+      "source_label": "Source+12V is not the selected operating voltage. Correct candidate may relabel it honestly; no private net name grading.",
+      "required_connections": "U1.8VDD and U1.4RESET at positive rail, U1.1ground. RESET high keeps timer enabled."
+    },
+    "resistors": {
+      "LED_R1_ohm": [
+        950,
+        1050
+      ],
+      "charge_RA_R2_ohm": [
+        950,
+        1050
+      ],
+      "timing_RB_R3": "Selected continuously adjustable nominal10k..47k, actualRB=setting*(1+epsilon), epsilon independently continuous[-.05,.05]; totalactual[9500,49350]ohm. Pin1DIS to pin2wiperTRIG, physical third end unused and not shorting either path. Equivalent correct selected parts allowed."
+    },
+    "capacitors": {
+      "timing_C2_F": [
+        8e-07,
+        1.2e-06
+      ],
+      "C2_ESR_ohm": [
+        0.1,
+        1
+      ],
+      "C2_parallel_leak_ohm": 1000000,
+      "C2_model": "Positive terminal TRIG, negative at0V. Idealcapacitance C with seriesESR; leakage1Mohm across internal idealcapstate Vc to0V. Terminal voltage Vs differs from Vc. This chosen two-terminal seriesRC+internalleak surrogate is explicit, not datasheet electrolyte physics.",
+      "control_C1_F": [
+        8e-08,
+        1.2e-07
+      ],
+      "CV_model": "U1.5 ideal internal source beta*VDD to0V; C1 across CV/GND initially precharged beta*VDD. Settled constantCV has zero externalcurrent. No certification of real startup or supplyramp; chosen initial conditions exclude precharge energy."
+    },
+    "timer": {
+      "alpha": [
+        0.32,
+        0.35
+      ],
+      "beta": [
+        0.65,
+        0.68
+      ],
+      "discharge_Ron_ohm": [
+        5,
+        20
+      ],
+      "output_Rout_ohm": 100,
+      "Iq_A": [
+        5e-05,
+        0.0005
+      ],
+      "delay_s": [
+        5e-08,
+        1.5e-07
+      ],
+      "state_law": "Trigger U1.2 and threshold U1.6 sense external C2 terminalVs. StateQ HIGH: DIS U1.7 open, outputTheveninVDD through100ohm. Vs rising to beta*VDD schedulesLOW aftertd; continueoldHIGH branch duringtd. StateQ LOW: DIS hasRon to0V, outputThevenin0 through100ohm. Vs falling to alpha*VDD schedulesHIGH aftertd, continueoldLOW branch duringtd. Vc continuous across switch, Vs may jump by ESR; no additional event while pending. At equality crossing include that event. Input2/6 no separate current; only stated C2 leakage. Iq is independent VDD-to-ground current. No external load beyond LED path below.",
+      "initial": "At t=0 supply constantVDD, Vc=0, C1 precharged as above, QHIGH, no pendingevent. No reset sequence, firmware or real-chip startup guarantee.",
+      "phase_equations": "RA=R2,RB=R3,e=ESR,L=1Mohm. HIGH: Vth=VDD,Rth=RA+RB. LOW: Vth=VDD*Ron/(RA+Ron),Rth=RB+RA*Ron/(RA+Ron). Vs=(Rth*Vc+e*Vth)/(Rth+e); dVc/dt=(Vth-Vc)/((Rth+e)*C)-Vc/(L*C); Veq=Vth/(1+(Rth+e)/L),tau=C/(1/(Rth+e)+1/L). Vc(t)=Veq+(Vc0-Veq)*exp(-t/tau). Thresholdcapstate Vc_theta=((Rth+e)*theta*VDD-e*Vth)/Rth. Applytd afterthreshold beforebranchchange. RAcurrent=(VDD-Vs)/(RA+RB) whenHIGH; LOW DISnode obtained from RA/Ron/RB Kirchhoff law. Actualselected topology must realize these roles; equations not a substitute for future actualCAD qualification."
+    },
+    "LED": "D1signed voltage v=VA-VK and current positive AtoK: v<0 =>i=v/1G; 0<=v<=V0 =>i=0 inclbounds; v>V0 =>i=(v-V0)/10ohm. V0 independently1.8..2.2V, R1 inseries from OUT to A, Kground. No other outputload.",
+    "normal_domains": "Explicit selections: C1,C2>=10V normalcapacity; selected C2 polar and Vpositive>=0. R1/R2 normalcapacity>=.0625W each, R3>=.0625W; LED>=5mA/.025W; U1model VDDnormal4.75..5.25V. Do not infer these choices from package size or guarantee a particular vendor part.",
+    "power_thermal": "During periodicoperation compute all resistive, LED and timerlosses from this finite model. U1loss=VDD*Iq+Iout^2*100+Idis^2*Ron, Iout railbranchpositive. No switchingenergy except explicitly resistivecapcharge loss; thermalcheck is steadydissipation only. Selected lumped thermalproxy T_U1=25+200*average(P_U1), T_R=25+500*average(P_R), T_LED=25+500*average(P_LED). These are declared curator environmentcoefficients, not TI theta or finalPCB thermalcertification. R2 retains this model scope; no unsupported manufacturerPCBtheta claim."
+  },
+  "acceptance": {
+    "OSCILLATION": "For every declaredparameter and every10k..47k selected setting: after200ms, five consecutive completeHIGH/LOWcycles have frequency10..110Hz and dutyHIGH fraction.43...62, no stalledstate or immediateoppositethreshold retrigger. Startupinitialfirstperiod neednotbe periodic, but reach recurrentoscillation by200ms. Nominalsetting10k must givefrequency>=40Hz and nominalsetting47k <=25Hz at everydeclaredtolerance, so the adjustment changesblinkrate measurably; intermediate settings still obey10..110Hz and dutybounds.",
+    "OUTPUT_AND_SUPPORT": "HIGH settledLEDcurrent2..3.5mA and LOW<=1uA; signed polarity and timerpins/supportconnections correct. C2physicalpositive terminal nevernegative in normaldomain; C1positivevoltage withinselectedcapacity. Preserve trimfunction, no timingbypass.",
+    "CURRENT_AND_DISSIPATION": "Normalinstantaneousbenchcurrent<=10mA and Idis<=6mA under declared initializeddomain. R1/R2 instantaneouspower<=.03125W each, R3<=.005W, LED<=.012W, U1 steadyaverage<=.005W; selectedthermalproxy all<=60C. This is no transientchipSOA/realcapacitorstartup claim. Account for finiteRon/ESR/leak/delay instead of ideal .693 formula alone.",
+    "INTERFACE": "J1.1positive/J1.2return. Required numberedU1,LEDpolar and selectedpot maps from actual partfacts. Functional equivalence allowed, no exact private resistoranswer/layout/netname/UUID grading."
+  },
+  "scope_control": {
+    "R1": "Actualschematic/dependencies/fullseverityERC and finite statedfunction; no PCB/DRC/manufacturing/fit/firmware/fullreal-chip certification.",
+    "R2": "ActualpublicPCBinput stage stated explicitly; finalmatchingPCB/allseverityDRCrefill/parity/unrouted/fullpad-hole-layer-net/process and actualrequested manufacturing/designnotes. Sourcecorrectcopper private; neutralframe ifsupplied identified. PCBcreation is stage, not additionalfault. No extrapolatedrealPCBthermal guarantee.",
+    "prompt": "Use currentprompt_policy actualdeliverycutoff; do notrestorecancelledmissingconditions criterion/file. Keepdrawing-sheet dependency resolved inactualproject; no referencecoordinates as electricalgradingtarget."
+  },
+  "task_id": "NEW63_eee42541f51aca755397f69d_D1",
+  "layer": "D1",
+  "scope_endpoint": "schematic"
+}

@@ -1,0 +1,5 @@
+(sym_lib_table (version 7)
+(lib (name "Connector") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "Device") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+(lib (name "Simulation_SPICE") (type "KiCad") (uri "${KIPRJMOD}/repair-owned-symbols/ec4196b3ddf9e5f0dcb019b061f372bd6fc01fffc2311719932f721085ac7ff8.kicad_sym") (options "") (descr "Exact source-embedded symbol snapshot; not external device qualification"))
+)

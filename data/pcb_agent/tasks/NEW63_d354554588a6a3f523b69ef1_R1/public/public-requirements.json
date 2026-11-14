@@ -1,0 +1,24 @@
+{
+  "purpose": "Raspberry Pi Pico carrier/example with a separate Components sheet for three white LEDs controlled by a high-side P-channel MOSFET and a copper touch electrode. Root and child sheets form one board task; hierarchical port identity must remain consistent.",
+  "ports": {
+    "U101": "Pico module abstraction. Source uses3V3OUT pad36 and commonGND; GPIO21 pad27 LED_CTRL,GPIO18 pad24 TOUCH. VBUS40/VSYS39 are NC because power can arrive through the selected Pico module USB input. Do not infer a source on an unconnected power pin.",
+    "hierarchical_boundary": "Root Components sheet connects +3V3,LED_CTRL,TOUCH; GND is global. Complete components.kicad_sch is part of the consumed source closure.",
+    "LED_switch": "Q201 source at3.3V,pin3;gate1 atLED_CTRL viaR20110k;drain2 at LED_3V3 shared withthreeLEDanodes pin2 andR203.2. D201/D202/D203 cathode1 GND. PMOS20V DS is a generic Value, not an exact supported MPN.",
+    "touch": "FENRIR201 is a single-contact copper/logo electrode onTOUCH, withR2021M pull-down; physical electrode function is separate from decorative artwork. TP103 touches the signal; source provides no touchcontroller or guaranteedcapacitivesensitivity.",
+    "testpoints": "TP1013.3V;TP102LED_CTRL;TP103TOUCH;TP201switchedLED_3V3; sharedreturn atPicoGND.",
+    "R203": "Source Value R, between+3.3V and LED_3V3; its shunt/bypass behavior and finite selection must be disclosed or corrected. It is not automatically an LED series-current limiter."
+  },
+  "authoring_operating_scope": "Curator25C moduleUSB-powered3.3V nominal mode, GPIO0/3.3V. LED_CTRLLOW intends PMOS ON andHIGH OFF, after explicitly selected compatible PMOS and signed model. Source threeparallelLEDs have no individualcurrent-limitingresistors; future qualifiedreference must add a supported current-limiting implementation or explicit safe current-limitedfixture and choose R203 behavior so declaredON/OFF goals are attainable. DetailedLED/PFETcurrent/voltage/RC/power thresholds fixed in immutablepublicsupplement before actualvalidation. TOUCH is first a knownexternal electricalstimulus withR202pulldown and boundedcapacitance; a physicalfinger-detectiongoal requires a separately disclosed capacitivefixture/firmwaretransfer model, not an invented sensor guarantee.",
+  "observables": [
+    "Root/child+3V3,LED_CTRL,TOUCH identity and commonreturn continuity; allsheetmembersconsumed.",
+    "LED controlLOW gives declaredsafeONcurrent andHIGH suppressescurrent under selected supporteddevice/loadfixture; sourceR203 mayneedchange/removal if it defeatsOFF.",
+    "TOUCH/testpoint state andpulldown/RC response underdisclosedexternal electricalstimulus, without claimingactualtouchsensitivity.",
+    "Correct modulepower routing andtestpointrole mapping."
+  ],
+  "source_caveats": "Source cached genericPMOS/unspecifiedR203/parallelLEDcurrentlimiting are explicit selection or repair issues, not a qualified reference or forced invalid topology. Correct implementation may change these affected components/paths while preserving the declared module/control/touch/testpoint roles. R2 retainscompleteoriginaloutline,1.6mmtwoCu, essentialmodule/electrodeexternalrole; exactpad/mechanical/manufacturingdetails deferred. R1doesnotrequirePCB/bodyfit/realUSB/completeRP2040firmware.",
+  "R1_scope": "Schematic/dependencies and actual declared public local function only; noPCB/manufacturing/bodyfit/full external system protocol gate. Source observations and intended corrected function are separate.",
+  "scope_control": "Use actual prompt_policy/current delivery cutoff. No canceled missing-conditions criterion/file. Later exact numerical/module/programming/functional and physical applicability needs immutable public supplements and affected validation/final review. Existing source CAD is not a qualified correct reference.",
+  "task_id": "NEW63_d354554588a6a3f523b69ef1_R1",
+  "layer": "R1",
+  "scope_endpoint": "schematic"
+}

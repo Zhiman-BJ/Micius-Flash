@@ -1,0 +1,198 @@
+{
+  "interfaces": {
+    "21": {
+      "role": "GND",
+      "header_contacts": [
+        "J1.4",
+        "J4.4"
+      ]
+    },
+    "5": {
+      "role": "GND",
+      "header_contacts": [
+        "J1.4",
+        "J4.4"
+      ]
+    },
+    "12": {
+      "role": "PB0",
+      "header_contacts": [
+        "J3.5"
+      ]
+    },
+    "16": {
+      "role": "PB4",
+      "header_contacts": [
+        "J3.1"
+      ]
+    },
+    "15": {
+      "role": "PB3",
+      "header_contacts": [
+        "J3.2"
+      ]
+    },
+    "10": {
+      "role": "PD6",
+      "header_contacts": [
+        "J3.7"
+      ]
+    },
+    "9": {
+      "role": "PD5",
+      "header_contacts": [
+        "J3.8"
+      ]
+    },
+    "13": {
+      "role": "PB1",
+      "header_contacts": [
+        "J3.4"
+      ]
+    },
+    "1": {
+      "role": "PD3",
+      "header_contacts": [
+        "J1.8"
+      ]
+    },
+    "11": {
+      "role": "PD7",
+      "header_contacts": [
+        "J3.6"
+      ]
+    },
+    "6": {
+      "role": "PE1",
+      "header_contacts": [
+        "J1.3"
+      ]
+    },
+    "3": {
+      "role": "PE0",
+      "header_contacts": [
+        "J1.6"
+      ]
+    },
+    "2": {
+      "role": "PD4",
+      "header_contacts": [
+        "J1.7"
+      ]
+    },
+    "7": {
+      "role": "PB6",
+      "header_contacts": [
+        "J1.2"
+      ]
+    },
+    "8": {
+      "role": "PB7",
+      "header_contacts": [
+        "J1.1"
+      ]
+    },
+    "14": {
+      "role": "PB2",
+      "header_contacts": [
+        "J3.3"
+      ]
+    },
+    "20": {
+      "role": "AREF",
+      "header_contacts": [
+        "J4.5"
+      ]
+    },
+    "18": {
+      "role": "AVCC",
+      "header_contacts": [
+        "J4.7"
+      ]
+    },
+    "17": {
+      "role": "PB5",
+      "header_contacts": [
+        "J4.8"
+      ]
+    },
+    "23": {
+      "role": "PC0",
+      "header_contacts": [
+        "J4.2"
+      ]
+    },
+    "24": {
+      "role": "PC1",
+      "header_contacts": [
+        "J4.1"
+      ]
+    },
+    "25": {
+      "role": "PC2",
+      "header_contacts": [
+        "J2.8"
+      ]
+    },
+    "26": {
+      "role": "PC3",
+      "header_contacts": [
+        "J2.7"
+      ]
+    },
+    "27": {
+      "role": "PC4",
+      "header_contacts": [
+        "J2.6"
+      ]
+    },
+    "28": {
+      "role": "PC5",
+      "header_contacts": [
+        "J2.5"
+      ]
+    },
+    "29": {
+      "role": "PC6/RESET",
+      "header_contacts": [
+        "J2.4"
+      ]
+    },
+    "30": {
+      "role": "PD0",
+      "header_contacts": [
+        "J2.3"
+      ]
+    },
+    "31": {
+      "role": "PD1",
+      "header_contacts": [
+        "J2.2"
+      ]
+    },
+    "32": {
+      "role": "PD2",
+      "header_contacts": [
+        "J2.1"
+      ]
+    },
+    "19": {
+      "role": "PE2",
+      "header_contacts": [
+        "J4.6"
+      ]
+    },
+    "22": {
+      "role": "PE3",
+      "header_contacts": [
+        "J4.3"
+      ]
+    },
+    "4": {
+      "role": "VCC",
+      "header_contacts": [
+        "J1.5"
+      ]
+    }
+  }
+}

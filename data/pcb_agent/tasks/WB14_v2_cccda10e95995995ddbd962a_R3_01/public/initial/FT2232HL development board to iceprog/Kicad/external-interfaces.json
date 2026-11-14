@@ -1,0 +1,204 @@
+{
+  "ports": [
+    {
+      "contact": "JP1.1",
+      "role": "VIOsidejumper"
+    },
+    {
+      "contact": "JP1.2",
+      "role": "targetpowersidejumper"
+    },
+    {
+      "contact": "J1.1",
+      "role": "optional3.3Voutput"
+    },
+    {
+      "contact": "J1.2",
+      "role": "return"
+    },
+    {
+      "contact": "J1.3",
+      "role": "reservedisolated"
+    },
+    {
+      "contact": "J1.4",
+      "role": "reservedisolated"
+    },
+    {
+      "contact": "J1.5",
+      "role": "CDONEinputfromtarget"
+    },
+    {
+      "contact": "J1.6",
+      "role": "CRESEToutput"
+    },
+    {
+      "contact": "J1.7",
+      "role": "MISOinputfromtarget"
+    },
+    {
+      "contact": "J1.8",
+      "role": "MOSIoutput"
+    },
+    {
+      "contact": "J1.9",
+      "role": "SCKoutput"
+    },
+    {
+      "contact": "J1.10",
+      "role": "CSactiveLOWoutput"
+    },
+    {
+      "contact": "P1.1",
+      "role": "return"
+    },
+    {
+      "contact": "P1.2",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P1.3",
+      "role": "3.3Vinput"
+    },
+    {
+      "contact": "P1.4",
+      "role": "SCKoutputfromFTDI"
+    },
+    {
+      "contact": "P1.5",
+      "role": "MOSIoutput"
+    },
+    {
+      "contact": "P1.6",
+      "role": "MISOinput"
+    },
+    {
+      "contact": "P1.7",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P1.8",
+      "role": "CSactiveLOWoutput"
+    },
+    {
+      "contact": "P1.9",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P1.10",
+      "role": "CDONEactiveHIGHinput"
+    },
+    {
+      "contact": "P1.11",
+      "role": "CRESETactiveLOWoutput"
+    },
+    {
+      "contact": "P1.12",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P1.13",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P1.14",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P1.15",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P1.16",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P1.17",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P1.18",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P1.19",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.1",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.2",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.3",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.4",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.5",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.6",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.7",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.8",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.9",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.10",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.11",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.12",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.13",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.14",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.15",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.16",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.17",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.18",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "P2.19",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    }
+  ]
+}

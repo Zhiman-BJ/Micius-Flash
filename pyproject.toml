@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "micius-eval"
+version = "0.1.0"
+description = "Inference and evaluation code for Micius-Flash (SemiBench, Semiconductor Agent, PCB Agent)"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.11"
+dependencies = [
+    "jsonschema>=4.18",
+    "PyYAML>=6.0",
+    "tomlkit>=0.13",
+    "python-dotenv>=1.0",
+    "typing_extensions>=4.5",
+    "openai>=1.40",
+]
+
+[project.optional-dependencies]
+hf = ["torch>=2.5", "transformers>=5.15", "accelerate", "pillow"]
+download = ["huggingface_hub>=1.0"]
+dev = ["pytest"]
+
+[project.scripts]
+micius-semibench = "micius_eval.semibench.run:main"
+micius-semi-agent = "micius_eval.semiconductor_agent.run:main"
+micius-semi-agent-verify = "micius_eval.semiconductor_agent.verify:main"
+micius-pcb-agent = "micius_eval.pcb_agent.run:main"
+micius-pcb-agent-verify = "micius_eval.pcb_agent.verify:main"
+
+[tool.setuptools.packages.find]
+include = ["micius_eval*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json", "*.md", "*.txt", "*.mjs", "*.jinja", "assets/*", "adapter/*", "prompts/*", "prompts/**/*",
+       "schemas/*", "schemas/**/*", "skills/**/*", "internal_schemas/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

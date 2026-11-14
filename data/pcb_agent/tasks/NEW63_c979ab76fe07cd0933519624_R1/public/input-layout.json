@@ -1,0 +1,131 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0",
+  "primary_schematic": "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/teensy-adapter-v3.0.kicad_sch",
+  "public_attachments_readonly": "/task",
+  "working_public_copies_mutable": true,
+  "initial_files": {
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.lib": {
+      "sha256": "e55c217692580ec79ab3183f675db8bd00a9cf840bcd9cb7255c6bf36fda0cd4",
+      "bytes": 47219
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy1.0++.kicad_mod": {
+      "sha256": "be97fa66376c93311cadfd3b12ab2b46d4d961309915d271556d724a4a7d426a",
+      "bytes": 7895
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy1.0.kicad_mod": {
+      "sha256": "31036a800833c30addce34c64a37e1f23e1de0b8e07b7cf9c661f311a7a4eeb9",
+      "bytes": 5603
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy2.0++.kicad_mod": {
+      "sha256": "759945fd1fc366c07da9ccab8ddc9983ded0fc0cb99e847b3ebd5c133fc4fa26",
+      "bytes": 7988
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy2.0.kicad_mod": {
+      "sha256": "9849c1951a5cb1b17736c08cffd28fd6291bdf93c0958cd6e6ecf6dfd3ab8459",
+      "bytes": 6036
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy30_31_32_All_Pins.kicad_mod": {
+      "sha256": "b1c260cc7abcf4c96ded5c94e9738d56a8e90e5d152786360e9bafa6ecf84ec7",
+      "bytes": 6846
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy30_31_32_LC.kicad_mod": {
+      "sha256": "0b40a95e1cce290d6dcd85b7678000cbb3b324c1120d0eed1cda3b0a58bb2921",
+      "bytes": 7376
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy35_36.kicad_mod": {
+      "sha256": "d1cc43813a8598e78ef31142af70426c1950b429ab8fbe2c0aa0d2a63f17fe43",
+      "bytes": 10548
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy35_36_All_Pins.kicad_mod": {
+      "sha256": "15750efe4c46a5cd51b53f2b8ee7378b41f1f4d3f335247fc86e11771e6c8a20",
+      "bytes": 12930
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy40.kicad_mod": {
+      "sha256": "1209b97b633a8407b85878d98d0bdcb87160bda7901d87e3fb9d08f2466e1925",
+      "bytes": 7377
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy40_SMT.kicad_mod": {
+      "sha256": "b45d4f8858aa1b3fd527073c0685399c29822ad297ded6740f302ea86c7515c6",
+      "bytes": 9734
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy41.kicad_mod": {
+      "sha256": "144e4229bfd36a5705be5dd516129218b62069b6fbca4e1c9f69952b187a22eb",
+      "bytes": 11168
+    },
+    "initial/boards/rev-2026/control-v4.0/lib/teensy.pretty-master/Teensy_LC.kicad_mod": {
+      "sha256": "2cfdd8e5f8c183f1477e65f97f9a6059f292422a8ef77c8e441bc31c5eab2c30",
+      "bytes": 7059
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/external-interfaces.json": {
+      "sha256": "33a56e9a50e5e6e1cb22fce569c713513d71ca2683a61efa11efc32ae133c723",
+      "bytes": 648
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/fp-lib-table": {
+      "sha256": "97750f52a4370ed820ee544b824faeb8845fb2e6ce4b6cd011f38e973cb01afd",
+      "bytes": 279
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/input-contract.json": {
+      "sha256": "51d35acb2e3f82fdeb6c150c2608b22e4dcb6e00eaedf1856748d206f18573ec",
+      "bytes": 544
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/lib.pretty/Teensy41.kicad_mod": {
+      "sha256": "3bdedb8309fcceb4a1f52625c1feb9df658632d1db6d920095fa95488aef114a",
+      "bytes": 18792
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/lib.pretty/mTrain.kicad_mod": {
+      "sha256": "defd0ecc0369768b3d4c87e670fb5d1522b8297e0c09b51465c6e10bdb13ffb4",
+      "bytes": 6830
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/prompt.txt": {
+      "sha256": "c8d8e926719a103df6057f9146a2b35fab16268199b5b8e60a664d56074826a7",
+      "bytes": 1472
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/public-requirements.json": {
+      "sha256": "3f0da816191c33c01a8e8c6aa59b304f657df3d797afd8a2d543803cad94cd04",
+      "bytes": 2842
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "59ed28aa44326acfd0e6d4206a6c8a14ba5618e6311d9dbe4c6c111f543392ca",
+      "bytes": 5751
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym": {
+      "sha256": "5c6937b472884940ea5924d06cee0ed5413d296dcc054e4fb570dc826c1f6b33",
+      "bytes": 2878
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/76b5a357391276b282a516f54f48ef3c207f46d8192dc58c208d5183d38415f8.kicad_sym": {
+      "sha256": "2ded965880ee20624a291a1c110c7d00177347036209bc69140ae9fbcfe72b84",
+      "bytes": 24820
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym": {
+      "sha256": "1cf0b7b6a32c5cc0b28c006db2e0f93adb67ababcc33f68106a3de5987f0aed7",
+      "bytes": 3964
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/c214f705739b430b97e1c51fe5e329175867917d0a5435c19daac335875d6d17.kicad_sym": {
+      "sha256": "7219bf2ab5b31cb4b0a08bed5418e714be59dc31894948232ff63e9dad29ce83",
+      "bytes": 5006
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/teensy-module-usb-conditional-supply.kicad_sym": {
+      "sha256": "15d80f6ee3a4d1c06d88263abdd311803976cfb471a77d327ce772e4eb9d53c6",
+      "bytes": 1847
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/repair-owned-symbols/teensy41-original-3V3-outputs.kicad_sym": {
+      "sha256": "d8e6e327e5b50c9927d6038d624df9a858238d3d646bd312df3dfb2b46624a90",
+      "bytes": 15013
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/sym-lib-table": {
+      "sha256": "858ddc36db1d26bca3c7b0c6ebefdc3f437689393516c041b773bbbea47e6141",
+      "bytes": 1894
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/teensy-adapter-v3.0.kicad_pro": {
+      "sha256": "923f4dba1c7323efc70c4a261fded16f8369e29e5dacae1ba56f68cf035b1284",
+      "bytes": 15038
+    },
+    "initial/boards-archive/pre-2026/off-robot/kicad/teensy-adapter-v3.0/teensy-adapter-v3.0.kicad_sch": {
+      "sha256": "6108625e70fdc908c2d848f8b149bad2155109a114d2aa3696720ef26a5c6cf7",
+      "bytes": 129006
+    }
+  },
+  "source_manifest_sha256": "f0b7923fbcbcb8c85791604479e9f7d080d880b12a142f2aac22c741292cc5a9",
+  "scope": "Original public prompt, public attachments and actual initial CAD only; no source/gold/fault recipe/curator/controller paths mounted."
+}

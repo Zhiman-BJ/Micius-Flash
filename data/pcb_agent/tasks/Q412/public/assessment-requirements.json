@@ -1,0 +1,167 @@
+{
+  "schema": "actual_prompt_assessment/v1",
+  "question": "Q412",
+  "layer": "R2",
+  "stage_count": 1,
+  "prompt_sha256": "d0d24cb090e29617ee878689cdbb3461dc759d4483dcaf50bf231be398bbe231",
+  "delivery": {
+    "schema": "public_delivery_requirements/v3",
+    "policy_id": "20261017-actual-prompt-delivery-integrity-v17",
+    "question": "Q412",
+    "layer": "R2",
+    "stage_count": 1,
+    "prompt_sha256": "d0d24cb090e29617ee878689cdbb3461dc759d4483dcaf50bf231be398bbe231",
+    "directory": "output",
+    "required_cad": [
+      "schematic",
+      "project",
+      "pcb"
+    ],
+    "required_notes": [
+      "design-notes.md"
+    ],
+    "validation": false,
+    "manufacturing": [
+      "gerber",
+      "drill",
+      "bom",
+      "positions"
+    ],
+    "verification_axes": [
+      "answer",
+      "structure",
+      "completion"
+    ],
+    "scope": "Actual public prompt only; input filenames and stale machine contracts add no delivery obligations; file presence grants no engineering PASS"
+  },
+  "axes": [
+    "answer",
+    "structure",
+    "completion"
+  ],
+  "criteria": [
+    {
+      "id": "cce1bf3804d57f6f799d",
+      "section": "目标",
+      "text": "制作 LED 板，提供外部供电及控制接口。",
+      "line": 6
+    },
+    {
+      "id": "9bf4018ef902cb57d063",
+      "section": "你的工作",
+      "text": "先诊断并局部修复原理图，再交付与之对应的完整 PCB。本题不提供 PCB，请根据修复后的原理图制作。",
+      "line": 9
+    },
+    {
+      "id": "490ded633ff5e9710a23",
+      "section": "必要要求",
+      "text": "制作 LED 板，提供外部供电及控制接口。",
+      "line": 12
+    },
+    {
+      "id": "707d092647fb1e474403",
+      "section": "必要要求",
+      "text": "板框、外部连接器/安装孔约束及工艺下限见 mechanical.json；内部器件摆放和走线自行设计。",
+      "line": 13
+    },
+    {
+      "id": "722ad48fd6f5ed1a27ae",
+      "section": "必要要求",
+      "text": "本轮公开设计与验收边界",
+      "line": 15
+    },
+    {
+      "id": "ce5c47608a29fc6d37ba",
+      "section": "必要要求",
+      "text": "题面明确给出的功能、接口及附件优先；未固定的内部拓扑、器件选型和标称设计参数由你选择，并在 design-notes.md 与原理图中明确，使其能被重复核对。对外接口未固定针序时可自行定义并标清；修复题保留输入中的有效接口针号语义，允许有依据地修复损坏连接。",
+      "line": 16
+    },
+    {
+      "id": "c99815e545c0422e0467",
+      "section": "必要要求",
+      "text": "采用所声明的标称供电、负载和选定工作模式评估原理图功能；不追加未公开的实物认证、完整设备协议或隐藏阈值。修复题说明输入问题、局部差异与无关电路回归。",
+      "line": 17
+    },
+    {
+      "id": "366bdf4973d0e168535c",
+      "section": "必要要求",
+      "text": "验收证据由评测侧针对最终交付版本独立产生；生成模型无须交付原生 validation 报告，文件存在不代表功能通过。",
+      "line": 18
+    },
+    {
+      "id": "e21d6304064a4cc07cf9",
+      "section": "验收条件",
+      "text": "全部提交主文件可由 KiCad 10.0.6 打开，层级子页与使用到的本地依赖完整。",
+      "line": 28
+    },
+    {
+      "id": "4050f379382e179a91f9",
+      "section": "验收条件",
+      "text": "评测侧在最终候选的私有副本上运行全 severity ERC，错误和警告均为零；不得降低规则、隐藏报警或新增豁免。",
+      "line": 29
+    },
+    {
+      "id": "caeb581befd99e053f1c",
+      "section": "验收条件",
+      "text": "评测侧导出原生 XML 网表，检查本题公开接口、供电与功能要求。开放设计按功能等价验收，不按内部器件编号、网名或文件逐字相等判分。",
+      "line": 30
+    },
+    {
+      "id": "398043665fce9dc1c25a",
+      "section": "验收条件",
+      "text": "填铜后由评测侧运行全 severity DRC、未布线和原理图一致性检查，错误、警告、未布线连接及跨文件不一致均为零；不得降规则或新增豁免。",
+      "line": 31
+    },
+    {
+      "id": "82f3f0bde7d54bb9a953",
+      "section": "验收条件",
+      "text": "核对实际焊盘、孔、层、全部物理网络分区及 mechanical.json 的板框、外部锚点和工艺约束；未公开的尺寸、坐标或性能阈值不得作为评分条件。",
+      "line": 32
+    },
+    {
+      "id": "392c0b552d944348f2b8",
+      "section": "验收条件",
+      "text": "原故障须消除；无关有效器件、连接、参数、规则和适用的原生铜分区回归一致。不得删去真实功能来消除报告。",
+      "line": 33
+    },
+    {
+      "id": "ddb4a513654a50459b57",
+      "section": "验收条件",
+      "text": "检验全部 LED 通道和控制接口，并核对供电与热负载。",
+      "line": 34
+    },
+    {
+      "id": "cd139903ae368a78f74d",
+      "section": "验收条件",
+      "text": "每个显示/灯光通道与控制接口独立可用，满足供电与热条件。",
+      "line": 35
+    },
+    {
+      "id": "c9a081f6b691d655c6bc",
+      "section": "验收条件",
+      "text": "仅验收本题公开的电路范围与工况，不附加完整设备协议、量产认证、未声明的实物测量或外部系统门槛。",
+      "line": 36
+    },
+    {
+      "id": "2d8bbb9ae7bd2a3bd784",
+      "section": "交付内容",
+      "text": "output/ 内的完整工程与依赖：最终原理图、.kicad_pro、PCB 及所有必要子页和本地库。",
+      "line": 39
+    },
+    {
+      "id": "226f3cef6875f03703f6",
+      "section": "交付内容",
+      "text": "design-notes.md：设计依据；修复题补充诊断、改动范围和回归依据。",
+      "line": 40
+    },
+    {
+      "id": "6cf64473cc290bcaa25e",
+      "section": "交付内容",
+      "text": "与最终 PCB 同版本的 Gerber、钻孔、BOM 与装配位置输出。",
+      "line": 41
+    }
+  ],
+  "authority": "Actual prompt and its explicitly referenced supplied attachments; stale machine briefs cannot add criteria",
+  "capture_is_scored": false,
+  "trace_collection_retained": true
+}

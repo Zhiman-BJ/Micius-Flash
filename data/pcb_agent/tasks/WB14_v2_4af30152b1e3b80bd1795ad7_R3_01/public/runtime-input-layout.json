@@ -1,0 +1,62 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial/Transistor Based/automatic hand sanitizer",
+  "primary_schematic": "initial/Transistor Based/automatic hand sanitizer/automatic hand sanitizer.kicad_sch",
+  "source_manifest_sha256": "08a210a31dd790424c605f11276afd6d115e4dfa958ba2dadd3d2a8b08af2a55",
+  "public_attachments_readonly": "/task",
+  "initial_files": {
+    "initial/Transistor Based/automatic hand sanitizer/automatic hand sanitizer.kicad_pcb": {
+      "sha256": "a3730ec7c380681415d4dc249303b99fb645ceeb762f798c921cf50183b87e06",
+      "bytes": 35750
+    },
+    "initial/Transistor Based/automatic hand sanitizer/automatic hand sanitizer.kicad_pro": {
+      "sha256": "a10a7c6f4af3915d12f3a17fdf6ecc22ef62a955f49c62ae281ce33662bfa5bb",
+      "bytes": 16433
+    },
+    "initial/Transistor Based/automatic hand sanitizer/automatic hand sanitizer.kicad_sch": {
+      "sha256": "840b1a44f9fbe678dfc86fa09e33b1cde9239fc9c65c3d4ed96090d141fdcb2a",
+      "bytes": 26288
+    },
+    "initial/Transistor Based/automatic hand sanitizer/external-interfaces.json": {
+      "sha256": "26b59d848a185e4b983220187b07fa2586aa3837f2095f955833e14ac9843d43",
+      "bytes": 521
+    },
+    "initial/Transistor Based/automatic hand sanitizer/input-contract.json": {
+      "sha256": "417de4077993a8cb550d1a0fa17a4f009473438fdb1086daa43ea63b7041e835",
+      "bytes": 600
+    },
+    "initial/Transistor Based/automatic hand sanitizer/input-layout.json": {
+      "sha256": "417de4077993a8cb550d1a0fa17a4f009473438fdb1086daa43ea63b7041e835",
+      "bytes": 600
+    },
+    "initial/Transistor Based/automatic hand sanitizer/mechanical.json": {
+      "sha256": "d7a2554ed8a3754786e16d74ad8cac732e2c117cf3fa52e9c87976ec674ec379",
+      "bytes": 6072
+    },
+    "initial/Transistor Based/automatic hand sanitizer/prompt.txt": {
+      "sha256": "7ebbdcff56ccf3ad8d01fc8a447e42db4a050f3ef545187ccc443f9a87d79576",
+      "bytes": 2570
+    },
+    "initial/Transistor Based/automatic hand sanitizer/public-requirements.json": {
+      "sha256": "83271fb228d6392cb6d1c569540ba443680276513fce6f4f6377d3232a0ba117",
+      "bytes": 2761
+    },
+    "initial/Transistor Based/automatic hand sanitizer/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym": {
+      "sha256": "5c6937b472884940ea5924d06cee0ed5413d296dcc054e4fb570dc826c1f6b33",
+      "bytes": 2878
+    },
+    "initial/Transistor Based/automatic hand sanitizer/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym": {
+      "sha256": "0fe78d260ae3200b1b082b2d9d655509fbc43c34f3db0b2c5dff25d74cd2c866",
+      "bytes": 6106
+    },
+    "initial/Transistor Based/automatic hand sanitizer/repair-owned-symbols/ec4196b3ddf9e5f0dcb019b061f372bd6fc01fffc2311719932f721085ac7ff8.kicad_sym": {
+      "sha256": "a0dc99f42906f1ad167c8100634dec0b6fd48eea4a383d0e267d1595bfabc155",
+      "bytes": 3720
+    },
+    "initial/Transistor Based/automatic hand sanitizer/sym-lib-table": {
+      "sha256": "008388618f64d9049277a8e6883ffe34b21f831e4db9c315942a55f0d10a6253",
+      "bytes": 789
+    }
+  },
+  "scope": "Only authorized public input; no private reference, fault recipe or prior candidates"
+}

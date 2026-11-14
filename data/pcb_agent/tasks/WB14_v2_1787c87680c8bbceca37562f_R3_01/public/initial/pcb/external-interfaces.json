@@ -1,0 +1,120 @@
+{
+  "ports": [
+    {
+      "contact": "BT1.1",
+      "role": "positive3Vinput"
+    },
+    {
+      "contact": "BT1.2",
+      "role": "return"
+    },
+    {
+      "contact": "DS1.1",
+      "role": "Named module/interface terminal 1BC; function and power domain follow the public functional goals. Semantic function: SEG_1BC"
+    },
+    {
+      "contact": "DS1.10",
+      "role": "Named module/interface terminal 2B; function and power domain follow the public functional goals. Semantic function: SEG_2B"
+    },
+    {
+      "contact": "DS1.11",
+      "role": "Named module/interface terminal 2A; function and power domain follow the public functional goals. Semantic function: SEG_2A"
+    },
+    {
+      "contact": "DS1.12",
+      "role": "Named module/interface terminal 2F; function and power domain follow the public functional goals. Semantic function: SEG_2F"
+    },
+    {
+      "contact": "DS1.13",
+      "role": "Named module/interface terminal 2G; function and power domain follow the public functional goals. Semantic function: SEG_2G"
+    },
+    {
+      "contact": "DS1.14",
+      "role": "Named module/interface terminal 2E; function and power domain follow the public functional goals. Semantic function: SEG_2E"
+    },
+    {
+      "contact": "DS1.15",
+      "role": "Named module/interface terminal 2D; function and power domain follow the public functional goals. Semantic function: SEG_2D"
+    },
+    {
+      "contact": "DS1.16",
+      "role": "Named module/interface terminal COM; function and power domain follow the public functional goals. Semantic function: COM"
+    },
+    {
+      "contact": "DS1.2",
+      "role": "Named module/interface terminal 3F; function and power domain follow the public functional goals. Semantic function: SEG_3F"
+    },
+    {
+      "contact": "DS1.3",
+      "role": "Named module/interface terminal 3G; function and power domain follow the public functional goals. Semantic function: SEG_3G"
+    },
+    {
+      "contact": "DS1.4",
+      "role": "Named module/interface terminal 3E; function and power domain follow the public functional goals. Semantic function: SEG_3E"
+    },
+    {
+      "contact": "DS1.5",
+      "role": "Named module/interface terminal 3D; function and power domain follow the public functional goals. Semantic function: SEG_3D"
+    },
+    {
+      "contact": "DS1.6",
+      "role": "Named module/interface terminal 3C; function and power domain follow the public functional goals. Semantic function: SEG_3C"
+    },
+    {
+      "contact": "DS1.7",
+      "role": "Named module/interface terminal 3B; function and power domain follow the public functional goals. Semantic function: SEG_3B"
+    },
+    {
+      "contact": "DS1.8",
+      "role": "Named module/interface terminal 3A; function and power domain follow the public functional goals. Semantic function: SEG_3A"
+    },
+    {
+      "contact": "DS1.9",
+      "role": "Named module/interface terminal 2C; function and power domain follow the public functional goals. Semantic function: SEG_2C"
+    },
+    {
+      "contact": "SW1.1",
+      "role": "activeLOWcountbutton"
+    },
+    {
+      "contact": "SW1.2",
+      "role": "return"
+    },
+    {
+      "contact": "J1.1",
+      "role": "VTrefoutput,noindependentpower"
+    },
+    {
+      "contact": "J1.10",
+      "role": "activeLOWRESET"
+    },
+    {
+      "contact": "J1.2",
+      "role": "SWDIO"
+    },
+    {
+      "contact": "J1.3",
+      "role": "return"
+    },
+    {
+      "contact": "J1.4",
+      "role": "SWCLK"
+    },
+    {
+      "contact": "J1.5",
+      "role": "return"
+    },
+    {
+      "contact": "J1.6",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "J1.8",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "J1.9",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    }
+  ]
+}

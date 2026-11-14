@@ -1,0 +1,224 @@
+{
+  "ports": [
+    {
+      "contact": "J1.1",
+      "role": "return"
+    },
+    {
+      "contact": "J1.2",
+      "role": "3.3Voutput"
+    },
+    {
+      "contact": "J1.3",
+      "role": "I2CSCL"
+    },
+    {
+      "contact": "J1.4",
+      "role": "I2CSDA"
+    },
+    {
+      "contact": "D1.1",
+      "role": "5VLEDVDD"
+    },
+    {
+      "contact": "D1.2",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "D1.3",
+      "role": "return"
+    },
+    {
+      "contact": "D1.4",
+      "role": "LEDserialDIN5Vlevel"
+    },
+    {
+      "contact": "J5.1",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "J5.2",
+      "role": "return"
+    },
+    {
+      "contact": "J5.3",
+      "role": "FeatherENactiveLOWdisable"
+    },
+    {
+      "contact": "J3.1",
+      "role": "return"
+    },
+    {
+      "contact": "J3.2",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "J3.3",
+      "role": "UART moduleTXtoA1.RX"
+    },
+    {
+      "contact": "J3.4",
+      "role": "UART moduleRXfromA1.TX"
+    },
+    {
+      "contact": "J3.5",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "J3.6",
+      "role": "3.3Voutput"
+    },
+    {
+      "contact": "J4.1",
+      "role": "3.3Voutput"
+    },
+    {
+      "contact": "J4.2",
+      "role": "return"
+    },
+    {
+      "contact": "J4.3",
+      "role": "I2CSCL"
+    },
+    {
+      "contact": "J4.4",
+      "role": "I2CSDA"
+    },
+    {
+      "contact": "J6.1",
+      "role": "3.3Voutput"
+    },
+    {
+      "contact": "J6.2",
+      "role": "return"
+    },
+    {
+      "contact": "J6.3",
+      "role": "I2CSCL"
+    },
+    {
+      "contact": "J6.4",
+      "role": "I2CSDA"
+    },
+    {
+      "contact": "A1.1",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.2",
+      "role": "3.3Vregulatedoutput"
+    },
+    {
+      "contact": "A1.3",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.4",
+      "role": "return"
+    },
+    {
+      "contact": "A1.5",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.6",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.7",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.8",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.9",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.10",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.11",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.12",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.13",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.14",
+      "role": "Named module/interface terminal RX; function and power domain follow the public functional goals."
+    },
+    {
+      "contact": "A1.15",
+      "role": "Named module/interface terminal TX; function and power domain follow the public functional goals."
+    },
+    {
+      "contact": "A1.16",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.17",
+      "role": "Named module/interface terminal SDA; function and power domain follow the public functional goals."
+    },
+    {
+      "contact": "A1.18",
+      "role": "Named module/interface terminal SCL; function and power domain follow the public functional goals."
+    },
+    {
+      "contact": "A1.19",
+      "role": "Named module/interface terminal D0; function and power domain follow the public functional goals."
+    },
+    {
+      "contact": "A1.20",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.21",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.22",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.23",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.24",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "A1.25",
+      "role": "Named module/interface terminal D6; function and power domain follow the public functional goals."
+    },
+    {
+      "contact": "A1.26",
+      "role": "5VUSBinput,separate3V3"
+    },
+    {
+      "contact": "A1.27",
+      "role": "enableinputactiveLOW"
+    },
+    {
+      "contact": "A1.28",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "SW1.1",
+      "role": "buttonactiveHIGHlogic"
+    },
+    {
+      "contact": "SW1.2",
+      "role": "3.3V"
+    }
+  ]
+}

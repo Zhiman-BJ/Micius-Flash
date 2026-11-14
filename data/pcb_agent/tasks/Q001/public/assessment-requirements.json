@@ -1,0 +1,142 @@
+{
+  "schema": "actual_prompt_assessment/v1",
+  "question": "Q001",
+  "layer": "D1",
+  "stage_count": 1,
+  "prompt_sha256": "0d93447d9bffb69b680d8606927d173b002d8e71b9ba7df83dddfa259c1fe8fa",
+  "delivery": {
+    "schema": "public_delivery_requirements/v3",
+    "policy_id": "20261017-actual-prompt-delivery-integrity-v17",
+    "question": "Q001",
+    "layer": "D1",
+    "stage_count": 1,
+    "prompt_sha256": "0d93447d9bffb69b680d8606927d173b002d8e71b9ba7df83dddfa259c1fe8fa",
+    "directory": "output",
+    "required_cad": [
+      "schematic"
+    ],
+    "required_notes": [
+      "design-notes.md"
+    ],
+    "validation": false,
+    "manufacturing": [],
+    "verification_axes": [
+      "answer",
+      "structure",
+      "completion"
+    ],
+    "scope": "Actual public prompt only; input filenames and stale machine contracts add no delivery obligations; file presence grants no engineering PASS"
+  },
+  "axes": [
+    "answer",
+    "structure",
+    "completion"
+  ],
+  "criteria": [
+    {
+      "id": "87089f30a21b600a455c",
+      "section": "目标",
+      "text": "将 USB 主机与 3.3 V 逻辑 UART 设备连接，提供双向串口及 DTR#、RTS# 控制信号。",
+      "line": 6
+    },
+    {
+      "id": "b877eacfec79e0530afa",
+      "section": "你的工作",
+      "text": "从空工程开始设计原理图，器件与内部连接自主决定。只交付原理图，不要求完成 PCB。",
+      "line": 9
+    },
+    {
+      "id": "616ac9cc1e94d7bed243",
+      "section": "必要要求",
+      "text": "将 USB 主机与 3.3 V 逻辑 UART 设备连接，提供双向串口及 DTR#、RTS# 控制信号。",
+      "line": 12
+    },
+    {
+      "id": "f278dcb186c46d30c433",
+      "section": "必要要求",
+      "text": "UART 为六针接口，针序：1 GND，2 +3.3 V，3 TXD，4 RXD，5 DTR#，6 RTS#。TXD/RXD 方向以本板为基准；# 表示低有效。",
+      "line": 13
+    },
+    {
+      "id": "514306aa141ecbdd2a68",
+      "section": "必要要求",
+      "text": "USB-C 使用 USB2 设备角色；不要求 USB PD 功能。",
+      "line": 14
+    },
+    {
+      "id": "82b1a309064ad4e89617",
+      "section": "必要要求",
+      "text": "本轮公开设计与验收边界",
+      "line": 16
+    },
+    {
+      "id": "5337426d0b2f4195b1f6",
+      "section": "必要要求",
+      "text": "题面明确给出的功能、接口及附件优先；未固定的内部拓扑、器件选型和标称设计参数由你选择，并在 design-notes.md 与原理图中明确，使其能被重复核对。对外接口未固定针序时可自行定义并标清；修复题保留输入中的有效接口针号语义，允许有依据地修复损坏连接。",
+      "line": 17
+    },
+    {
+      "id": "d701b37a438f6c896f38",
+      "section": "必要要求",
+      "text": "采用所声明的标称供电、负载和选定工作模式评估原理图功能；不追加未公开的实物认证、完整设备协议或隐藏阈值。修复题说明输入问题、局部差异与无关电路回归。",
+      "line": 18
+    },
+    {
+      "id": "8c73d586175f5e2ed550",
+      "section": "必要要求",
+      "text": "验收证据由评测侧针对最终交付版本独立产生；生成模型无须交付原生 validation 报告，文件存在不代表功能通过。",
+      "line": 19
+    },
+    {
+      "id": "d5192ff4c44acbaee328",
+      "section": "验收条件",
+      "text": "全部提交主文件可由 KiCad 10.0.6 打开，层级子页与使用到的本地依赖完整。",
+      "line": 26
+    },
+    {
+      "id": "267aeb06d19e5d79fb3a",
+      "section": "验收条件",
+      "text": "评测侧在最终候选的私有副本上运行全 severity ERC，错误和警告均为零；不得降低规则、隐藏报警或新增豁免。",
+      "line": 27
+    },
+    {
+      "id": "98294e0c97db59b92bb3",
+      "section": "验收条件",
+      "text": "评测侧导出原生 XML 网表，检查本题公开接口、供电与功能要求。开放设计按功能等价验收，不按内部器件编号、网名或文件逐字相等判分。",
+      "line": 28
+    },
+    {
+      "id": "0378d43dbe7d38b67c35",
+      "section": "验收条件",
+      "text": "USB 通信、UART 双向数据与两个控制信号均应可独立验证；TX/RX 方向以本板为基准。",
+      "line": 29
+    },
+    {
+      "id": "af72a124f087a9968242",
+      "section": "验收条件",
+      "text": "USB 端口在全部声明角色、插头方向和供电状态下运行；数据与控制接口分别检验。",
+      "line": 30
+    },
+    {
+      "id": "fbc0d9c6bb21ac96ebbd",
+      "section": "验收条件",
+      "text": "仅验收本题公开的电路范围与工况，不附加完整设备协议、量产认证、未声明的实物测量或外部系统门槛。",
+      "line": 31
+    },
+    {
+      "id": "29906e048480e5230851",
+      "section": "交付内容",
+      "text": "output/ 内的完整工程与依赖：最终原理图、所有子页和必要本地库；影响检查的已有工程配置一并保留。",
+      "line": 34
+    },
+    {
+      "id": "2a18e17b5c0d4c7e45d3",
+      "section": "交付内容",
+      "text": "design-notes.md：设计依据；修复题补充诊断、改动范围和回归依据。",
+      "line": 35
+    }
+  ],
+  "authority": "Actual prompt and its explicitly referenced supplied attachments; stale machine briefs cannot add criteria",
+  "capture_is_scored": false,
+  "trace_collection_retained": true
+}

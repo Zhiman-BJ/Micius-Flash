@@ -1,0 +1,13 @@
+{
+  "schema": "input_only_fast_track.initial_layout/v1",
+  "task_id": "NEW63_d4e6baf431cdeda3cbc21da1_R1",
+  "layer": "R1",
+  "stage": "schematic",
+  "stages": 1,
+  "project_root": "initial",
+  "initial_primary": {
+    "schematic": "initial/ATMega328_breakout.kicad_sch",
+    "project": "initial/ATMega328_breakout.kicad_pro"
+  },
+  "direct_kimi_ready": false
+}

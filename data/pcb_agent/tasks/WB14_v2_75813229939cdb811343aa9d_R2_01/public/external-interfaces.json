@@ -1,0 +1,96 @@
+{
+  "ports": [
+    {
+      "contact": "J1.1",
+      "role": "VBUSoutput"
+    },
+    {
+      "contact": "J1.2",
+      "role": "USB2 D-minus"
+    },
+    {
+      "contact": "J1.3",
+      "role": "USB2 D-plus"
+    },
+    {
+      "contact": "J1.4",
+      "role": "unusedIDisolated"
+    },
+    {
+      "contact": "J1.5",
+      "role": "signalreturn"
+    },
+    {
+      "contact": "J1.6",
+      "role": "miniUSBshieldvirtualcontact,sourcecastellatedfootprintomitsphysicalshieldpad"
+    },
+    {
+      "contact": "J2.A1",
+      "role": "Common supply/signal return."
+    },
+    {
+      "contact": "J2.A12",
+      "role": "Common supply/signal return."
+    },
+    {
+      "contact": "J2.A4",
+      "role": "Named module/interface terminal VBUS; function and power domain follow the public functional goals. Semantic function: VBUS"
+    },
+    {
+      "contact": "J2.A5",
+      "role": "CC1sinkRd"
+    },
+    {
+      "contact": "J2.A6",
+      "role": "Dplus"
+    },
+    {
+      "contact": "J2.A7",
+      "role": "Dminus"
+    },
+    {
+      "contact": "J2.A8",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "J2.A9",
+      "role": "Named module/interface terminal VBUS; function and power domain follow the public functional goals. Semantic function: VBUS"
+    },
+    {
+      "contact": "J2.B1",
+      "role": "Common supply/signal return."
+    },
+    {
+      "contact": "J2.B12",
+      "role": "Common supply/signal return."
+    },
+    {
+      "contact": "J2.B4",
+      "role": "Named module/interface terminal VBUS; function and power domain follow the public functional goals. Semantic function: VBUS"
+    },
+    {
+      "contact": "J2.B5",
+      "role": "CC2sinkRd"
+    },
+    {
+      "contact": "J2.B6",
+      "role": "Dplus"
+    },
+    {
+      "contact": "J2.B7",
+      "role": "Dminus"
+    },
+    {
+      "contact": "J2.B8",
+      "role": "Unused isolated contact; no intentional signal or supply connection."
+    },
+    {
+      "contact": "J2.B9",
+      "role": "Named module/interface terminal VBUS; function and power domain follow the public functional goals. Semantic function: VBUS"
+    },
+    {
+      "contact": "J2.S1",
+      "role": "metalshield,separatereturntermination"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "input_only_fast_track.input_manifest/v1",
+  "task_id": "NEW63_21360bf15113d6010b58bb6f_D1",
+  "layer": "D1",
+  "stage": "schematic",
+  "input_prepared": true,
+  "direct_kimi_ready": false,
+  "runtime_registered": false,
+  "reference_qualified": false,
+  "fault_seed_qualified": false,
+  "files": {
+    "public-requirements.json": {
+      "sha256": "ce2dd6f8e08de900757aeb00fc207add2889c51a019957e10a1b77682f14128e",
+      "bytes": 3851,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "external-interfaces.json": {
+      "sha256": "23f9235fda0a9fe5c7d6fd704cc6a4581ba96f9c7b2dc2643c3cde04b1c9ece7",
+      "bytes": 1038,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "initial/board.kicad_sch": {
+      "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+      "bytes": 154,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "initial/board.kicad_pro": {
+      "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+      "bytes": 124,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "prompt.txt": {
+      "sha256": "db1203d666912fc06e9dfb7447f3cb664bca28596b39b720031d5cd3582e5889",
+      "bytes": 1281,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "delivery-requirements.json": {
+      "sha256": "a341281876747803e5f9f82a35b0be27b88224f84a8ccdd00446a1135d3648da",
+      "bytes": 521,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    },
+    "input-contract.json": {
+      "sha256": "ac71a8a5bbe6c6b3ac609c9bb56a652d0fdf93a2faea7e98f7188d587085d6ae",
+      "bytes": 273,
+      "source_role": "prepared_public_task_input",
+      "model_visible": true
+    }
+  },
+  "primary_schematic": "initial/board.kicad_sch",
+  "dependency_closure": [
+    "initial/board.kicad_sch",
+    "initial/board.kicad_pro"
+  ],
+  "evaluation": "Positive/negative and completion judgments deferred to final evaluator; no engineering PASS assigned."
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "scope": "engineering",
+  "requirements": {},
+  "brief": {
+    "text": "第 8 题：低有效传感器控制高边负载（WB14_v2_4af30152b1e3b80bd1795ad7_D2_01，D2 需求与约束到原理图）\n\n目标\n- J1 输入标称5V；J3 提供传感器供电、回流和低有效控制。控制低时 J2 正端导通，高时关闭；输入、传感器及负载共享回流。\n- 以1kohm无感电阻代表泵：开启输出至少4.4V，关闭不超过0.05V；供电移除后不由外部信号反向供电。\n- 检查待机、触发、保持和释放；不考真实泵的电感、流量或光学测距。\n\n你的工作\n- 根据公开需求选择适用器件、数值及连接并完成工程；接受满足需求的不同合法内部实现。\n\n必要要求\n- 供电与回流：J1.1输入5V，J1.2回流；J2.2及J3.2共地，J3.3输出传感器供电。传感器电源端接10kohm负载，传感器不另行供电。\n- 标称供电：input=5V\n- 输入采用50mA能力的5V台式电源，传感器电源端接10kohm负载。\n- 控制高低状态各保持至少1ms后检查输出。\n- 选用的晶体管、封装映射、电阻功率及工作电压必须适用于上述标称负载。\n- 外部接口角色见 external-interfaces.json；具体功能与验收以 public-requirements.json 为准。\n- 在公开负载和时序边界下确定器件、拓扑、阻容及额定值，给出器件事实来源、最坏适用标称状态及功耗依据。\n- 端口电平与所连接设备的输入阈值相容，器件电压/电流/功率额定覆盖公开工况；不以ERC通过替代该判断。\n\n输入文件\n- public-requirements.json\n- external-interfaces.json\n\n输入方式\n- 从空工程创建；给出公开需求、标称工况及可检验电气/负载/时序限制。\n\n验收条件\n- 工程与依赖可由KiCad10.0.6正常打开；原理图ERC全severity零error零warning、ignored[]，不得降规则或新增豁免。\n- 全部适用公开接口、电源、模式和功能满足要求，证据绑定最终交付版本；ERC不替代功能。\n- 本题终点是原理图，不要求PCB、制造文件或完整外部系统协议。\n\n交付内容\n- output/ 内的完整工程与依赖\n- 工程包含 .kicad_pro、.kicad_sch 及实际使用的子页/本地库。\n- validation/：与当前工程绑定的适用原生检查、接口及功能证据。\n- changes.md：设计决策或局部改动、器件依据与适用工况。\n",
+    "sha256": "0da3d22dce08bbdaef9fdfa8e45959e7242337e8f4faffca3f43ee17efe51800"
+  },
+  "delivery": {
+    "directory": "final_project",
+    "project_name": "board"
+  },
+  "evaluation_mode": "diagnostic"
+}

@@ -1,0 +1,4 @@
+(fp_lib_table
+ (version 7)
+ (lib (name "RepairUSB")(type "KiCad")(uri "${KIPRJMOD}/repair-usb.pretty")(options "")(descr "Documented proposed USB4215/CRCW0201 assembly revision; hostcastellations retained"))
+)

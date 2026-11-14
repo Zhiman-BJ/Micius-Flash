@@ -1,0 +1,24 @@
+{
+  "schema": "public_delivery_requirements/v3",
+  "policy_id": "20261017-actual-prompt-delivery-integrity-v17",
+  "question": "WB14_v2_d3d5f65b5d565be024ec49f7_D2_01",
+  "layer": "D2",
+  "stage_count": 1,
+  "prompt_sha256": "155ba236ca01b3d8594b5d30978494d97acb1422720072f9eed2851f69d3e7f1",
+  "directory": "output",
+  "required_cad": [
+    "schematic",
+    "project"
+  ],
+  "required_notes": [
+    "changes.md"
+  ],
+  "validation": true,
+  "manufacturing": [],
+  "verification_axes": [
+    "answer",
+    "structure",
+    "completion"
+  ],
+  "scope": "Actual public prompt only; input filenames and stale machine contracts add no delivery obligations; file presence grants no engineering PASS"
+}

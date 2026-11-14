@@ -1,0 +1,10 @@
+{
+  "interfaces": {
+    "J1": {
+      "1": "selectedpositiveVDD",
+      "2": "0Vreturn"
+    },
+    "R3": "exposedtimingadjustment",
+    "D1": "visibleoscillationindicator"
+  }
+}

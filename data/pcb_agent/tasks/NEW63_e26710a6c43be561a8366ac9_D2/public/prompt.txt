@@ -1,0 +1,30 @@
+第 NEW63_e26710a6c43be561a8366ac9_D2 题：Memory Board（D2）
+
+目标
+- 完成public-requirements.json中的公开用途、编号接口、供电、模式和可观察功能。
+
+你的工作
+- 从空工程完成器件选择和原理图设计。
+- 接受满足公开要求的不同合法内部实现，不按私有参考文件、内部网名或坐标逐字评分。
+
+必要要求
+- 实际功能条件见public-requirements.json及external-interfaces.json；curator夹具与名义模型不是厂家跨条件或实物认证保证。
+- 不通过降低规则、新增豁免、删除真实对象或伪造报告消除失败。
+
+输入文件
+- public-requirements.json
+- external-interfaces.json
+- initial/：起始工程及依赖；主原理图 initial/board.kicad_sch
+
+输入方式
+- 从空工程完成器件选择和原理图设计。
+
+验收条件
+- 最终工程可由KiCad10.0.6打开，原理图全severity ERC及本阶段适用DRC零error零warning，ignored[]。
+- 最终版本满足本题公开接口、供电、模式、功能和适用范围；静态检查不替代功能。
+- 本题终点是原理图，不追加PCB、制造、实体装配或完整外部系统协议。
+
+交付内容
+- output/ 内的完整工程与依赖
+- validation/：与最终工程绑定的适用检查和功能证据
+- changes.md：设计或修复说明、器件依据与适用范围

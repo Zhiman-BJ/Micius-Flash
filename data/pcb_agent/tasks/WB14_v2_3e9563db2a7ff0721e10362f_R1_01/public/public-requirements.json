@@ -1,0 +1,45 @@
+{
+  "schema": "weighted_board_task.public_requirements/v1",
+  "task_id": "WB14_v2_3e9563db2a7ff0721e10362f_R1_01",
+  "title": "Feather 多外设载板",
+  "layer": "R1",
+  "work_scope": "schematic",
+  "kind": "repair",
+  "terminal_stage": "schematic",
+  "requirement_level": "natural_language",
+  "selected_nominal_supply_V": {
+    "logic": 3.3,
+    "USB_LED": 5.0
+  },
+  "supply_and_return": "A1.26输入5V，模块A1.2输出3.3V，A1.4回流。J1.2、J3.6、J4.1及J6.1供3.3V；RGB器件使用5V兼容电源与输入。所有外设回流与模块共地，EN用于关闭模块输出。",
+  "functional_goals": [
+    "Feather 提供3.3V域的三个I2C外设接口及双向UART；USB输入5V域与3.3V输出域分开，外设共地。",
+    "I2C SDA/SCL 独立开漏、标称100kHz；UART以9600baud、8N1双向传输，收发不互换。",
+    "EN拉低关闭模块输出；按键按下读高、释放读低。RGB串行输入采用兼容电平，按24位GRB锁存并可低电平复位；不要求RF、传感器精度或光学校准。"
+  ],
+  "nominal_conditions": [
+    "3.3V外设总负载不超过50mA，5V LED负载不超过20mA，输入源至少200mA。",
+    "I2C外部上拉标称4.7kohm，总电容不超过100pF。",
+    "5V RGB输入须采用兼容的3.3V到5V驱动，不以裸GPIO电压推断兼容性。"
+  ],
+  "interface_attachment": "external-interfaces.json",
+  "interface_scope": "所有列出的外部接口角色均按本题功能适用；未用或保留接点不得增加信号/电源连接。",
+  "supply_scope": "公开供电域按各接口用途适用。",
+  "nominal_boundary": "上述器件和外部设备逻辑为明确选定的标称测试模型，不代表真实整机/协议/物理认证；只按本题公开工作边界评分。",
+  "acceptance": [
+    "工程与依赖可由KiCad10.0.6正常打开；原理图ERC全severity零error零warning、ignored[]，不得降规则或新增豁免。",
+    "全部适用公开接口、电源、模式和功能满足要求，证据绑定最终交付版本；ERC不替代功能。",
+    "真实输入故障消失，未受影响的正确电路、器件、铜与规则保持；允许必要的局部修复和本题明确要求的增量同步。"
+  ],
+  "edit_policy": {
+    "allowed": [
+      "schematic",
+      "project",
+      "necessary_local_dependencies"
+    ],
+    "preserve": [
+      "public_requirements",
+      "used_external_interface_roles"
+    ]
+  }
+}

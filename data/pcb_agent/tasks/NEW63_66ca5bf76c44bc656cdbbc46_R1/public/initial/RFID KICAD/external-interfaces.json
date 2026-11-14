@@ -1,0 +1,543 @@
+{
+  "interfaces": [
+    {
+      "contact": "BT2.+",
+      "role": "positive5Vinput",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "BT2.-",
+      "role": "return",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.1",
+      "role": "Named module/interface terminal VCC; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "VCC",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.2",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.3",
+      "role": "Named module/interface terminal CS; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "CS",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.4",
+      "role": "Named module/interface terminal RST; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "RST",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.5",
+      "role": "Named module/interface terminal DC; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "DC",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.6",
+      "role": "Named module/interface terminal MOSI; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "MOSI",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.7",
+      "role": "Named module/interface terminal SCK; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "SCK",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.8",
+      "role": "Named module/interface terminal LED; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "LED",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.9",
+      "role": "Named module/interface terminal MISO; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "MISO",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.10",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.11",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.12",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.13",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U2.14",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.1",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.2",
+      "role": "Named module/interface terminal VIN; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "VIN",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.3",
+      "role": "Named module/interface terminal VO; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "VO",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.4",
+      "role": "Named module/interface terminal RS; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "RS",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.5",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.6",
+      "role": "Named module/interface terminal E; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "E",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.7",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "D0",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.8",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "D1",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.9",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "D2",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.10",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "D3",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.11",
+      "role": "Named module/interface terminal D4; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D4",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.12",
+      "role": "Named module/interface terminal D5; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D5",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.13",
+      "role": "Named module/interface terminal D6; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D6",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.14",
+      "role": "Named module/interface terminal D7; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D7",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.15",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "LED(+)",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "DS1.16",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "LED(-)",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "R1.1",
+      "role": "contrastpotground",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "R1.2",
+      "role": "LCDcontrastwiper",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "R1.3",
+      "role": "5Vcontrastpotupperterminal",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "LS1.N",
+      "role": "buzzerreturn",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "LS1.P",
+      "role": "activeHIGHbuzzerinput",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.1",
+      "role": "Named module/interface terminal 3V3; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "3V3",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.2",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.3",
+      "role": "Named module/interface terminal D15; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D15",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.4",
+      "role": "Named module/interface terminal D2; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D2",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.5",
+      "role": "Named module/interface terminal D4; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D4",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.6",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "RX2",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.7",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "TX2",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.8",
+      "role": "Named module/interface terminal D5; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D5",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.9",
+      "role": "Named module/interface terminal D18; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D18",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.10",
+      "role": "Named module/interface terminal D19; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D19",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.11",
+      "role": "Named module/interface terminal D21; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D21",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.12",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "RX0",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.13",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "TX0",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.14",
+      "role": "Named module/interface terminal D22; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D22",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.15",
+      "role": "Named module/interface terminal D23; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D23",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.16",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "EN",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.17",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "VP",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.18",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "VN",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.19",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "D34",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.20",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "D35",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.21",
+      "role": "Named module/interface terminal D32; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D32",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.22",
+      "role": "Named module/interface terminal D33; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D33",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.23",
+      "role": "Named module/interface terminal D25; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D25",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.24",
+      "role": "Named module/interface terminal D26; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D26",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.25",
+      "role": "Named module/interface terminal D27; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D27",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.26",
+      "role": "Named module/interface terminal D14; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "D14",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.27",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "D12",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.28",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "D13",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.29",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U3.30",
+      "role": "Named module/interface terminal VIN; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "VIN",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U1.1",
+      "role": "Named module/interface terminal VCC; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "VCC",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U1.2",
+      "role": "Named module/interface terminal RST; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "RST",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U1.3",
+      "role": "Common supply/signal return.",
+      "source_symbol_name_observation": "GND",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U1.4",
+      "role": "Unused isolated contact; no intentional signal or supply connection.",
+      "source_symbol_name_observation": "IRQ",
+      "source_NC_observation": true,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U1.5",
+      "role": "Named module/interface terminal MISO/SCL/TX; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "MISO/SCL/TX",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U1.6",
+      "role": "Named module/interface terminal MOSI; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "MOSI",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U1.7",
+      "role": "Named module/interface terminal SCK; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "SCK",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "U1.8",
+      "role": "Named module/interface terminal SS/SDA/RX; function and power domain follow the public functional goals.",
+      "source_symbol_name_observation": "SS/SDA/RX",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "S1.1",
+      "role": "switched5Voutput",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    },
+    {
+      "contact": "S1.2",
+      "role": "positiveinput",
+      "source_symbol_name_observation": "",
+      "source_NC_observation": false,
+      "selected_role_overrides_source_NC": false
+    }
+  ]
+}

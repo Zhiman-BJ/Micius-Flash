@@ -1,0 +1,110 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial/pcb",
+  "primary_schematic": "initial/pcb/Counter thing.kicad_sch",
+  "source_manifest_sha256": "1299969e401d3e2ef80e0b7c24fde1c471dc0e56eb3675e77f4ec4622c8f5393",
+  "public_attachments_readonly": "/task",
+  "initial_files": {
+    "initial/pcb/Counter thing.kicad_pcb": {
+      "sha256": "266895ff9cb53cf216321a47c869fd96a8a24469ec83f397714104da7d504a03",
+      "bytes": 178464
+    },
+    "initial/pcb/Counter thing.kicad_pro": {
+      "sha256": "ea5d848e7b73defc5efa3bde7b1e8324fdb35947a7846fbe55a42680eb9a69c9",
+      "bytes": 15757
+    },
+    "initial/pcb/Counter thing.kicad_sch": {
+      "sha256": "b822adf0d0f7cae609c74cac1de1c586efa2bdac60aec5ad05e0942165a8b907",
+      "bytes": 101924
+    },
+    "initial/pcb/external-interfaces.json": {
+      "sha256": "3f2da2a623ed1124312c0be725474a35a36b2288e5b2bc8a5a4c9f3a0431a659",
+      "bytes": 3928
+    },
+    "initial/pcb/fp-lib-table": {
+      "sha256": "c28d9aad45f689dc7f46f72e03bd4d10db6589e5ce3208d84d09d3bd93636f75",
+      "bytes": 596
+    },
+    "initial/pcb/input-contract.json": {
+      "sha256": "8d16a14e6ddd57aef16781761fea7e32156df8223821e91663f0781b553e2aae",
+      "bytes": 415
+    },
+    "initial/pcb/input-layout.json": {
+      "sha256": "8d16a14e6ddd57aef16781761fea7e32156df8223821e91663f0781b553e2aae",
+      "bytes": 415
+    },
+    "initial/pcb/mechanical.json": {
+      "sha256": "b82da48432ae86d8e8c7082fbbfb1c0fd672487a33c4e4dd440b0383d461746c",
+      "bytes": 20049
+    },
+    "initial/pcb/project_libraries/footprints/BU2032-1-G.pretty/BA2032SM.kicad_mod": {
+      "sha256": "19465458ab76360fd23909032f39156ec8d61fa6e7a0ee46f5af99c651b7e333",
+      "bytes": 4433
+    },
+    "initial/pcb/project_libraries/footprints/BU2032-1-G.pretty/BU2032-1-G.kicad_mod": {
+      "sha256": "9e3c29c5f91faec8bc273d11b9b0a3da05f52ec26abc67be73cb68d428390ada",
+      "bytes": 3688
+    },
+    "initial/pcb/project_libraries/footprints/ECS-327KE.pretty/OSC_ECS-327KE-TR.kicad_mod": {
+      "sha256": "d26434104a4cce8a822b177c55a0f56e7fdcc92ebc0f0452918af6987a81cebc",
+      "bytes": 4007
+    },
+    "initial/pcb/project_libraries/footprints/ECS-327KE.pretty/OSC_ECS-327KE-TR_HandSolder.kicad_mod": {
+      "sha256": "13225bf730770332ee4a2e76bd07234ab32b4a5abaae01daf2404cb8217a1cf1",
+      "bytes": 4149
+    },
+    "initial/pcb/project_libraries/footprints/SAMTEC_FTSH-105-X-X-DV-007-P-X.pretty/SAMTEC_FTSH-105-X-X-DV-007-P-X.kicad_mod": {
+      "sha256": "2d61fd98b340904bd20d702ecac9ee768143c96094601045d0efa174178b1a90",
+      "bytes": 6766
+    },
+    "initial/pcb/project_libraries/footprints/VI-201-DP-RC-S.pretty/LCD-A2X1C50TR.kicad_mod": {
+      "sha256": "c3889170a3b32963885101f1f4457e8e07865c4d5615d828c1a228e91dc03dc8",
+      "bytes": 7288
+    },
+    "initial/pcb/project_libraries/footprints/VI-201-DP-RC-S.pretty/VI-201-DP-RC-S.kicad_mod": {
+      "sha256": "12f71a71301c8772c7f693dd5aca2ff9a6c60ed55bea55888d25f3d76c04c17d",
+      "bytes": 6764
+    },
+    "initial/pcb/prompt.txt": {
+      "sha256": "bf51c01d2a579098d4eaabef6fcffe80c684be486c669d0334fe2421a7312aec",
+      "bytes": 2618
+    },
+    "initial/pcb/public-requirements.json": {
+      "sha256": "053a83ce71c89c77ac34b023e12bb9b2374883f493d68f6d16fcf4ea81026f2c",
+      "bytes": 2809
+    },
+    "initial/pcb/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "73d850d0f458ef30797ceef7215aab66af34af2a1e4f8f92f978a42dabbd9fd0",
+      "bytes": 4790
+    },
+    "initial/pcb/repair-owned-symbols/1f79fe97398a44a3e161f2cbec7d7182efef30d284918f8c240977a2d47bc7f3.kicad_sym": {
+      "sha256": "51f5912769896bd73800b3e88376e0a802d6be4f4dd65e84e93af29a33d48c87",
+      "bytes": 2532
+    },
+    "initial/pcb/repair-owned-symbols/39921a740bf2b67802a2042e1f87e9dec566131c2458aba5683e2827ced0d2c3.kicad_sym": {
+      "sha256": "5346b22de0d817c957266b46909f3eee3e51d055a1abe6008d57435980d97579",
+      "bytes": 2470
+    },
+    "initial/pcb/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym": {
+      "sha256": "ee9b5e5eaa5853c8ce504713e85bd377fd15b707a44c4f29bc525480cf230d32",
+      "bytes": 4635
+    },
+    "initial/pcb/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym": {
+      "sha256": "38144758e136d6970e292657e6eae96fc61fda4a8d74919db2ed7c622bc52ae7",
+      "bytes": 5489
+    },
+    "initial/pcb/repair-owned-symbols/d691f96cc05c12c9c3a3f025ea329c8545a439bdde68df58beedcd7f575868ec.kicad_sym": {
+      "sha256": "9a4e5cdbc0f361b19b28bf0abedf7532068649e8510a18002d184e4a62b7009c",
+      "bytes": 16289
+    },
+    "initial/pcb/repair-owned-symbols/e8995d8cae48d94932426d08cc1a282d4f4022de0ca4960529e69ab64d13c7e8.kicad_sym": {
+      "sha256": "e5268161807ad6857c962a44d8c95e198584eecd222fbd3e361d506bdd25f18b",
+      "bytes": 5150
+    },
+    "initial/pcb/sym-lib-table": {
+      "sha256": "63edaf161b98ba58bc6d6a7d0d904edd39ddd769d7b08998348b87c17da7580f",
+      "bytes": 1796
+    }
+  },
+  "scope": "Only authorized public input; no private reference, fault recipe or prior candidates"
+}

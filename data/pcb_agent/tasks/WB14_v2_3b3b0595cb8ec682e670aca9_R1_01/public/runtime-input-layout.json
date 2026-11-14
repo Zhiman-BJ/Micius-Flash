@@ -1,0 +1,54 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial",
+  "primary_schematic": "initial/SAMD-UPDI-breakaway.kicad_sch",
+  "source_manifest_sha256": "f077251ad4175a3830374cee08364227c3af1927f4a1c7f9e32f246984667c22",
+  "public_attachments_readonly": "/task",
+  "initial_files": {
+    "initial/SAMD-UPDI-breakaway.kicad_pro": {
+      "sha256": "703a63cc18b7dc7a88ffbcf154c1af2b4c7a15f608bdf2f72ba156b99e6013e2",
+      "bytes": 9279
+    },
+    "initial/SAMD-UPDI-breakaway.kicad_sch": {
+      "sha256": "2e8178e9036e4cfe14848ec5a977c5ae025be1fe03ec44210565fbf9a66f48e4",
+      "bytes": 58245
+    },
+    "initial/external-interfaces.json": {
+      "sha256": "a0ca11878ead484c65333283cd9ef8b8518759a9a4fa88c6b58432c263ab9732",
+      "bytes": 1871
+    },
+    "initial/prompt.txt": {
+      "sha256": "aa4eda9d9b5e10dfaaf1a4db8e6dcfca1afdae9c7f5d8a23cab6b474d66cb146",
+      "bytes": 2464
+    },
+    "initial/public-requirements.json": {
+      "sha256": "445254280440b9113e2f4ee48e392b07d829127b064d5e60e8bb395fc23fb012",
+      "bytes": 2616
+    },
+    "initial/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "91bd709a3333dbdcef5c8dd20cc7933674e295b8d6c8f9af45394622472326ae",
+      "bytes": 4626
+    },
+    "initial/repair-owned-symbols/c2242e2c12190babaf9f9488fb7bb1bb37182a94cda68699af53ed35160d3933.kicad_sym": {
+      "sha256": "abc3bb591efb010502f5d62fd63e7849e1651ed2c3d936bee57f4de33905eafb",
+      "bytes": 14394
+    },
+    "initial/repair-owned-symbols/d96eaafce539988edee33f10d82d66f37335e7d31394243b3a7f29af5ac82fcb.kicad_sym": {
+      "sha256": "7a64026cd613b5d031831f4ca967b2c9a982b15d19279af10a80989078d9e0f8",
+      "bytes": 1911
+    },
+    "initial/repair-owned-symbols/ed2891817314563f01329d59e48b1b7f3bfc3efc568945b217591fd074148c48.kicad_sym": {
+      "sha256": "36782326d61a853372447a4a052d1a92b54722bc14dd982c1c5ba4984d488202",
+      "bytes": 1704
+    },
+    "initial/repair-owned-symbols/usb-zeroohm-supply-annotation.kicad_sym": {
+      "sha256": "33ba8fd2ce7a9bb991e9670e620feeec6d0d1ab4b8a9dc2618664eb01f221c25",
+      "bytes": 1838
+    },
+    "initial/sym-lib-table": {
+      "sha256": "57e7369d5e8d01ffcf56e7f1f0b404bbce7f52e801502c061c04030008732688",
+      "bytes": 1259
+    }
+  },
+  "scope": "Only authorized public input; no private reference, fault recipe or prior candidates"
+}

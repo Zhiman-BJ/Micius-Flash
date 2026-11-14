@@ -1,0 +1,70 @@
+{
+  "mode": "ACTUAL_AUTHORED_INPUT",
+  "working_directory": "initial/kicad project",
+  "primary_schematic": "initial/kicad project/tascamusbc.kicad_sch",
+  "source_manifest_sha256": "109270ca5792948bc9cf7b9ea272cc112abe8ae3e7f210159d83a23070d7ece1",
+  "public_attachments_readonly": "/task",
+  "initial_files": {
+    "initial/kicad project/external-interfaces.json": {
+      "sha256": "beea322a6c36cadac80db5d3f650d391f4412d00519d772d2f1d5de086f9fc73",
+      "bytes": 2258
+    },
+    "initial/kicad project/fp-lib-table": {
+      "sha256": "9dcdee399a1e1c26b36b8b99f492bb99770d54eb6e4e4ceec4e81fdbb64b6a03",
+      "bytes": 210
+    },
+    "initial/kicad project/input-contract.json": {
+      "sha256": "5f5eb3c214ee3cc262e5cbfecf1b042f52dbc140c2f3175f5913e0cfc281c585",
+      "bytes": 446
+    },
+    "initial/kicad project/input-layout.json": {
+      "sha256": "5f5eb3c214ee3cc262e5cbfecf1b042f52dbc140c2f3175f5913e0cfc281c585",
+      "bytes": 446
+    },
+    "initial/kicad project/mechanical.json": {
+      "sha256": "75d49da8ddef68dbc05ba44c66e9f221412a689a8e5dfe694d05e9a9bf995bc1",
+      "bytes": 14499
+    },
+    "initial/kicad project/prompt.txt": {
+      "sha256": "c0b604f84ff64aa3c5b619d154b519d798079db2dcf00304a143c17e1fd1f6a4",
+      "bytes": 2736
+    },
+    "initial/kicad project/public-requirements.json": {
+      "sha256": "82c6c07dd48a487b57d4fe1fe1c678d70329010cae87a8594834b5000ac60705",
+      "bytes": 2888
+    },
+    "initial/kicad project/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym": {
+      "sha256": "e3c385b3773be3ca7eee4374f904628589059c0aa5ad940f51f1a654c05c1b80",
+      "bytes": 1480
+    },
+    "initial/kicad project/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym": {
+      "sha256": "c51cf76ee5289a4a0e2f2cc94e65a499bdece3b76a9d72517863fc382f04a6a2",
+      "bytes": 14147
+    },
+    "initial/kicad project/repair-usb.pretty/R_Vishay_CRCW0201_0603Metric_5K10.kicad_mod": {
+      "sha256": "7bbc1e3b866babe6dacae23c86fed765ee7babc6a060c7c659cbdff0c550b78c",
+      "bytes": 1582
+    },
+    "initial/kicad project/repair-usb.pretty/USB_C_Receptacle_GCT_USB4215-03-A_HostShieldCastellations.kicad_mod": {
+      "sha256": "f03cbd2d58acbbb5070120c7c0a4cf181383b228903a5ea77df65e36e80f79e8",
+      "bytes": 7216
+    },
+    "initial/kicad project/sym-lib-table": {
+      "sha256": "18d03bd91a9de79b68835e766c29239960190ab9fd4f9cf1e203de3be6d61fa0",
+      "bytes": 530
+    },
+    "initial/kicad project/tascamusbc.kicad_pcb": {
+      "sha256": "e4532e026dc8428a0763d725f317adb9dff862fbfbad65b8925e25715feffc27",
+      "bytes": 53075
+    },
+    "initial/kicad project/tascamusbc.kicad_pro": {
+      "sha256": "805970ed608c788c82ee24ac07784874a7af4eb41f5de4f19b518eee15040fe2",
+      "bytes": 11263
+    },
+    "initial/kicad project/tascamusbc.kicad_sch": {
+      "sha256": "266f57bdc2fd1a82dd35add42e56d582ccacb90d8f798dbb588a34213d367de6",
+      "bytes": 26701
+    }
+  },
+  "scope": "Only authorized public input; no private reference, fault recipe or prior candidates"
+}

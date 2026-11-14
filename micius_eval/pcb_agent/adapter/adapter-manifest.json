@@ -1,0 +1,44 @@
+{
+  "schema": "micius_pcb_agent_runtime_overlay/v1",
+  "base_image_id": "sha256:f8fce0193c557f347113b0a7d1e93afdfddc336c39ab50f211104f4272d8fcd4",
+  "purpose": "Read-only overlay mounted into the pinned PCB Agent image at run time (no image rebuild).",
+  "changes": [
+    "Native streaming Chat Completions; raw reasoning_content and full tool-call history are preserved",
+    "Template thinking explicitly enabled; reasoning_effort low|medium|xhigh, xhigh for agent and compaction",
+    "Accept standard streaming chunks with null tool_calls",
+    "Exact output cap from the server tokenizer (/v1/tokenize): min(131072, 262144 - input - 6); input is never truncated",
+    "Sampling pinned for agent and compaction: temperature=1.0, top_p=0.95, top_k=20",
+    "Compaction output 65536 tokens; request deadline 3600 s, stream idle 1800 s, CLI client timeout 3660 s",
+    "Any served model name accepted"
+  ],
+  "preserved": [
+    "image ID",
+    "v7 system prompt",
+    "tools",
+    "task bytes",
+    "public input files",
+    "500 steps",
+    "262144 context",
+    "131072 output cap",
+    "retry policy",
+    "no cumulative time limit"
+  ],
+  "files": {
+    "kimi_dsflash_v6_harness.py": {
+      "target": "/pcb-agent/tools/kimi_dsflash_v6_harness.py",
+      "sha256": "80b6060196c68ad3b12c6763cac80db1d48f05fc941a7d556f3e662f760d394e"
+    },
+    "kimi_k3v19_provider.py": {
+      "target": "/pcb-agent/tools/kimi_k3v19_provider.py",
+      "sha256": "10ef388effa5f4d6f4c1a89d0b152ca270340a4dd374f1d03158eb675ba6cb99"
+    },
+    "kimi_k3v19_progress.py": {
+      "target": "/pcb-agent/tools/kimi_k3v19_progress.py",
+      "sha256": "11bbe3ead0e44c38cbda55398c0b4da696cd88e45a08bd0a0dbecb20fd802cea"
+    },
+    "kimi_cli_llm.py": {
+      "target": "/opt/kimi/lib/python3.12/site-packages/kimi_cli/llm.py",
+      "sha256": "9f82802ca7dd60f7b99c949e6a9256fc08dedfa880b4f02179b5181266dc3fb1"
+    }
+  }
+}

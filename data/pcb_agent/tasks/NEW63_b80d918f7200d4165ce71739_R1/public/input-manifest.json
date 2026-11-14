@@ -1,0 +1,100 @@
+{
+  "schema": "input_only_fast_track.input_manifest/v1",
+  "task_id": "NEW63_b80d918f7200d4165ce71739_R1",
+  "board_id": "b80d918f7200d4165ce71739",
+  "layer": "R1",
+  "stage": "schematic",
+  "input_prepared": true,
+  "direct_kimi_ready": false,
+  "engineering_qualified": false,
+  "task_admitted": false,
+  "source_unqualified": true,
+  "working_directory": "initial/Hardware",
+  "primary_schematic": "initial/Hardware/prj2.kicad_sch",
+  "dependency_closure": [
+    "initial/Hardware/prj2.kicad_pro",
+    "initial/Hardware/prj2.kicad_sch",
+    "initial/Hardware/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym",
+    "initial/Hardware/repair-owned-symbols/6002a6dabd0b5b57dd781e7c05fa7678f02fee1f90655741b8c4951c5d1822c4.kicad_sym",
+    "initial/Hardware/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym",
+    "initial/Hardware/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym",
+    "initial/Hardware/sym-lib-table"
+  ],
+  "files": {
+    "public-requirements.json": {
+      "sha256": "428aa71c6fc9bbc00c0756277c34f7774c7e8937a73fdf1a111ff99877bdac8a",
+      "bytes": 5388,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "external-interfaces.json": {
+      "sha256": "77014c1447509c5f55e02781e02082d9b251dbb4130fc1cbf90b003b3583bd92",
+      "bytes": 360,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "initial/Hardware/prj2.kicad_sch": {
+      "sha256": "8ada140b996e8b16fa9f454a16dcc3a55e0c0b763b53e12f25997824b82034c7",
+      "bytes": 53612,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "initial/Hardware/prj2.kicad_pro": {
+      "sha256": "1d95cd35570258dfae9986ce0c15f726d7edc0a610634d5dd1ff0a6f9e8010f4",
+      "bytes": 14971,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "initial/Hardware/sym-lib-table": {
+      "sha256": "87aa9e8049a70cf0fb8f7c03d5caed0eeee357c14af9ea1f72cf44e53ee257ff",
+      "bytes": 1033,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "initial/Hardware/repair-owned-symbols/8f0d706fff258fbf5c6633f5313e208444cb493563837a29750babc7c8a4ffa4.kicad_sym": {
+      "sha256": "62c75ea907603480bbdf41c80724f2a2b536e8018bb855c79bd25cd5c7ec6545",
+      "bytes": 5272,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "initial/Hardware/repair-owned-symbols/6ba0bdeccb426d7b2ccb601c4e07015f50b6b427ec52c93a3b95f2245b67bdd4.kicad_sym": {
+      "sha256": "96c08c52593304bd18c4b8e386ebff9264b46e7c017f76042d441e471c5dd479",
+      "bytes": 7094,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "initial/Hardware/repair-owned-symbols/6002a6dabd0b5b57dd781e7c05fa7678f02fee1f90655741b8c4951c5d1822c4.kicad_sym": {
+      "sha256": "e9b92dc8068e7ca36c84c1964c8d85db9d530afc08549749156ec63c90fb8d0a",
+      "bytes": 6433,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "initial/Hardware/repair-owned-symbols/07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d.kicad_sym": {
+      "sha256": "4a76c8adcdf1ef0a3bc73f9e6d8068a0e63ba7fbd80a373482777d667d181894",
+      "bytes": 3348,
+      "source_role": "authorized_initial_CAD_or_dependency",
+      "model_visible": true
+    },
+    "prompt.txt": {
+      "sha256": "bca33d30b13154c18e98f99b1c7759394828647a6151c75d3ebd97786f3458fc",
+      "bytes": 1391,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "delivery-requirements.json": {
+      "sha256": "2e9a5823709fb1693cb67ccc146b66c339af9d4a5de47f11cd270ee08ce325ad",
+      "bytes": 521,
+      "source_role": "public_requirement",
+      "model_visible": true
+    },
+    "input-contract.json": {
+      "sha256": "41fc72feac101e49d001065120d25dcd4fabd993f6d2b8ead225dcfb2371b8bf",
+      "bytes": 361,
+      "source_role": "public_requirement",
+      "model_visible": true
+    }
+  },
+  "Native": "NOT_RUN",
+  "model_requests": 0,
+  "positive_negative_and_completion": "DEFERRED_TO_FINAL_EVALUATOR"
+}

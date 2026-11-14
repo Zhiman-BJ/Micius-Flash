@@ -1,0 +1,21 @@
+{
+  "mode": "EMPTY_SCHEMATIC",
+  "working_directory": ".",
+  "aliases": {},
+  "public_package_prefix": "project/",
+  "mapping": {
+    "board.kicad_pro": "board.kicad_pro",
+    "board.kicad_sch": "board.kicad_sch"
+  },
+  "initial_files": {
+    "board.kicad_sch": {
+      "sha256": "8dc892cfd78c550a49b399bf24efe9840ba995f4579e24ae743cdd111c52f527",
+      "bytes": 154
+    },
+    "board.kicad_pro": {
+      "sha256": "e755bd8a421a71c805d91ebc840df60615d47733bd15e5aa5f5339dc98b95203",
+      "bytes": 124
+    }
+  },
+  "scope": "Exact original frozen public fault or blank inputs, canonical relative paths; no gold CAD, private netlist, fault locator, previous submission, or reviewer evidence"
+}
