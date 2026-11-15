@@ -81,7 +81,8 @@ def runtime_root(path: str) -> str:
     """Widen a path inside an interpreter / host runtime to that runtime's root."""
     parts = path[len(PREFIX):].strip("/").split("/")
     for k, part in enumerate(parts):
-        if part == "interpreters" and k + 1 < len(parts):
+        # uv-managed interpreters live under .../interpreters/<name> or .../pythons/<name>
+        if part in ("interpreters", "pythons") and k + 1 < len(parts):
             return PREFIX + "/" + "/".join(parts[: k + 2])
         if part == "host_runtime":
             return PREFIX + "/" + "/".join(parts[: k + 1])
